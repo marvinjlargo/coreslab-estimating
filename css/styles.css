@@ -1,0 +1,159 @@
+:root {
+    --bg: #f5f7fb;
+    --fg: #1e1e2f;
+    --accent: #0069d9;
+    --radius: 8px;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+    background-color: #f5f5f5;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    color: #333;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* Input group styles */
+.input-group {
+    display: grid;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #555;
+}
+
+input, select {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+button {
+    background-color: #2196F3;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.2s;
+}
+
+button:hover {
+    background-color: #1976D2;
+}
+
+/* Result section styles */
+.result {
+    margin-top: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+#exact-result {
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+
+/* Fallback results styles */
+.fallback-results {
+    display: none;
+    margin-top: 20px;
+}
+
+.fallback-results h3 {
+    margin-bottom: 10px;
+    color: #333;
+}
+
+#fallback-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+#fallback-table th,
+#fallback-table td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+#fallback-table th {
+    background-color: #f5f5f5;
+    font-weight: 600;
+}
+
+/* Chart container styles */
+.chart-container {
+    margin: 20px 0;
+    position: relative;
+    height: 300px;
+}
+
+#capacity-chart {
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+/* Export buttons styles */
+.export-buttons {
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.export-buttons button {
+    flex: 1;
+    background-color: #4CAF50;
+}
+
+.export-buttons button:hover {
+    background-color: #388E3C;
+}
+
+/* Responsive adjustments */
+@media (max-width: 600px) {
+    .container {
+        padding: 15px;
+    }
+    
+    .input-group {
+        gap: 10px;
+    }
+    
+    .export-buttons {
+        flex-direction: column;
+    }
+}

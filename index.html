@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Hollow‑Core Slab Calculator</title>
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <main class="container">
+    <h1>Hollow‑Core Slab Calculator</h1>
+
+    <div class="input-group">
+      <label for="system">Unit System</label>
+      <select id="system">
+        <option value="Imperial">Imperial (ft / psf)</option>
+        <option value="Metric">Metric (m / kPa)</option>
+      </select>
+
+      <label for="span">Span <span id="span-unit">(ft)</span></label>
+      <input id="span" type="text" inputmode="decimal" placeholder="e.g. 24 or 24+4" />
+
+      <label for="load">Superimposed Load <span id="load-unit">(psf)</span></label>
+      <input id="load" type="text" inputmode="decimal" placeholder="e.g. 120 or 100*1.2" />
+
+      <label for="thickness">Slab Thickness</label>
+      <select id="thickness"></select>
+
+      <button id="calc-btn">Calculate</button>
+    </div>
+
+    <section id="result" class="result">
+      <div id="exact-result"></div>
+
+      <div id="fallback-results" class="fallback-results">
+        <h3>Alternative Configurations</h3>
+        <table id="fallback-table">
+          <thead>
+            <tr><th>Strands</th><th>Span</th><th>Capacity</th></tr>
+          </thead>
+          <tbody></tbody>
+        </table>
+      </div>
+
+      <div id="chart-container" class="chart-container">
+        <canvas id="capacity-chart"></canvas>
+      </div>
+
+      <div class="export-buttons">
+        <button id="copy-result">Copy Result</button>
+        <button id="download-result">Download as TXT</button>
+      </div>
+    </section>
+  </main>
+
+  <!-- IMPORTANT: enable ES6 modules -->
+  <script type="module" src="js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,3292 @@
+[
+  {
+    "Strands": 3,
+    "Span": 14,
+    "Capacity": 214,
+    "Thickness": "8''",
+    "Mu (Ib-ft)": 39060
+  },
+  {
+    "Strands": 3,
+    "Span": 15,
+    "Capacity": 180,
+    "Thickness": "8''",
+    "Mu (Ib-ft)": 39060
+  },
+  {
+    "Strands": 3,
+    "Span": 16,
+    "Capacity": 152,
+    "Thickness": "8''",
+    "Mu (Ib-ft)": 39060
+  },
+  {
+    "Strands": 3,
+    "Span": 17,
+    "Capacity": 129,
+    "Thickness": "8''",
+    "Mu (Ib-ft)": 39060
+  },
+  {
+    "Strands": 3,
+    "Span": 18,
+    "Capacity": 109,
+    "Thickness": "8''",
+    "Mu (Ib-ft)": 39060
+  },
+  {
+    "Strands": 3,
+    "Span": 19,
+    "Capacity": 93,
+    "Thickness": "8''",
+    "Mu (Ib-ft)": 39060
+  },
+  {
+    "Strands": 3,
+    "Span": 20,
+    "Capacity": 79,
+    "Thickness": "8''",
+    "Mu (Ib-ft)": 39060
+  },
+  {
+    "Strands": 3,
+    "Span": 21,
+    "Capacity": 66,
+    "Thickness": "8''",
+    "Mu (Ib-ft)": 39060
+  },
+  {
+    "Strands": 3,
+    "Span": 22,
+    "Capacity": 56,
+    "Thickness": "8''",
+    "Mu (Ib-ft)": 39060
+  },
+  {
+    "Strands": 4,
+    "Span": 14,
+    "Capacity": 404,
+    "Thickness": "8''",
+    "Mu (Ib-ft)": 66960
+  },
+  {
+    "Strands": 4,
+    "Span": 15,
+    "Capacity": 345,
+    "Thickness": "8''",
+    "Mu (Ib-ft)": 66960
+  },
+  {
+    "Strands": 4,
+    "Span": 16,
+    "Capacity": 297,
+    "Thickness": "8''",
+    "Mu (Ib-ft)": 66960
+  },
+  {
+    "Strands": 4,
+    "Span": 17,
+    "Capacity": 257,
+    "Thickness": "8''",
+    "Mu (Ib-ft)": 66960
+  },
+  {
+    "Strands": 4,
+    "Span": 18,
+    "Capacity": 224,
+    "Thickness": "8''",
+    "Mu (Ib-ft)": 66960
+  },
+  {
+    "Strands": 4,
+    "Span": 19,
+    "Capacity": 196,
+    "Thickness": "8''",
+    "Mu (Ib-ft)": 66960
+  },
+  {
+    "Strands": 4,
+    "Span": 20,
+    "Capacity": 172,
+    "Thickness": "8''",
+    "Mu (Ib-ft)": 66960
+  },
+  {
+    "Strands": 4,
+    "Span": 21,
+    "Capacity": 151,
+    "Thickness": "8''",
+    "Mu (Ib-ft)": 66960
+  },
+  {
+    "Strands": 4,
+    "Span": 22,
+    "Capacity": 133,
+    "Thickness": "8''",
+    "Mu (Ib-ft)": 66960
+  },
+  {
+    "Strands": 4,
+    "Span": 23,
+    "Capacity": 117,
+    "Thickness": "8''",
+    "Mu (Ib-ft)": 66960
+  },
+  {
+    "Strands": 4,
+    "Span": 24,
+    "Capacity": 103,
+    "Thickness": "8''",
+    "Mu (Ib-ft)": 66960
+  },
+  {
+    "Strands": 4,
+    "Span": 25,
+    "Capacity": 91,
+    "Thickness": "8''",
+    "Mu (Ib-ft)": 66960
+  },
+  {
+    "Strands": 4,
+    "Span": 26,
+    "Capacity": 80,
+    "Thickness": "8''",
+    "Mu (Ib-ft)": 66960
+  },
+  {
+    "Strands": 4,
+    "Span": 27,
+    "Capacity": 71,
+    "Thickness": "8''",
+    "Mu (Ib-ft)": 66960
+  },
+  {
+    "Strands": 4,
+    "Span": 28,
+    "Capacity": 62,
+    "Thickness": "8''",
+    "Mu (Ib-ft)": 66960
+  },
+  {
+    "Strands": 4,
+    "Span": 29,
+    "Capacity": 54,
+    "Thickness": "8''",
+    "Mu (Ib-ft)": 66960
+  },
+  {
+    "Strands": 5,
+    "Span": 14,
+    "Capacity": 497,
+    "Thickness": "8''",
+    "Mu (Ib-ft)": 80720
+  },
+  {
+    "Strands": 5,
+    "Span": 15,
+    "Capacity": 427,
+    "Thickness": "8''",
+    "Mu (Ib-ft)": 80720
+  },
+  {
+    "Strands": 5,
+    "Span": 16,
+    "Capacity": 369,
+    "Thickness": "8''",
+    "Mu (Ib-ft)": 80720
+  },
+  {
+    "Strands": 5,
+    "Span": 17,
+    "Capacity": 321,
+    "Thickness": "8''",
+    "Mu (Ib-ft)": 80720
+  },
+  {
+    "Strands": 5,
+    "Span": 18,
+    "Capacity": 281,
+    "Thickness": "8''",
+    "Mu (Ib-ft)": 80720
+  },
+  {
+    "Strands": 5,
+    "Span": 19,
+    "Capacity": 246,
+    "Thickness": "8''",
+    "Mu (Ib-ft)": 80720
+  },
+  {
+    "Strands": 5,
+    "Span": 20,
+    "Capacity": 217,
+    "Thickness": "8''",
+    "Mu (Ib-ft)": 80720
+  },
+  {
+    "Strands": 5,
+    "Span": 21,
+    "Capacity": 192,
+    "Thickness": "8''",
+    "Mu (Ib-ft)": 80720
+  },
+  {
+    "Strands": 5,
+    "Span": 22,
+    "Capacity": 171,
+    "Thickness": "8''",
+    "Mu (Ib-ft)": 80720
+  },
+  {
+    "Strands": 5,
+    "Span": 23,
+    "Capacity": 152,
+    "Thickness": "8''",
+    "Mu (Ib-ft)": 80720
+  },
+  {
+    "Strands": 5,
+    "Span": 24,
+    "Capacity": 135,
+    "Thickness": "8''",
+    "Mu (Ib-ft)": 80720
+  },
+  {
+    "Strands": 5,
+    "Span": 25,
+    "Capacity": 121,
+    "Thickness": "8''",
+    "Mu (Ib-ft)": 80720
+  },
+  {
+    "Strands": 5,
+    "Span": 26,
+    "Capacity": 108,
+    "Thickness": "8''",
+    "Mu (Ib-ft)": 80720
+  },
+  {
+    "Strands": 5,
+    "Span": 27,
+    "Capacity": 96,
+    "Thickness": "8''",
+    "Mu (Ib-ft)": 80720
+  },
+  {
+    "Strands": 5,
+    "Span": 28,
+    "Capacity": 86,
+    "Thickness": "8''",
+    "Mu (Ib-ft)": 80720
+  },
+  {
+    "Strands": 5,
+    "Span": 29,
+    "Capacity": 76,
+    "Thickness": "8''",
+    "Mu (Ib-ft)": 80720
+  },
+  {
+    "Strands": 5,
+    "Span": 30,
+    "Capacity": 68,
+    "Thickness": "8''",
+    "Mu (Ib-ft)": 80720
+  },
+  {
+    "Strands": 5,
+    "Span": 31,
+    "Capacity": 60,
+    "Thickness": "8''",
+    "Mu (Ib-ft)": 80720
+  },
+  {
+    "Strands": 6,
+    "Span": 14,
+    "Capacity": 602,
+    "Thickness": "8''",
+    "Mu (Ib-ft)": 96050
+  },
+  {
+    "Strands": 6,
+    "Span": 15,
+    "Capacity": 517,
+    "Thickness": "8''",
+    "Mu (Ib-ft)": 96050
+  },
+  {
+    "Strands": 6,
+    "Span": 16,
+    "Capacity": 449,
+    "Thickness": "8''",
+    "Mu (Ib-ft)": 96050
+  },
+  {
+    "Strands": 6,
+    "Span": 17,
+    "Capacity": 391,
+    "Thickness": "8''",
+    "Mu (Ib-ft)": 96050
+  },
+  {
+    "Strands": 6,
+    "Span": 18,
+    "Capacity": 344,
+    "Thickness": "8''",
+    "Mu (Ib-ft)": 96050
+  },
+  {
+    "Strands": 6,
+    "Span": 19,
+    "Capacity": 303,
+    "Thickness": "8''",
+    "Mu (Ib-ft)": 96050
+  },
+  {
+    "Strands": 6,
+    "Span": 20,
+    "Capacity": 268,
+    "Thickness": "8''",
+    "Mu (Ib-ft)": 96050
+  },
+  {
+    "Strands": 6,
+    "Span": 21,
+    "Capacity": 239,
+    "Thickness": "8''",
+    "Mu (Ib-ft)": 96050
+  },
+  {
+    "Strands": 6,
+    "Span": 22,
+    "Capacity": 213,
+    "Thickness": "8''",
+    "Mu (Ib-ft)": 96050
+  },
+  {
+    "Strands": 6,
+    "Span": 23,
+    "Capacity": 190,
+    "Thickness": "8''",
+    "Mu (Ib-ft)": 96050
+  },
+  {
+    "Strands": 6,
+    "Span": 24,
+    "Capacity": 171,
+    "Thickness": "8''",
+    "Mu (Ib-ft)": 96050
+  },
+  {
+    "Strands": 6,
+    "Span": 25,
+    "Capacity": 153,
+    "Thickness": "8''",
+    "Mu (Ib-ft)": 96050
+  },
+  {
+    "Strands": 6,
+    "Span": 26,
+    "Capacity": 138,
+    "Thickness": "8''",
+    "Mu (Ib-ft)": 96050
+  },
+  {
+    "Strands": 6,
+    "Span": 27,
+    "Capacity": 124,
+    "Thickness": "8''",
+    "Mu (Ib-ft)": 96050
+  },
+  {
+    "Strands": 6,
+    "Span": 28,
+    "Capacity": 112,
+    "Thickness": "8''",
+    "Mu (Ib-ft)": 96050
+  },
+  {
+    "Strands": 6,
+    "Span": 29,
+    "Capacity": 101,
+    "Thickness": "8''",
+    "Mu (Ib-ft)": 96050
+  },
+  {
+    "Strands": 6,
+    "Span": 30,
+    "Capacity": 91,
+    "Thickness": "8''",
+    "Mu (Ib-ft)": 96050
+  },
+  {
+    "Strands": 6,
+    "Span": 31,
+    "Capacity": 82,
+    "Thickness": "8''",
+    "Mu (Ib-ft)": 96050
+  },
+  {
+    "Strands": 6,
+    "Span": 32,
+    "Capacity": 73,
+    "Thickness": "8''",
+    "Mu (Ib-ft)": 96050
+  },
+  {
+    "Strands": 7,
+    "Span": 14,
+    "Capacity": 674,
+    "Thickness": "8''",
+    "Mu (Ib-ft)": 106660
+  },
+  {
+    "Strands": 7,
+    "Span": 15,
+    "Capacity": 580,
+    "Thickness": "8''",
+    "Mu (Ib-ft)": 106660
+  },
+  {
+    "Strands": 7,
+    "Span": 16,
+    "Capacity": 504,
+    "Thickness": "8''",
+    "Mu (Ib-ft)": 106660
+  },
+  {
+    "Strands": 7,
+    "Span": 17,
+    "Capacity": 440,
+    "Thickness": "8''",
+    "Mu (Ib-ft)": 106660
+  },
+  {
+    "Strands": 7,
+    "Span": 18,
+    "Capacity": 387,
+    "Thickness": "8''",
+    "Mu (Ib-ft)": 106660
+  },
+  {
+    "Strands": 7,
+    "Span": 19,
+    "Capacity": 342,
+    "Thickness": "8''",
+    "Mu (Ib-ft)": 106660
+  },
+  {
+    "Strands": 7,
+    "Span": 20,
+    "Capacity": 304,
+    "Thickness": "8''",
+    "Mu (Ib-ft)": 106660
+  },
+  {
+    "Strands": 7,
+    "Span": 21,
+    "Capacity": 271,
+    "Thickness": "8''",
+    "Mu (Ib-ft)": 106660
+  },
+  {
+    "Strands": 7,
+    "Span": 22,
+    "Capacity": 242,
+    "Thickness": "8''",
+    "Mu (Ib-ft)": 106660
+  },
+  {
+    "Strands": 7,
+    "Span": 23,
+    "Capacity": 217,
+    "Thickness": "8''",
+    "Mu (Ib-ft)": 106660
+  },
+  {
+    "Strands": 7,
+    "Span": 24,
+    "Capacity": 195,
+    "Thickness": "8''",
+    "Mu (Ib-ft)": 106660
+  },
+  {
+    "Strands": 7,
+    "Span": 25,
+    "Capacity": 176,
+    "Thickness": "8''",
+    "Mu (Ib-ft)": 106660
+  },
+  {
+    "Strands": 7,
+    "Span": 26,
+    "Capacity": 159,
+    "Thickness": "8''",
+    "Mu (Ib-ft)": 106660
+  },
+  {
+    "Strands": 7,
+    "Span": 27,
+    "Capacity": 143,
+    "Thickness": "8''",
+    "Mu (Ib-ft)": 106660
+  },
+  {
+    "Strands": 7,
+    "Span": 28,
+    "Capacity": 130,
+    "Thickness": "8''",
+    "Mu (Ib-ft)": 106660
+  },
+  {
+    "Strands": 7,
+    "Span": 29,
+    "Capacity": 117,
+    "Thickness": "8''",
+    "Mu (Ib-ft)": 106660
+  },
+  {
+    "Strands": 7,
+    "Span": 30,
+    "Capacity": 106,
+    "Thickness": "8''",
+    "Mu (Ib-ft)": 106660
+  },
+  {
+    "Strands": 7,
+    "Span": 31,
+    "Capacity": 96,
+    "Thickness": "8''",
+    "Mu (Ib-ft)": 106660
+  },
+  {
+    "Strands": 7,
+    "Span": 32,
+    "Capacity": 87,
+    "Thickness": "8''",
+    "Mu (Ib-ft)": 106660
+  },
+  {
+    "Strands": 7,
+    "Span": 33,
+    "Capacity": 79,
+    "Thickness": "8''",
+    "Mu (Ib-ft)": 106660
+  },
+  {
+    "Strands": 4,
+    "Span": 24,
+    "Capacity": 141,
+    "Thickness": "10''",
+    "Mu (Ib-ft)": 87433
+  },
+  {
+    "Strands": 4,
+    "Span": 25,
+    "Capacity": 125,
+    "Thickness": "10''",
+    "Mu (Ib-ft)": 87433
+  },
+  {
+    "Strands": 4,
+    "Span": 26,
+    "Capacity": 111,
+    "Thickness": "10''",
+    "Mu (Ib-ft)": 87433
+  },
+  {
+    "Strands": 4,
+    "Span": 27,
+    "Capacity": 98,
+    "Thickness": "10''",
+    "Mu (Ib-ft)": 87433
+  },
+  {
+    "Strands": 4,
+    "Span": 28,
+    "Capacity": 87,
+    "Thickness": "10''",
+    "Mu (Ib-ft)": 87433
+  },
+  {
+    "Strands": 4,
+    "Span": 29,
+    "Capacity": 77,
+    "Thickness": "10''",
+    "Mu (Ib-ft)": 87433
+  },
+  {
+    "Strands": 4,
+    "Span": 30,
+    "Capacity": 68,
+    "Thickness": "10''",
+    "Mu (Ib-ft)": 87433
+  },
+  {
+    "Strands": 4,
+    "Span": 31,
+    "Capacity": 60,
+    "Thickness": "10''",
+    "Mu (Ib-ft)": 87433
+  },
+  {
+    "Strands": 4,
+    "Span": 32,
+    "Capacity": 52,
+    "Thickness": "10''",
+    "Mu (Ib-ft)": 87433
+  },
+  {
+    "Strands": 5,
+    "Span": 24,
+    "Capacity": 187,
+    "Thickness": "10''",
+    "Mu (Ib-ft)": 107633
+  },
+  {
+    "Strands": 5,
+    "Span": 25,
+    "Capacity": 168,
+    "Thickness": "10''",
+    "Mu (Ib-ft)": 107633
+  },
+  {
+    "Strands": 5,
+    "Span": 26,
+    "Capacity": 151,
+    "Thickness": "10''",
+    "Mu (Ib-ft)": 107633
+  },
+  {
+    "Strands": 5,
+    "Span": 27,
+    "Capacity": 135,
+    "Thickness": "10''",
+    "Mu (Ib-ft)": 107633
+  },
+  {
+    "Strands": 5,
+    "Span": 28,
+    "Capacity": 121,
+    "Thickness": "10''",
+    "Mu (Ib-ft)": 107633
+  },
+  {
+    "Strands": 5,
+    "Span": 29,
+    "Capacity": 109,
+    "Thickness": "10''",
+    "Mu (Ib-ft)": 107633
+  },
+  {
+    "Strands": 5,
+    "Span": 30,
+    "Capacity": 98,
+    "Thickness": "10''",
+    "Mu (Ib-ft)": 107633
+  },
+  {
+    "Strands": 5,
+    "Span": 31,
+    "Capacity": 88,
+    "Thickness": "10''",
+    "Mu (Ib-ft)": 107633
+  },
+  {
+    "Strands": 5,
+    "Span": 32,
+    "Capacity": 78,
+    "Thickness": "10''",
+    "Mu (Ib-ft)": 107633
+  },
+  {
+    "Strands": 5,
+    "Span": 33,
+    "Capacity": 70,
+    "Thickness": "10''",
+    "Mu (Ib-ft)": 107633
+  },
+  {
+    "Strands": 5,
+    "Span": 34,
+    "Capacity": 62,
+    "Thickness": "10''",
+    "Mu (Ib-ft)": 107633
+  },
+  {
+    "Strands": 5,
+    "Span": 35,
+    "Capacity": 55,
+    "Thickness": "10''",
+    "Mu (Ib-ft)": 107633
+  },
+  {
+    "Strands": 6,
+    "Span": 24,
+    "Capacity": 232,
+    "Thickness": "10''",
+    "Mu (Ib-ft)": 126867
+  },
+  {
+    "Strands": 6,
+    "Span": 25,
+    "Capacity": 209,
+    "Thickness": "10''",
+    "Mu (Ib-ft)": 126867
+  },
+  {
+    "Strands": 6,
+    "Span": 26,
+    "Capacity": 189,
+    "Thickness": "10''",
+    "Mu (Ib-ft)": 126867
+  },
+  {
+    "Strands": 6,
+    "Span": 27,
+    "Capacity": 170,
+    "Thickness": "10''",
+    "Mu (Ib-ft)": 126867
+  },
+  {
+    "Strands": 6,
+    "Span": 28,
+    "Capacity": 154,
+    "Thickness": "10''",
+    "Mu (Ib-ft)": 126867
+  },
+  {
+    "Strands": 6,
+    "Span": 29,
+    "Capacity": 139,
+    "Thickness": "10''",
+    "Mu (Ib-ft)": 126867
+  },
+  {
+    "Strands": 6,
+    "Span": 30,
+    "Capacity": 126,
+    "Thickness": "10''",
+    "Mu (Ib-ft)": 126867
+  },
+  {
+    "Strands": 6,
+    "Span": 31,
+    "Capacity": 114,
+    "Thickness": "10''",
+    "Mu (Ib-ft)": 126867
+  },
+  {
+    "Strands": 6,
+    "Span": 32,
+    "Capacity": 104,
+    "Thickness": "10''",
+    "Mu (Ib-ft)": 126867
+  },
+  {
+    "Strands": 6,
+    "Span": 33,
+    "Capacity": 94,
+    "Thickness": "10''",
+    "Mu (Ib-ft)": 126867
+  },
+  {
+    "Strands": 6,
+    "Span": 34,
+    "Capacity": 85,
+    "Thickness": "10''",
+    "Mu (Ib-ft)": 126867
+  },
+  {
+    "Strands": 6,
+    "Span": 35,
+    "Capacity": 76,
+    "Thickness": "10''",
+    "Mu (Ib-ft)": 126867
+  },
+  {
+    "Strands": 6,
+    "Span": 36,
+    "Capacity": 69,
+    "Thickness": "10''",
+    "Mu (Ib-ft)": 126867
+  },
+  {
+    "Strands": 6,
+    "Span": 37,
+    "Capacity": 62,
+    "Thickness": "10''",
+    "Mu (Ib-ft)": 126867
+  },
+  {
+    "Strands": 6,
+    "Span": 38,
+    "Capacity": 55,
+    "Thickness": "10''",
+    "Mu (Ib-ft)": 126867
+  },
+  {
+    "Strands": 6,
+    "Span": 39,
+    "Capacity": 50,
+    "Thickness": "10''",
+    "Mu (Ib-ft)": 126867
+  },
+  {
+    "Strands": 7,
+    "Span": 24,
+    "Capacity": 272,
+    "Thickness": "10''",
+    "Mu (Ib-ft)": 144340
+  },
+  {
+    "Strands": 7,
+    "Span": 25,
+    "Capacity": 246,
+    "Thickness": "10''",
+    "Mu (Ib-ft)": 144340
+  },
+  {
+    "Strands": 7,
+    "Span": 26,
+    "Capacity": 223,
+    "Thickness": "10''",
+    "Mu (Ib-ft)": 144340
+  },
+  {
+    "Strands": 7,
+    "Span": 27,
+    "Capacity": 202,
+    "Thickness": "10''",
+    "Mu (Ib-ft)": 144340
+  },
+  {
+    "Strands": 7,
+    "Span": 28,
+    "Capacity": 184,
+    "Thickness": "10''",
+    "Mu (Ib-ft)": 144340
+  },
+  {
+    "Strands": 7,
+    "Span": 29,
+    "Capacity": 167,
+    "Thickness": "10''",
+    "Mu (Ib-ft)": 144340
+  },
+  {
+    "Strands": 7,
+    "Span": 30,
+    "Capacity": 152,
+    "Thickness": "10''",
+    "Mu (Ib-ft)": 144340
+  },
+  {
+    "Strands": 7,
+    "Span": 31,
+    "Capacity": 139,
+    "Thickness": "10''",
+    "Mu (Ib-ft)": 144340
+  },
+  {
+    "Strands": 7,
+    "Span": 32,
+    "Capacity": 126,
+    "Thickness": "10''",
+    "Mu (Ib-ft)": 144340
+  },
+  {
+    "Strands": 7,
+    "Span": 33,
+    "Capacity": 115,
+    "Thickness": "10''",
+    "Mu (Ib-ft)": 144340
+  },
+  {
+    "Strands": 7,
+    "Span": 34,
+    "Capacity": 105,
+    "Thickness": "10''",
+    "Mu (Ib-ft)": 144340
+  },
+  {
+    "Strands": 7,
+    "Span": 35,
+    "Capacity": 95,
+    "Thickness": "10''",
+    "Mu (Ib-ft)": 144340
+  },
+  {
+    "Strands": 7,
+    "Span": 36,
+    "Capacity": 87,
+    "Thickness": "10''",
+    "Mu (Ib-ft)": 144340
+  },
+  {
+    "Strands": 7,
+    "Span": 37,
+    "Capacity": 79,
+    "Thickness": "10''",
+    "Mu (Ib-ft)": 144340
+  },
+  {
+    "Strands": 7,
+    "Span": 38,
+    "Capacity": 72,
+    "Thickness": "10''",
+    "Mu (Ib-ft)": 144340
+  },
+  {
+    "Strands": 7,
+    "Span": 39,
+    "Capacity": 65,
+    "Thickness": "10''",
+    "Mu (Ib-ft)": 144340
+  },
+  {
+    "Strands": 7,
+    "Span": 40,
+    "Capacity": 59,
+    "Thickness": "10''",
+    "Mu (Ib-ft)": 144340
+  },
+  {
+    "Strands": 7,
+    "Span": 41,
+    "Capacity": 53,
+    "Thickness": "10''",
+    "Mu (Ib-ft)": 144340
+  },
+  {
+    "Strands": 7,
+    "Span": 42,
+    "Capacity": 47,
+    "Thickness": "10''",
+    "Mu (Ib-ft)": 144340
+  },
+  {
+    "Strands": 8,
+    "Span": 24,
+    "Capacity": 308,
+    "Thickness": "10''",
+    "Mu (Ib-ft)": 159615
+  },
+  {
+    "Strands": 8,
+    "Span": 25,
+    "Capacity": 279,
+    "Thickness": "10''",
+    "Mu (Ib-ft)": 159615
+  },
+  {
+    "Strands": 8,
+    "Span": 26,
+    "Capacity": 253,
+    "Thickness": "10''",
+    "Mu (Ib-ft)": 159615
+  },
+  {
+    "Strands": 8,
+    "Span": 27,
+    "Capacity": 230,
+    "Thickness": "10''",
+    "Mu (Ib-ft)": 159615
+  },
+  {
+    "Strands": 8,
+    "Span": 28,
+    "Capacity": 210,
+    "Thickness": "10''",
+    "Mu (Ib-ft)": 159615
+  },
+  {
+    "Strands": 8,
+    "Span": 29,
+    "Capacity": 191,
+    "Thickness": "10''",
+    "Mu (Ib-ft)": 159615
+  },
+  {
+    "Strands": 8,
+    "Span": 30,
+    "Capacity": 175,
+    "Thickness": "10''",
+    "Mu (Ib-ft)": 159615
+  },
+  {
+    "Strands": 8,
+    "Span": 31,
+    "Capacity": 160,
+    "Thickness": "10''",
+    "Mu (Ib-ft)": 159615
+  },
+  {
+    "Strands": 8,
+    "Span": 32,
+    "Capacity": 146,
+    "Thickness": "10''",
+    "Mu (Ib-ft)": 159615
+  },
+  {
+    "Strands": 8,
+    "Span": 33,
+    "Capacity": 134,
+    "Thickness": "10''",
+    "Mu (Ib-ft)": 159615
+  },
+  {
+    "Strands": 8,
+    "Span": 34,
+    "Capacity": 122,
+    "Thickness": "10''",
+    "Mu (Ib-ft)": 159615
+  },
+  {
+    "Strands": 8,
+    "Span": 35,
+    "Capacity": 112,
+    "Thickness": "10''",
+    "Mu (Ib-ft)": 159615
+  },
+  {
+    "Strands": 8,
+    "Span": 36,
+    "Capacity": 103,
+    "Thickness": "10''",
+    "Mu (Ib-ft)": 159615
+  },
+  {
+    "Strands": 8,
+    "Span": 37,
+    "Capacity": 94,
+    "Thickness": "10''",
+    "Mu (Ib-ft)": 159615
+  },
+  {
+    "Strands": 8,
+    "Span": 38,
+    "Capacity": 86,
+    "Thickness": "10''",
+    "Mu (Ib-ft)": 159615
+  },
+  {
+    "Strands": 8,
+    "Span": 39,
+    "Capacity": 78,
+    "Thickness": "10''",
+    "Mu (Ib-ft)": 159615
+  },
+  {
+    "Strands": 8,
+    "Span": 40,
+    "Capacity": 71,
+    "Thickness": "10''",
+    "Mu (Ib-ft)": 159615
+  },
+  {
+    "Strands": 8,
+    "Span": 41,
+    "Capacity": 65,
+    "Thickness": "10''",
+    "Mu (Ib-ft)": 159615
+  },
+  {
+    "Strands": 8,
+    "Span": 42,
+    "Capacity": 59,
+    "Thickness": "10''",
+    "Mu (Ib-ft)": 159615
+  },
+  {
+    "Strands": 8,
+    "Span": 43,
+    "Capacity": 53,
+    "Thickness": "10''",
+    "Mu (Ib-ft)": 159615
+  },
+  {
+    "Strands": 9,
+    "Span": 24,
+    "Capacity": 334,
+    "Thickness": "10''",
+    "Mu (Ib-ft)": 170978
+  },
+  {
+    "Strands": 9,
+    "Span": 25,
+    "Capacity": 303,
+    "Thickness": "10''",
+    "Mu (Ib-ft)": 170978
+  },
+  {
+    "Strands": 9,
+    "Span": 26,
+    "Capacity": 276,
+    "Thickness": "10''",
+    "Mu (Ib-ft)": 170978
+  },
+  {
+    "Strands": 9,
+    "Span": 27,
+    "Capacity": 251,
+    "Thickness": "10''",
+    "Mu (Ib-ft)": 170978
+  },
+  {
+    "Strands": 9,
+    "Span": 28,
+    "Capacity": 229,
+    "Thickness": "10''",
+    "Mu (Ib-ft)": 170978
+  },
+  {
+    "Strands": 9,
+    "Span": 29,
+    "Capacity": 209,
+    "Thickness": "10''",
+    "Mu (Ib-ft)": 170978
+  },
+  {
+    "Strands": 9,
+    "Span": 30,
+    "Capacity": 192,
+    "Thickness": "10''",
+    "Mu (Ib-ft)": 170978
+  },
+  {
+    "Strands": 9,
+    "Span": 31,
+    "Capacity": 176,
+    "Thickness": "10''",
+    "Mu (Ib-ft)": 170978
+  },
+  {
+    "Strands": 9,
+    "Span": 32,
+    "Capacity": 161,
+    "Thickness": "10''",
+    "Mu (Ib-ft)": 170978
+  },
+  {
+    "Strands": 9,
+    "Span": 33,
+    "Capacity": 148,
+    "Thickness": "10''",
+    "Mu (Ib-ft)": 170978
+  },
+  {
+    "Strands": 9,
+    "Span": 34,
+    "Capacity": 136,
+    "Thickness": "10''",
+    "Mu (Ib-ft)": 170978
+  },
+  {
+    "Strands": 9,
+    "Span": 35,
+    "Capacity": 124,
+    "Thickness": "10''",
+    "Mu (Ib-ft)": 170978
+  },
+  {
+    "Strands": 9,
+    "Span": 36,
+    "Capacity": 114,
+    "Thickness": "10''",
+    "Mu (Ib-ft)": 170978
+  },
+  {
+    "Strands": 9,
+    "Span": 37,
+    "Capacity": 105,
+    "Thickness": "10''",
+    "Mu (Ib-ft)": 170978
+  },
+  {
+    "Strands": 9,
+    "Span": 38,
+    "Capacity": 96,
+    "Thickness": "10''",
+    "Mu (Ib-ft)": 170978
+  },
+  {
+    "Strands": 9,
+    "Span": 39,
+    "Capacity": 88,
+    "Thickness": "10''",
+    "Mu (Ib-ft)": 170978
+  },
+  {
+    "Strands": 9,
+    "Span": 40,
+    "Capacity": 81,
+    "Thickness": "10''",
+    "Mu (Ib-ft)": 170978
+  },
+  {
+    "Strands": 9,
+    "Span": 41,
+    "Capacity": 74,
+    "Thickness": "10''",
+    "Mu (Ib-ft)": 170978
+  },
+  {
+    "Strands": 9,
+    "Span": 42,
+    "Capacity": 68,
+    "Thickness": "10''",
+    "Mu (Ib-ft)": 170978
+  },
+  {
+    "Strands": 9,
+    "Span": 43,
+    "Capacity": 62,
+    "Thickness": "10''",
+    "Mu (Ib-ft)": 170978
+  },
+  {
+    "Strands": 10,
+    "Span": 24,
+    "Capacity": 357,
+    "Thickness": "10''",
+    "Mu (Ib-ft)": 179820
+  },
+  {
+    "Strands": 10,
+    "Span": 25,
+    "Capacity": 324,
+    "Thickness": "10''",
+    "Mu (Ib-ft)": 179820
+  },
+  {
+    "Strands": 10,
+    "Span": 26,
+    "Capacity": 295,
+    "Thickness": "10''",
+    "Mu (Ib-ft)": 179820
+  },
+  {
+    "Strands": 10,
+    "Span": 27,
+    "Capacity": 268,
+    "Thickness": "10''",
+    "Mu (Ib-ft)": 179820
+  },
+  {
+    "Strands": 10,
+    "Span": 28,
+    "Capacity": 245,
+    "Thickness": "10''",
+    "Mu (Ib-ft)": 179820
+  },
+  {
+    "Strands": 10,
+    "Span": 29,
+    "Capacity": 224,
+    "Thickness": "10''",
+    "Mu (Ib-ft)": 179820
+  },
+  {
+    "Strands": 10,
+    "Span": 30,
+    "Capacity": 204,
+    "Thickness": "10''",
+    "Mu (Ib-ft)": 179820
+  },
+  {
+    "Strands": 10,
+    "Span": 31,
+    "Capacity": 188,
+    "Thickness": "10''",
+    "Mu (Ib-ft)": 179820
+  },
+  {
+    "Strands": 10,
+    "Span": 32,
+    "Capacity": 172,
+    "Thickness": "10''",
+    "Mu (Ib-ft)": 179820
+  },
+  {
+    "Strands": 10,
+    "Span": 33,
+    "Capacity": 158,
+    "Thickness": "10''",
+    "Mu (Ib-ft)": 179820
+  },
+  {
+    "Strands": 10,
+    "Span": 34,
+    "Capacity": 145,
+    "Thickness": "10''",
+    "Mu (Ib-ft)": 179820
+  },
+  {
+    "Strands": 10,
+    "Span": 35,
+    "Capacity": 133,
+    "Thickness": "10''",
+    "Mu (Ib-ft)": 179820
+  },
+  {
+    "Strands": 10,
+    "Span": 36,
+    "Capacity": 122,
+    "Thickness": "10''",
+    "Mu (Ib-ft)": 179820
+  },
+  {
+    "Strands": 10,
+    "Span": 37,
+    "Capacity": 112,
+    "Thickness": "10''",
+    "Mu (Ib-ft)": 179820
+  },
+  {
+    "Strands": 10,
+    "Span": 38,
+    "Capacity": 103,
+    "Thickness": "10''",
+    "Mu (Ib-ft)": 179820
+  },
+  {
+    "Strands": 10,
+    "Span": 39,
+    "Capacity": 94,
+    "Thickness": "10''",
+    "Mu (Ib-ft)": 179820
+  },
+  {
+    "Strands": 10,
+    "Span": 40,
+    "Capacity": 86,
+    "Thickness": "10''",
+    "Mu (Ib-ft)": 179820
+  },
+  {
+    "Strands": 10,
+    "Span": 41,
+    "Capacity": 79,
+    "Thickness": "10''",
+    "Mu (Ib-ft)": 179820
+  },
+  {
+    "Strands": 10,
+    "Span": 42,
+    "Capacity": 72,
+    "Thickness": "10''",
+    "Mu (Ib-ft)": 179820
+  },
+  {
+    "Strands": 10,
+    "Span": 43,
+    "Capacity": 66,
+    "Thickness": "10''",
+    "Mu (Ib-ft)": 179820
+  },
+  {
+    "Strands": 5,
+    "Span": 31,
+    "Capacity": 125,
+    "Thickness": "12''",
+    "Mu (Ib-ft)": 142090
+  },
+  {
+    "Strands": 5,
+    "Span": 32,
+    "Capacity": 113,
+    "Thickness": "12''",
+    "Mu (Ib-ft)": 142090
+  },
+  {
+    "Strands": 5,
+    "Span": 33,
+    "Capacity": 102,
+    "Thickness": "12''",
+    "Mu (Ib-ft)": 142090
+  },
+  {
+    "Strands": 5,
+    "Span": 34,
+    "Capacity": 92,
+    "Thickness": "12''",
+    "Mu (Ib-ft)": 142090
+  },
+  {
+    "Strands": 5,
+    "Span": 35,
+    "Capacity": 83,
+    "Thickness": "12''",
+    "Mu (Ib-ft)": 142090
+  },
+  {
+    "Strands": 5,
+    "Span": 36,
+    "Capacity": 75,
+    "Thickness": "12''",
+    "Mu (Ib-ft)": 142090
+  },
+  {
+    "Strands": 5,
+    "Span": 37,
+    "Capacity": 67,
+    "Thickness": "12''",
+    "Mu (Ib-ft)": 142090
+  },
+  {
+    "Strands": 5,
+    "Span": 38,
+    "Capacity": 60,
+    "Thickness": "12''",
+    "Mu (Ib-ft)": 142090
+  },
+  {
+    "Strands": 5,
+    "Span": 39,
+    "Capacity": 53,
+    "Thickness": "12''",
+    "Mu (Ib-ft)": 142090
+  },
+  {
+    "Strands": 6,
+    "Span": 31,
+    "Capacity": 160,
+    "Thickness": "12''",
+    "Mu (Ib-ft)": 166780
+  },
+  {
+    "Strands": 6,
+    "Span": 32,
+    "Capacity": 145,
+    "Thickness": "12''",
+    "Mu (Ib-ft)": 166780
+  },
+  {
+    "Strands": 6,
+    "Span": 33,
+    "Capacity": 133,
+    "Thickness": "12''",
+    "Mu (Ib-ft)": 166780
+  },
+  {
+    "Strands": 6,
+    "Span": 34,
+    "Capacity": 121,
+    "Thickness": "12''",
+    "Mu (Ib-ft)": 166780
+  },
+  {
+    "Strands": 6,
+    "Span": 35,
+    "Capacity": 110,
+    "Thickness": "12''",
+    "Mu (Ib-ft)": 166780
+  },
+  {
+    "Strands": 6,
+    "Span": 36,
+    "Capacity": 100,
+    "Thickness": "12''",
+    "Mu (Ib-ft)": 166780
+  },
+  {
+    "Strands": 6,
+    "Span": 37,
+    "Capacity": 91,
+    "Thickness": "12''",
+    "Mu (Ib-ft)": 166780
+  },
+  {
+    "Strands": 6,
+    "Span": 38,
+    "Capacity": 82,
+    "Thickness": "12''",
+    "Mu (Ib-ft)": 166780
+  },
+  {
+    "Strands": 6,
+    "Span": 39,
+    "Capacity": 75,
+    "Thickness": "12''",
+    "Mu (Ib-ft)": 166780
+  },
+  {
+    "Strands": 6,
+    "Span": 40,
+    "Capacity": 67,
+    "Thickness": "12''",
+    "Mu (Ib-ft)": 166780
+  },
+  {
+    "Strands": 6,
+    "Span": 41,
+    "Capacity": 61,
+    "Thickness": "12''",
+    "Mu (Ib-ft)": 166780
+  },
+  {
+    "Strands": 6,
+    "Span": 42,
+    "Capacity": 54,
+    "Thickness": "12''",
+    "Mu (Ib-ft)": 166780
+  },
+  {
+    "Strands": 7,
+    "Span": 31,
+    "Capacity": 190,
+    "Thickness": "12''",
+    "Mu (Ib-ft)": 188440
+  },
+  {
+    "Strands": 7,
+    "Span": 32,
+    "Capacity": 174,
+    "Thickness": "12''",
+    "Mu (Ib-ft)": 188440
+  },
+  {
+    "Strands": 7,
+    "Span": 33,
+    "Capacity": 159,
+    "Thickness": "12''",
+    "Mu (Ib-ft)": 188440
+  },
+  {
+    "Strands": 7,
+    "Span": 34,
+    "Capacity": 146,
+    "Thickness": "12''",
+    "Mu (Ib-ft)": 188440
+  },
+  {
+    "Strands": 7,
+    "Span": 35,
+    "Capacity": 133,
+    "Thickness": "12''",
+    "Mu (Ib-ft)": 188440
+  },
+  {
+    "Strands": 7,
+    "Span": 36,
+    "Capacity": 122,
+    "Thickness": "12''",
+    "Mu (Ib-ft)": 188440
+  },
+  {
+    "Strands": 7,
+    "Span": 37,
+    "Capacity": 112,
+    "Thickness": "12''",
+    "Mu (Ib-ft)": 188440
+  },
+  {
+    "Strands": 7,
+    "Span": 38,
+    "Capacity": 102,
+    "Thickness": "12''",
+    "Mu (Ib-ft)": 188440
+  },
+  {
+    "Strands": 7,
+    "Span": 39,
+    "Capacity": 94,
+    "Thickness": "12''",
+    "Mu (Ib-ft)": 188440
+  },
+  {
+    "Strands": 7,
+    "Span": 40,
+    "Capacity": 85,
+    "Thickness": "12''",
+    "Mu (Ib-ft)": 188440
+  },
+  {
+    "Strands": 7,
+    "Span": 41,
+    "Capacity": 78,
+    "Thickness": "12''",
+    "Mu (Ib-ft)": 188440
+  },
+  {
+    "Strands": 7,
+    "Span": 42,
+    "Capacity": 71,
+    "Thickness": "12''",
+    "Mu (Ib-ft)": 188440
+  },
+  {
+    "Strands": 7,
+    "Span": 43,
+    "Capacity": 64,
+    "Thickness": "12''",
+    "Mu (Ib-ft)": 188440
+  },
+  {
+    "Strands": 7,
+    "Span": 44,
+    "Capacity": 58,
+    "Thickness": "12''",
+    "Mu (Ib-ft)": 188440
+  },
+  {
+    "Strands": 7,
+    "Span": 45,
+    "Capacity": 52,
+    "Thickness": "12''",
+    "Mu (Ib-ft)": 188440
+  },
+  {
+    "Strands": 7,
+    "Span": 46,
+    "Capacity": 47,
+    "Thickness": "12''",
+    "Mu (Ib-ft)": 188440
+  },
+  {
+    "Strands": 8,
+    "Span": 31,
+    "Capacity": 217,
+    "Thickness": "12''",
+    "Mu (Ib-ft)": 207720
+  },
+  {
+    "Strands": 8,
+    "Span": 32,
+    "Capacity": 199,
+    "Thickness": "12''",
+    "Mu (Ib-ft)": 207720
+  },
+  {
+    "Strands": 8,
+    "Span": 33,
+    "Capacity": 183,
+    "Thickness": "12''",
+    "Mu (Ib-ft)": 207720
+  },
+  {
+    "Strands": 8,
+    "Span": 34,
+    "Capacity": 168,
+    "Thickness": "12''",
+    "Mu (Ib-ft)": 207720
+  },
+  {
+    "Strands": 8,
+    "Span": 35,
+    "Capacity": 154,
+    "Thickness": "12''",
+    "Mu (Ib-ft)": 207720
+  },
+  {
+    "Strands": 8,
+    "Span": 36,
+    "Capacity": 142,
+    "Thickness": "12''",
+    "Mu (Ib-ft)": 207720
+  },
+  {
+    "Strands": 8,
+    "Span": 37,
+    "Capacity": 131,
+    "Thickness": "12''",
+    "Mu (Ib-ft)": 207720
+  },
+  {
+    "Strands": 8,
+    "Span": 38,
+    "Capacity": 120,
+    "Thickness": "12''",
+    "Mu (Ib-ft)": 207720
+  },
+  {
+    "Strands": 8,
+    "Span": 39,
+    "Capacity": 110,
+    "Thickness": "12''",
+    "Mu (Ib-ft)": 207720
+  },
+  {
+    "Strands": 8,
+    "Span": 40,
+    "Capacity": 101,
+    "Thickness": "12''",
+    "Mu (Ib-ft)": 207720
+  },
+  {
+    "Strands": 8,
+    "Span": 41,
+    "Capacity": 93,
+    "Thickness": "12''",
+    "Mu (Ib-ft)": 207720
+  },
+  {
+    "Strands": 8,
+    "Span": 42,
+    "Capacity": 85,
+    "Thickness": "12''",
+    "Mu (Ib-ft)": 207720
+  },
+  {
+    "Strands": 8,
+    "Span": 43,
+    "Capacity": 78,
+    "Thickness": "12''",
+    "Mu (Ib-ft)": 207720
+  },
+  {
+    "Strands": 8,
+    "Span": 44,
+    "Capacity": 71,
+    "Thickness": "12''",
+    "Mu (Ib-ft)": 207720
+  },
+  {
+    "Strands": 8,
+    "Span": 45,
+    "Capacity": 65,
+    "Thickness": "12''",
+    "Mu (Ib-ft)": 207720
+  },
+  {
+    "Strands": 8,
+    "Span": 46,
+    "Capacity": 59,
+    "Thickness": "12''",
+    "Mu (Ib-ft)": 207720
+  },
+  {
+    "Strands": 8,
+    "Span": 47,
+    "Capacity": 54,
+    "Thickness": "12''",
+    "Mu (Ib-ft)": 207720
+  },
+  {
+    "Strands": 8,
+    "Span": 48,
+    "Capacity": 49,
+    "Thickness": "12''",
+    "Mu (Ib-ft)": 207720
+  },
+  {
+    "Strands": 8,
+    "Span": 49,
+    "Capacity": 44,
+    "Thickness": "12''",
+    "Mu (Ib-ft)": 207720
+  },
+  {
+    "Strands": 9,
+    "Span": 31,
+    "Capacity": 236,
+    "Thickness": "12''",
+    "Mu (Ib-ft)": 222080
+  },
+  {
+    "Strands": 9,
+    "Span": 32,
+    "Capacity": 217,
+    "Thickness": "12''",
+    "Mu (Ib-ft)": 222080
+  },
+  {
+    "Strands": 9,
+    "Span": 33,
+    "Capacity": 200,
+    "Thickness": "12''",
+    "Mu (Ib-ft)": 222080
+  },
+  {
+    "Strands": 9,
+    "Span": 34,
+    "Capacity": 184,
+    "Thickness": "12''",
+    "Mu (Ib-ft)": 222080
+  },
+  {
+    "Strands": 9,
+    "Span": 35,
+    "Capacity": 170,
+    "Thickness": "12''",
+    "Mu (Ib-ft)": 222080
+  },
+  {
+    "Strands": 9,
+    "Span": 36,
+    "Capacity": 157,
+    "Thickness": "12''",
+    "Mu (Ib-ft)": 222080
+  },
+  {
+    "Strands": 9,
+    "Span": 37,
+    "Capacity": 145,
+    "Thickness": "12''",
+    "Mu (Ib-ft)": 222080
+  },
+  {
+    "Strands": 9,
+    "Span": 38,
+    "Capacity": 133,
+    "Thickness": "12''",
+    "Mu (Ib-ft)": 222080
+  },
+  {
+    "Strands": 9,
+    "Span": 39,
+    "Capacity": 123,
+    "Thickness": "12''",
+    "Mu (Ib-ft)": 222080
+  },
+  {
+    "Strands": 9,
+    "Span": 40,
+    "Capacity": 113,
+    "Thickness": "12''",
+    "Mu (Ib-ft)": 222080
+  },
+  {
+    "Strands": 9,
+    "Span": 41,
+    "Capacity": 104,
+    "Thickness": "12''",
+    "Mu (Ib-ft)": 222080
+  },
+  {
+    "Strands": 9,
+    "Span": 42,
+    "Capacity": 96,
+    "Thickness": "12''",
+    "Mu (Ib-ft)": 222080
+  },
+  {
+    "Strands": 9,
+    "Span": 43,
+    "Capacity": 88,
+    "Thickness": "12''",
+    "Mu (Ib-ft)": 222080
+  },
+  {
+    "Strands": 9,
+    "Span": 44,
+    "Capacity": 81,
+    "Thickness": "12''",
+    "Mu (Ib-ft)": 222080
+  },
+  {
+    "Strands": 9,
+    "Span": 45,
+    "Capacity": 75,
+    "Thickness": "12''",
+    "Mu (Ib-ft)": 222080
+  },
+  {
+    "Strands": 9,
+    "Span": 46,
+    "Capacity": 68,
+    "Thickness": "12''",
+    "Mu (Ib-ft)": 222080
+  },
+  {
+    "Strands": 9,
+    "Span": 47,
+    "Capacity": 62,
+    "Thickness": "12''",
+    "Mu (Ib-ft)": 222080
+  },
+  {
+    "Strands": 9,
+    "Span": 48,
+    "Capacity": 57,
+    "Thickness": "12''",
+    "Mu (Ib-ft)": 222080
+  },
+  {
+    "Strands": 9,
+    "Span": 49,
+    "Capacity": 52,
+    "Thickness": "12''",
+    "Mu (Ib-ft)": 222080
+  },
+  {
+    "Strands": 9,
+    "Span": 50,
+    "Capacity": 47,
+    "Thickness": "12''",
+    "Mu (Ib-ft)": 222080
+  },
+  {
+    "Strands": 10,
+    "Span": 31,
+    "Capacity": 271,
+    "Thickness": "12''",
+    "Mu (Ib-ft)": 246700
+  },
+  {
+    "Strands": 10,
+    "Span": 32,
+    "Capacity": 250,
+    "Thickness": "12''",
+    "Mu (Ib-ft)": 246700
+  },
+  {
+    "Strands": 10,
+    "Span": 33,
+    "Capacity": 230,
+    "Thickness": "12''",
+    "Mu (Ib-ft)": 246700
+  },
+  {
+    "Strands": 10,
+    "Span": 34,
+    "Capacity": 213,
+    "Thickness": "12''",
+    "Mu (Ib-ft)": 246700
+  },
+  {
+    "Strands": 10,
+    "Span": 35,
+    "Capacity": 197,
+    "Thickness": "12''",
+    "Mu (Ib-ft)": 246700
+  },
+  {
+    "Strands": 10,
+    "Span": 36,
+    "Capacity": 182,
+    "Thickness": "12''",
+    "Mu (Ib-ft)": 246700
+  },
+  {
+    "Strands": 10,
+    "Span": 37,
+    "Capacity": 169,
+    "Thickness": "12''",
+    "Mu (Ib-ft)": 246700
+  },
+  {
+    "Strands": 10,
+    "Span": 38,
+    "Capacity": 156,
+    "Thickness": "12''",
+    "Mu (Ib-ft)": 246700
+  },
+  {
+    "Strands": 10,
+    "Span": 39,
+    "Capacity": 145,
+    "Thickness": "12''",
+    "Mu (Ib-ft)": 246700
+  },
+  {
+    "Strands": 10,
+    "Span": 40,
+    "Capacity": 134,
+    "Thickness": "12''",
+    "Mu (Ib-ft)": 246700
+  },
+  {
+    "Strands": 10,
+    "Span": 41,
+    "Capacity": 124,
+    "Thickness": "12''",
+    "Mu (Ib-ft)": 246700
+  },
+  {
+    "Strands": 10,
+    "Span": 42,
+    "Capacity": 115,
+    "Thickness": "12''",
+    "Mu (Ib-ft)": 246700
+  },
+  {
+    "Strands": 10,
+    "Span": 43,
+    "Capacity": 106,
+    "Thickness": "12''",
+    "Mu (Ib-ft)": 246700
+  },
+  {
+    "Strands": 10,
+    "Span": 44,
+    "Capacity": 98,
+    "Thickness": "12''",
+    "Mu (Ib-ft)": 246700
+  },
+  {
+    "Strands": 10,
+    "Span": 45,
+    "Capacity": 91,
+    "Thickness": "12''",
+    "Mu (Ib-ft)": 246700
+  },
+  {
+    "Strands": 10,
+    "Span": 46,
+    "Capacity": 84,
+    "Thickness": "12''",
+    "Mu (Ib-ft)": 246700
+  },
+  {
+    "Strands": 10,
+    "Span": 47,
+    "Capacity": 77,
+    "Thickness": "12''",
+    "Mu (Ib-ft)": 246700
+  },
+  {
+    "Strands": 10,
+    "Span": 48,
+    "Capacity": 71,
+    "Thickness": "12''",
+    "Mu (Ib-ft)": 246700
+  },
+  {
+    "Strands": 10,
+    "Span": 49,
+    "Capacity": 65,
+    "Thickness": "12''",
+    "Mu (Ib-ft)": 246700
+  },
+  {
+    "Strands": 10,
+    "Span": 50,
+    "Capacity": 60,
+    "Thickness": "12''",
+    "Mu (Ib-ft)": 246700
+  },
+  {
+    "Strands": 11,
+    "Span": 31,
+    "Capacity": 290,
+    "Thickness": "12''",
+    "Mu (Ib-ft)": 260750
+  },
+  {
+    "Strands": 11,
+    "Span": 32,
+    "Capacity": 268,
+    "Thickness": "12''",
+    "Mu (Ib-ft)": 260750
+  },
+  {
+    "Strands": 11,
+    "Span": 33,
+    "Capacity": 248,
+    "Thickness": "12''",
+    "Mu (Ib-ft)": 260750
+  },
+  {
+    "Strands": 11,
+    "Span": 34,
+    "Capacity": 229,
+    "Thickness": "12''",
+    "Mu (Ib-ft)": 260750
+  },
+  {
+    "Strands": 11,
+    "Span": 35,
+    "Capacity": 212,
+    "Thickness": "12''",
+    "Mu (Ib-ft)": 260750
+  },
+  {
+    "Strands": 11,
+    "Span": 36,
+    "Capacity": 197,
+    "Thickness": "12''",
+    "Mu (Ib-ft)": 260750
+  },
+  {
+    "Strands": 11,
+    "Span": 37,
+    "Capacity": 182,
+    "Thickness": "12''",
+    "Mu (Ib-ft)": 260750
+  },
+  {
+    "Strands": 11,
+    "Span": 38,
+    "Capacity": 169,
+    "Thickness": "12''",
+    "Mu (Ib-ft)": 260750
+  },
+  {
+    "Strands": 11,
+    "Span": 39,
+    "Capacity": 157,
+    "Thickness": "12''",
+    "Mu (Ib-ft)": 260750
+  },
+  {
+    "Strands": 11,
+    "Span": 40,
+    "Capacity": 146,
+    "Thickness": "12''",
+    "Mu (Ib-ft)": 260750
+  },
+  {
+    "Strands": 11,
+    "Span": 41,
+    "Capacity": 135,
+    "Thickness": "12''",
+    "Mu (Ib-ft)": 260750
+  },
+  {
+    "Strands": 11,
+    "Span": 42,
+    "Capacity": 125,
+    "Thickness": "12''",
+    "Mu (Ib-ft)": 260750
+  },
+  {
+    "Strands": 11,
+    "Span": 43,
+    "Capacity": 116,
+    "Thickness": "12''",
+    "Mu (Ib-ft)": 260750
+  },
+  {
+    "Strands": 11,
+    "Span": 44,
+    "Capacity": 108,
+    "Thickness": "12''",
+    "Mu (Ib-ft)": 260750
+  },
+  {
+    "Strands": 11,
+    "Span": 45,
+    "Capacity": 100,
+    "Thickness": "12''",
+    "Mu (Ib-ft)": 260750
+  },
+  {
+    "Strands": 11,
+    "Span": 46,
+    "Capacity": 93,
+    "Thickness": "12''",
+    "Mu (Ib-ft)": 260750
+  },
+  {
+    "Strands": 11,
+    "Span": 47,
+    "Capacity": 86,
+    "Thickness": "12''",
+    "Mu (Ib-ft)": 260750
+  },
+  {
+    "Strands": 11,
+    "Span": 48,
+    "Capacity": 79,
+    "Thickness": "12''",
+    "Mu (Ib-ft)": 260750
+  },
+  {
+    "Strands": 11,
+    "Span": 49,
+    "Capacity": 73,
+    "Thickness": "12''",
+    "Mu (Ib-ft)": 260750
+  },
+  {
+    "Strands": 11,
+    "Span": 50,
+    "Capacity": 67,
+    "Thickness": "12''",
+    "Mu (Ib-ft)": 260750
+  },
+  {
+    "Strands": 5,
+    "Span": 31,
+    "Capacity": 147,
+    "Thickness": "14''",
+    "Mu (Ib-ft)": 163000
+  },
+  {
+    "Strands": 5,
+    "Span": 32,
+    "Capacity": 133,
+    "Thickness": "14''",
+    "Mu (Ib-ft)": 163000
+  },
+  {
+    "Strands": 5,
+    "Span": 33,
+    "Capacity": 120,
+    "Thickness": "14''",
+    "Mu (Ib-ft)": 163000
+  },
+  {
+    "Strands": 5,
+    "Span": 34,
+    "Capacity": 109,
+    "Thickness": "14''",
+    "Mu (Ib-ft)": 163000
+  },
+  {
+    "Strands": 5,
+    "Span": 35,
+    "Capacity": 98,
+    "Thickness": "14''",
+    "Mu (Ib-ft)": 163000
+  },
+  {
+    "Strands": 5,
+    "Span": 36,
+    "Capacity": 89,
+    "Thickness": "14''",
+    "Mu (Ib-ft)": 163000
+  },
+  {
+    "Strands": 5,
+    "Span": 37,
+    "Capacity": 80,
+    "Thickness": "14''",
+    "Mu (Ib-ft)": 163000
+  },
+  {
+    "Strands": 5,
+    "Span": 38,
+    "Capacity": 71,
+    "Thickness": "14''",
+    "Mu (Ib-ft)": 163000
+  },
+  {
+    "Strands": 5,
+    "Span": 39,
+    "Capacity": 64,
+    "Thickness": "14''",
+    "Mu (Ib-ft)": 163000
+  },
+  {
+    "Strands": 6,
+    "Span": 31,
+    "Capacity": 189,
+    "Thickness": "14''",
+    "Mu (Ib-ft)": 193240
+  },
+  {
+    "Strands": 6,
+    "Span": 32,
+    "Capacity": 172,
+    "Thickness": "14''",
+    "Mu (Ib-ft)": 193240
+  },
+  {
+    "Strands": 6,
+    "Span": 33,
+    "Capacity": 157,
+    "Thickness": "14''",
+    "Mu (Ib-ft)": 193240
+  },
+  {
+    "Strands": 6,
+    "Span": 34,
+    "Capacity": 144,
+    "Thickness": "14''",
+    "Mu (Ib-ft)": 193240
+  },
+  {
+    "Strands": 6,
+    "Span": 35,
+    "Capacity": 131,
+    "Thickness": "14''",
+    "Mu (Ib-ft)": 193240
+  },
+  {
+    "Strands": 6,
+    "Span": 36,
+    "Capacity": 120,
+    "Thickness": "14''",
+    "Mu (Ib-ft)": 193240
+  },
+  {
+    "Strands": 6,
+    "Span": 37,
+    "Capacity": 109,
+    "Thickness": "14''",
+    "Mu (Ib-ft)": 193240
+  },
+  {
+    "Strands": 6,
+    "Span": 38,
+    "Capacity": 99,
+    "Thickness": "14''",
+    "Mu (Ib-ft)": 193240
+  },
+  {
+    "Strands": 6,
+    "Span": 39,
+    "Capacity": 90,
+    "Thickness": "14''",
+    "Mu (Ib-ft)": 193240
+  },
+  {
+    "Strands": 6,
+    "Span": 40,
+    "Capacity": 82,
+    "Thickness": "14''",
+    "Mu (Ib-ft)": 193240
+  },
+  {
+    "Strands": 6,
+    "Span": 41,
+    "Capacity": 74,
+    "Thickness": "14''",
+    "Mu (Ib-ft)": 193240
+  },
+  {
+    "Strands": 6,
+    "Span": 42,
+    "Capacity": 67,
+    "Thickness": "14''",
+    "Mu (Ib-ft)": 193240
+  },
+  {
+    "Strands": 7,
+    "Span": 31,
+    "Capacity": 231,
+    "Thickness": "14''",
+    "Mu (Ib-ft)": 223480
+  },
+  {
+    "Strands": 7,
+    "Span": 32,
+    "Capacity": 212,
+    "Thickness": "14''",
+    "Mu (Ib-ft)": 223480
+  },
+  {
+    "Strands": 7,
+    "Span": 33,
+    "Capacity": 194,
+    "Thickness": "14''",
+    "Mu (Ib-ft)": 223480
+  },
+  {
+    "Strands": 7,
+    "Span": 34,
+    "Capacity": 179,
+    "Thickness": "14''",
+    "Mu (Ib-ft)": 223480
+  },
+  {
+    "Strands": 7,
+    "Span": 35,
+    "Capacity": 164,
+    "Thickness": "14''",
+    "Mu (Ib-ft)": 223480
+  },
+  {
+    "Strands": 7,
+    "Span": 36,
+    "Capacity": 151,
+    "Thickness": "14''",
+    "Mu (Ib-ft)": 223480
+  },
+  {
+    "Strands": 7,
+    "Span": 37,
+    "Capacity": 138,
+    "Thickness": "14''",
+    "Mu (Ib-ft)": 223480
+  },
+  {
+    "Strands": 7,
+    "Span": 38,
+    "Capacity": 127,
+    "Thickness": "14''",
+    "Mu (Ib-ft)": 223480
+  },
+  {
+    "Strands": 7,
+    "Span": 39,
+    "Capacity": 117,
+    "Thickness": "14''",
+    "Mu (Ib-ft)": 223480
+  },
+  {
+    "Strands": 7,
+    "Span": 40,
+    "Capacity": 107,
+    "Thickness": "14''",
+    "Mu (Ib-ft)": 223480
+  },
+  {
+    "Strands": 7,
+    "Span": 41,
+    "Capacity": 98,
+    "Thickness": "14''",
+    "Mu (Ib-ft)": 223480
+  },
+  {
+    "Strands": 7,
+    "Span": 42,
+    "Capacity": 90,
+    "Thickness": "14''",
+    "Mu (Ib-ft)": 223480
+  },
+  {
+    "Strands": 7,
+    "Span": 43,
+    "Capacity": 89,
+    "Thickness": "14''",
+    "Mu (Ib-ft)": 223480
+  },
+  {
+    "Strands": 7,
+    "Span": 44,
+    "Capacity": 82,
+    "Thickness": "14''",
+    "Mu (Ib-ft)": 223480
+  },
+  {
+    "Strands": 7,
+    "Span": 45,
+    "Capacity": 75,
+    "Thickness": "14''",
+    "Mu (Ib-ft)": 223480
+  },
+  {
+    "Strands": 7,
+    "Span": 46,
+    "Capacity": 69,
+    "Thickness": "14''",
+    "Mu (Ib-ft)": 223480
+  },
+  {
+    "Strands": 8,
+    "Span": 31,
+    "Capacity": 272,
+    "Thickness": "14''",
+    "Mu (Ib-ft)": 252983
+  },
+  {
+    "Strands": 8,
+    "Span": 32,
+    "Capacity": 250,
+    "Thickness": "14''",
+    "Mu (Ib-ft)": 252983
+  },
+  {
+    "Strands": 8,
+    "Span": 33,
+    "Capacity": 231,
+    "Thickness": "14''",
+    "Mu (Ib-ft)": 252983
+  },
+  {
+    "Strands": 8,
+    "Span": 34,
+    "Capacity": 213,
+    "Thickness": "14''",
+    "Mu (Ib-ft)": 252983
+  },
+  {
+    "Strands": 8,
+    "Span": 35,
+    "Capacity": 196,
+    "Thickness": "14''",
+    "Mu (Ib-ft)": 252983
+  },
+  {
+    "Strands": 8,
+    "Span": 36,
+    "Capacity": 181,
+    "Thickness": "14''",
+    "Mu (Ib-ft)": 252983
+  },
+  {
+    "Strands": 8,
+    "Span": 37,
+    "Capacity": 167,
+    "Thickness": "14''",
+    "Mu (Ib-ft)": 252983
+  },
+  {
+    "Strands": 8,
+    "Span": 38,
+    "Capacity": 154,
+    "Thickness": "14''",
+    "Mu (Ib-ft)": 252983
+  },
+  {
+    "Strands": 8,
+    "Span": 39,
+    "Capacity": 143,
+    "Thickness": "14''",
+    "Mu (Ib-ft)": 252983
+  },
+  {
+    "Strands": 8,
+    "Span": 40,
+    "Capacity": 132,
+    "Thickness": "14''",
+    "Mu (Ib-ft)": 252983
+  },
+  {
+    "Strands": 8,
+    "Span": 41,
+    "Capacity": 121,
+    "Thickness": "14''",
+    "Mu (Ib-ft)": 252983
+  },
+  {
+    "Strands": 8,
+    "Span": 42,
+    "Capacity": 112,
+    "Thickness": "14''",
+    "Mu (Ib-ft)": 252983
+  },
+  {
+    "Strands": 8,
+    "Span": 43,
+    "Capacity": 111,
+    "Thickness": "14''",
+    "Mu (Ib-ft)": 252983
+  },
+  {
+    "Strands": 8,
+    "Span": 44,
+    "Capacity": 103,
+    "Thickness": "14''",
+    "Mu (Ib-ft)": 252983
+  },
+  {
+    "Strands": 8,
+    "Span": 45,
+    "Capacity": 95,
+    "Thickness": "14''",
+    "Mu (Ib-ft)": 252983
+  },
+  {
+    "Strands": 8,
+    "Span": 46,
+    "Capacity": 88,
+    "Thickness": "14''",
+    "Mu (Ib-ft)": 252983
+  },
+  {
+    "Strands": 8,
+    "Span": 47,
+    "Capacity": 81,
+    "Thickness": "14''",
+    "Mu (Ib-ft)": 252983
+  },
+  {
+    "Strands": 8,
+    "Span": 48,
+    "Capacity": 75,
+    "Thickness": "14''",
+    "Mu (Ib-ft)": 252983
+  },
+  {
+    "Strands": 8,
+    "Span": 49,
+    "Capacity": 69,
+    "Thickness": "14''",
+    "Mu (Ib-ft)": 252983
+  },
+  {
+    "Strands": 9,
+    "Span": 31,
+    "Capacity": 312,
+    "Thickness": "14''",
+    "Mu (Ib-ft)": 281747
+  },
+  {
+    "Strands": 9,
+    "Span": 32,
+    "Capacity": 288,
+    "Thickness": "14''",
+    "Mu (Ib-ft)": 281747
+  },
+  {
+    "Strands": 9,
+    "Span": 33,
+    "Capacity": 266,
+    "Thickness": "14''",
+    "Mu (Ib-ft)": 281747
+  },
+  {
+    "Strands": 9,
+    "Span": 34,
+    "Capacity": 246,
+    "Thickness": "14''",
+    "Mu (Ib-ft)": 281747
+  },
+  {
+    "Strands": 9,
+    "Span": 35,
+    "Capacity": 227,
+    "Thickness": "14''",
+    "Mu (Ib-ft)": 281747
+  },
+  {
+    "Strands": 9,
+    "Span": 36,
+    "Capacity": 211,
+    "Thickness": "14''",
+    "Mu (Ib-ft)": 281747
+  },
+  {
+    "Strands": 9,
+    "Span": 37,
+    "Capacity": 195,
+    "Thickness": "14''",
+    "Mu (Ib-ft)": 281747
+  },
+  {
+    "Strands": 9,
+    "Span": 38,
+    "Capacity": 181,
+    "Thickness": "14''",
+    "Mu (Ib-ft)": 281747
+  },
+  {
+    "Strands": 9,
+    "Span": 39,
+    "Capacity": 168,
+    "Thickness": "14''",
+    "Mu (Ib-ft)": 281747
+  },
+  {
+    "Strands": 9,
+    "Span": 40,
+    "Capacity": 156,
+    "Thickness": "14''",
+    "Mu (Ib-ft)": 281747
+  },
+  {
+    "Strands": 9,
+    "Span": 41,
+    "Capacity": 144,
+    "Thickness": "14''",
+    "Mu (Ib-ft)": 281747
+  },
+  {
+    "Strands": 9,
+    "Span": 42,
+    "Capacity": 134,
+    "Thickness": "14''",
+    "Mu (Ib-ft)": 281747
+  },
+  {
+    "Strands": 9,
+    "Span": 43,
+    "Capacity": 131,
+    "Thickness": "14''",
+    "Mu (Ib-ft)": 281747
+  },
+  {
+    "Strands": 9,
+    "Span": 44,
+    "Capacity": 122,
+    "Thickness": "14''",
+    "Mu (Ib-ft)": 281747
+  },
+  {
+    "Strands": 9,
+    "Span": 45,
+    "Capacity": 114,
+    "Thickness": "14''",
+    "Mu (Ib-ft)": 281747
+  },
+  {
+    "Strands": 9,
+    "Span": 46,
+    "Capacity": 106,
+    "Thickness": "14''",
+    "Mu (Ib-ft)": 281747
+  },
+  {
+    "Strands": 9,
+    "Span": 47,
+    "Capacity": 98,
+    "Thickness": "14''",
+    "Mu (Ib-ft)": 281747
+  },
+  {
+    "Strands": 9,
+    "Span": 48,
+    "Capacity": 91,
+    "Thickness": "14''",
+    "Mu (Ib-ft)": 281747
+  },
+  {
+    "Strands": 9,
+    "Span": 49,
+    "Capacity": 85,
+    "Thickness": "14''",
+    "Mu (Ib-ft)": 281747
+  },
+  {
+    "Strands": 9,
+    "Span": 50,
+    "Capacity": 71,
+    "Thickness": "14''",
+    "Mu (Ib-ft)": 281747
+  },
+  {
+    "Strands": 10,
+    "Span": 31,
+    "Capacity": 351,
+    "Thickness": "14''",
+    "Mu (Ib-ft)": 309775
+  },
+  {
+    "Strands": 10,
+    "Span": 32,
+    "Capacity": 324,
+    "Thickness": "14''",
+    "Mu (Ib-ft)": 309775
+  },
+  {
+    "Strands": 10,
+    "Span": 33,
+    "Capacity": 300,
+    "Thickness": "14''",
+    "Mu (Ib-ft)": 309775
+  },
+  {
+    "Strands": 10,
+    "Span": 34,
+    "Capacity": 278,
+    "Thickness": "14''",
+    "Mu (Ib-ft)": 309775
+  },
+  {
+    "Strands": 10,
+    "Span": 35,
+    "Capacity": 258,
+    "Thickness": "14''",
+    "Mu (Ib-ft)": 309775
+  },
+  {
+    "Strands": 10,
+    "Span": 36,
+    "Capacity": 240,
+    "Thickness": "14''",
+    "Mu (Ib-ft)": 309775
+  },
+  {
+    "Strands": 10,
+    "Span": 37,
+    "Capacity": 223,
+    "Thickness": "14''",
+    "Mu (Ib-ft)": 309775
+  },
+  {
+    "Strands": 10,
+    "Span": 38,
+    "Capacity": 207,
+    "Thickness": "14''",
+    "Mu (Ib-ft)": 309775
+  },
+  {
+    "Strands": 10,
+    "Span": 39,
+    "Capacity": 192,
+    "Thickness": "14''",
+    "Mu (Ib-ft)": 309775
+  },
+  {
+    "Strands": 10,
+    "Span": 40,
+    "Capacity": 179,
+    "Thickness": "14''",
+    "Mu (Ib-ft)": 309775
+  },
+  {
+    "Strands": 10,
+    "Span": 41,
+    "Capacity": 167,
+    "Thickness": "14''",
+    "Mu (Ib-ft)": 309775
+  },
+  {
+    "Strands": 10,
+    "Span": 42,
+    "Capacity": 155,
+    "Thickness": "14''",
+    "Mu (Ib-ft)": 309775
+  },
+  {
+    "Strands": 10,
+    "Span": 43,
+    "Capacity": 152,
+    "Thickness": "14''",
+    "Mu (Ib-ft)": 309775
+  },
+  {
+    "Strands": 10,
+    "Span": 44,
+    "Capacity": 142,
+    "Thickness": "14''",
+    "Mu (Ib-ft)": 309775
+  },
+  {
+    "Strands": 10,
+    "Span": 45,
+    "Capacity": 132,
+    "Thickness": "14''",
+    "Mu (Ib-ft)": 309775
+  },
+  {
+    "Strands": 10,
+    "Span": 46,
+    "Capacity": 124,
+    "Thickness": "14''",
+    "Mu (Ib-ft)": 309775
+  },
+  {
+    "Strands": 10,
+    "Span": 47,
+    "Capacity": 115,
+    "Thickness": "14''",
+    "Mu (Ib-ft)": 309775
+  },
+  {
+    "Strands": 10,
+    "Span": 48,
+    "Capacity": 108,
+    "Thickness": "14''",
+    "Mu (Ib-ft)": 309775
+  },
+  {
+    "Strands": 10,
+    "Span": 49,
+    "Capacity": 100,
+    "Thickness": "14''",
+    "Mu (Ib-ft)": 309775
+  },
+  {
+    "Strands": 10,
+    "Span": 50,
+    "Capacity": 86,
+    "Thickness": "14''",
+    "Mu (Ib-ft)": 309775
+  },
+  {
+    "Strands": 11,
+    "Span": 31,
+    "Capacity": 388,
+    "Thickness": "14''",
+    "Mu (Ib-ft)": 337064
+  },
+  {
+    "Strands": 11,
+    "Span": 32,
+    "Capacity": 360,
+    "Thickness": "14''",
+    "Mu (Ib-ft)": 337064
+  },
+  {
+    "Strands": 11,
+    "Span": 33,
+    "Capacity": 334,
+    "Thickness": "14''",
+    "Mu (Ib-ft)": 337064
+  },
+  {
+    "Strands": 11,
+    "Span": 34,
+    "Capacity": 310,
+    "Thickness": "14''",
+    "Mu (Ib-ft)": 337064
+  },
+  {
+    "Strands": 11,
+    "Span": 35,
+    "Capacity": 288,
+    "Thickness": "14''",
+    "Mu (Ib-ft)": 337064
+  },
+  {
+    "Strands": 11,
+    "Span": 36,
+    "Capacity": 268,
+    "Thickness": "14''",
+    "Mu (Ib-ft)": 337064
+  },
+  {
+    "Strands": 11,
+    "Span": 37,
+    "Capacity": 249,
+    "Thickness": "14''",
+    "Mu (Ib-ft)": 337064
+  },
+  {
+    "Strands": 11,
+    "Span": 38,
+    "Capacity": 232,
+    "Thickness": "14''",
+    "Mu (Ib-ft)": 337064
+  },
+  {
+    "Strands": 11,
+    "Span": 39,
+    "Capacity": 216,
+    "Thickness": "14''",
+    "Mu (Ib-ft)": 337064
+  },
+  {
+    "Strands": 11,
+    "Span": 40,
+    "Capacity": 202,
+    "Thickness": "14''",
+    "Mu (Ib-ft)": 337064
+  },
+  {
+    "Strands": 11,
+    "Span": 41,
+    "Capacity": 188,
+    "Thickness": "14''",
+    "Mu (Ib-ft)": 337064
+  },
+  {
+    "Strands": 11,
+    "Span": 42,
+    "Capacity": 176,
+    "Thickness": "14''",
+    "Mu (Ib-ft)": 337064
+  },
+  {
+    "Strands": 11,
+    "Span": 43,
+    "Capacity": 171,
+    "Thickness": "14''",
+    "Mu (Ib-ft)": 337064
+  },
+  {
+    "Strands": 11,
+    "Span": 44,
+    "Capacity": 160,
+    "Thickness": "14''",
+    "Mu (Ib-ft)": 337064
+  },
+  {
+    "Strands": 11,
+    "Span": 45,
+    "Capacity": 150,
+    "Thickness": "14''",
+    "Mu (Ib-ft)": 337064
+  },
+  {
+    "Strands": 11,
+    "Span": 46,
+    "Capacity": 141,
+    "Thickness": "14''",
+    "Mu (Ib-ft)": 337064
+  },
+  {
+    "Strands": 11,
+    "Span": 47,
+    "Capacity": 132,
+    "Thickness": "14''",
+    "Mu (Ib-ft)": 337064
+  },
+  {
+    "Strands": 11,
+    "Span": 48,
+    "Capacity": 123,
+    "Thickness": "14''",
+    "Mu (Ib-ft)": 337064
+  },
+  {
+    "Strands": 11,
+    "Span": 49,
+    "Capacity": 116,
+    "Thickness": "14''",
+    "Mu (Ib-ft)": 337064
+  },
+  {
+    "Strands": 11,
+    "Span": 50,
+    "Capacity": 101,
+    "Thickness": "14''",
+    "Mu (Ib-ft)": 337064
+  },
+  {
+    "Strands": 12,
+    "Span": 31,
+    "Capacity": 426,
+    "Thickness": "14''",
+    "Mu (Ib-ft)": 364354
+  },
+  {
+    "Strands": 12,
+    "Span": 32,
+    "Capacity": 395,
+    "Thickness": "14''",
+    "Mu (Ib-ft)": 364354
+  },
+  {
+    "Strands": 12,
+    "Span": 33,
+    "Capacity": 367,
+    "Thickness": "14''",
+    "Mu (Ib-ft)": 364354
+  },
+  {
+    "Strands": 12,
+    "Span": 34,
+    "Capacity": 341,
+    "Thickness": "14''",
+    "Mu (Ib-ft)": 364354
+  },
+  {
+    "Strands": 12,
+    "Span": 35,
+    "Capacity": 317,
+    "Thickness": "14''",
+    "Mu (Ib-ft)": 364354
+  },
+  {
+    "Strands": 12,
+    "Span": 36,
+    "Capacity": 296,
+    "Thickness": "14''",
+    "Mu (Ib-ft)": 364354
+  },
+  {
+    "Strands": 12,
+    "Span": 37,
+    "Capacity": 276,
+    "Thickness": "14''",
+    "Mu (Ib-ft)": 364354
+  },
+  {
+    "Strands": 12,
+    "Span": 38,
+    "Capacity": 257,
+    "Thickness": "14''",
+    "Mu (Ib-ft)": 364354
+  },
+  {
+    "Strands": 12,
+    "Span": 39,
+    "Capacity": 240,
+    "Thickness": "14''",
+    "Mu (Ib-ft)": 364354
+  },
+  {
+    "Strands": 12,
+    "Span": 40,
+    "Capacity": 224,
+    "Thickness": "14''",
+    "Mu (Ib-ft)": 364354
+  },
+  {
+    "Strands": 12,
+    "Span": 41,
+    "Capacity": 210,
+    "Thickness": "14''",
+    "Mu (Ib-ft)": 364354
+  },
+  {
+    "Strands": 12,
+    "Span": 42,
+    "Capacity": 196,
+    "Thickness": "14''",
+    "Mu (Ib-ft)": 364354
+  },
+  {
+    "Strands": 12,
+    "Span": 43,
+    "Capacity": 191,
+    "Thickness": "14''",
+    "Mu (Ib-ft)": 364354
+  },
+  {
+    "Strands": 12,
+    "Span": 44,
+    "Capacity": 179,
+    "Thickness": "14''",
+    "Mu (Ib-ft)": 364354
+  },
+  {
+    "Strands": 12,
+    "Span": 45,
+    "Capacity": 168,
+    "Thickness": "14''",
+    "Mu (Ib-ft)": 364354
+  },
+  {
+    "Strands": 12,
+    "Span": 46,
+    "Capacity": 158,
+    "Thickness": "14''",
+    "Mu (Ib-ft)": 364354
+  },
+  {
+    "Strands": 12,
+    "Span": 47,
+    "Capacity": 148,
+    "Thickness": "14''",
+    "Mu (Ib-ft)": 364354
+  },
+  {
+    "Strands": 12,
+    "Span": 48,
+    "Capacity": 139,
+    "Thickness": "14''",
+    "Mu (Ib-ft)": 364354
+  },
+  {
+    "Strands": 12,
+    "Span": 49,
+    "Capacity": 131,
+    "Thickness": "14''",
+    "Mu (Ib-ft)": 364354
+  },
+  {
+    "Strands": 12,
+    "Span": 50,
+    "Capacity": 115,
+    "Thickness": "14''",
+    "Mu (Ib-ft)": 364354
+  },
+  {
+    "Strands": 13,
+    "Span": 31,
+    "Capacity": 462,
+    "Thickness": "14''",
+    "Mu (Ib-ft)": 390169
+  },
+  {
+    "Strands": 13,
+    "Span": 32,
+    "Capacity": 429,
+    "Thickness": "14''",
+    "Mu (Ib-ft)": 390169
+  },
+  {
+    "Strands": 13,
+    "Span": 33,
+    "Capacity": 399,
+    "Thickness": "14''",
+    "Mu (Ib-ft)": 390169
+  },
+  {
+    "Strands": 13,
+    "Span": 34,
+    "Capacity": 371,
+    "Thickness": "14''",
+    "Mu (Ib-ft)": 390169
+  },
+  {
+    "Strands": 13,
+    "Span": 35,
+    "Capacity": 345,
+    "Thickness": "14''",
+    "Mu (Ib-ft)": 390169
+  },
+  {
+    "Strands": 13,
+    "Span": 36,
+    "Capacity": 322,
+    "Thickness": "14''",
+    "Mu (Ib-ft)": 390169
+  },
+  {
+    "Strands": 13,
+    "Span": 37,
+    "Capacity": 301,
+    "Thickness": "14''",
+    "Mu (Ib-ft)": 390169
+  },
+  {
+    "Strands": 13,
+    "Span": 38,
+    "Capacity": 281,
+    "Thickness": "14''",
+    "Mu (Ib-ft)": 390169
+  },
+  {
+    "Strands": 13,
+    "Span": 39,
+    "Capacity": 263,
+    "Thickness": "14''",
+    "Mu (Ib-ft)": 390169
+  },
+  {
+    "Strands": 13,
+    "Span": 40,
+    "Capacity": 246,
+    "Thickness": "14''",
+    "Mu (Ib-ft)": 390169
+  },
+  {
+    "Strands": 13,
+    "Span": 41,
+    "Capacity": 230,
+    "Thickness": "14''",
+    "Mu (Ib-ft)": 390169
+  },
+  {
+    "Strands": 13,
+    "Span": 42,
+    "Capacity": 216,
+    "Thickness": "14''",
+    "Mu (Ib-ft)": 390169
+  },
+  {
+    "Strands": 13,
+    "Span": 43,
+    "Capacity": 210,
+    "Thickness": "14''",
+    "Mu (Ib-ft)": 390169
+  },
+  {
+    "Strands": 13,
+    "Span": 44,
+    "Capacity": 197,
+    "Thickness": "14''",
+    "Mu (Ib-ft)": 390169
+  },
+  {
+    "Strands": 13,
+    "Span": 45,
+    "Capacity": 185,
+    "Thickness": "14''",
+    "Mu (Ib-ft)": 390169
+  },
+  {
+    "Strands": 13,
+    "Span": 46,
+    "Capacity": 174,
+    "Thickness": "14''",
+    "Mu (Ib-ft)": 390169
+  },
+  {
+    "Strands": 13,
+    "Span": 47,
+    "Capacity": 164,
+    "Thickness": "14''",
+    "Mu (Ib-ft)": 390169
+  },
+  {
+    "Strands": 13,
+    "Span": 48,
+    "Capacity": 154,
+    "Thickness": "14''",
+    "Mu (Ib-ft)": 390169
+  },
+  {
+    "Strands": 13,
+    "Span": 49,
+    "Capacity": 145,
+    "Thickness": "14''",
+    "Mu (Ib-ft)": 390169
+  },
+  {
+    "Strands": 13,
+    "Span": 50,
+    "Capacity": 129,
+    "Thickness": "14''",
+    "Mu (Ib-ft)": 390169
+  }
+]

@@ -1,0 +1,3040 @@
+[
+  {
+    "Strands": 3,
+    "Span": 4.0,
+    "Capacity": 12.0,
+    "Thickness": "200 mm",
+    "Mu (KN-m)": 52.9
+  },
+  {
+    "Strands": 3,
+    "Span": 4.5,
+    "Capacity": 8.9,
+    "Thickness": "200 mm",
+    "Mu (KN-m)": 52.9
+  },
+  {
+    "Strands": 3,
+    "Span": 5.0,
+    "Capacity": 6.8,
+    "Thickness": "200 mm",
+    "Mu (KN-m)": 52.9
+  },
+  {
+    "Strands": 3,
+    "Span": 5.5,
+    "Capacity": 5.2,
+    "Thickness": "200 mm",
+    "Mu (KN-m)": 52.9
+  },
+  {
+    "Strands": 3,
+    "Span": 6.0,
+    "Capacity": 4.0,
+    "Thickness": "200 mm",
+    "Mu (KN-m)": 52.9
+  },
+  {
+    "Strands": 3,
+    "Span": 6.5,
+    "Capacity": 3.0,
+    "Thickness": "200 mm",
+    "Mu (KN-m)": 52.9
+  },
+  {
+    "Strands": 4,
+    "Span": 4.0,
+    "Capacity": 22.3,
+    "Thickness": "200 mm",
+    "Mu (KN-m)": 90.7
+  },
+  {
+    "Strands": 4,
+    "Span": 4.5,
+    "Capacity": 17.1,
+    "Thickness": "200 mm",
+    "Mu (KN-m)": 90.7
+  },
+  {
+    "Strands": 4,
+    "Span": 5.0,
+    "Capacity": 13.4,
+    "Thickness": "200 mm",
+    "Mu (KN-m)": 90.7
+  },
+  {
+    "Strands": 4,
+    "Span": 5.5,
+    "Capacity": 10.6,
+    "Thickness": "200 mm",
+    "Mu (KN-m)": 90.7
+  },
+  {
+    "Strands": 4,
+    "Span": 6.0,
+    "Capacity": 8.5,
+    "Thickness": "200 mm",
+    "Mu (KN-m)": 90.7
+  },
+  {
+    "Strands": 4,
+    "Span": 6.5,
+    "Capacity": 6.9,
+    "Thickness": "200 mm",
+    "Mu (KN-m)": 90.7
+  },
+  {
+    "Strands": 4,
+    "Span": 7.0,
+    "Capacity": 5.6,
+    "Thickness": "200 mm",
+    "Mu (KN-m)": 90.7
+  },
+  {
+    "Strands": 4,
+    "Span": 7.25,
+    "Capacity": 5.1,
+    "Thickness": "200 mm",
+    "Mu (KN-m)": 90.7
+  },
+  {
+    "Strands": 4,
+    "Span": 7.5,
+    "Capacity": 4.6,
+    "Thickness": "200 mm",
+    "Mu (KN-m)": 90.7
+  },
+  {
+    "Strands": 4,
+    "Span": 7.75,
+    "Capacity": 4.1,
+    "Thickness": "200 mm",
+    "Mu (KN-m)": 90.7
+  },
+  {
+    "Strands": 4,
+    "Span": 8.0,
+    "Capacity": 3.7,
+    "Thickness": "200 mm",
+    "Mu (KN-m)": 90.7
+  },
+  {
+    "Strands": 4,
+    "Span": 8.25,
+    "Capacity": 3.4,
+    "Thickness": "200 mm",
+    "Mu (KN-m)": 90.7
+  },
+  {
+    "Strands": 4,
+    "Span": 8.5,
+    "Capacity": 3.0,
+    "Thickness": "200 mm",
+    "Mu (KN-m)": 90.7
+  },
+  {
+    "Strands": 4,
+    "Span": 8.75,
+    "Capacity": 2.7,
+    "Thickness": "200 mm",
+    "Mu (KN-m)": 90.7
+  },
+  {
+    "Strands": 5,
+    "Span": 4.0,
+    "Capacity": 27.4,
+    "Thickness": "200 mm",
+    "Mu (KN-m)": 109.4
+  },
+  {
+    "Strands": 5,
+    "Span": 4.5,
+    "Capacity": 21.1,
+    "Thickness": "200 mm",
+    "Mu (KN-m)": 109.4
+  },
+  {
+    "Strands": 5,
+    "Span": 5.0,
+    "Capacity": 16.6,
+    "Thickness": "200 mm",
+    "Mu (KN-m)": 109.4
+  },
+  {
+    "Strands": 5,
+    "Span": 5.5,
+    "Capacity": 13.3,
+    "Thickness": "200 mm",
+    "Mu (KN-m)": 109.4
+  },
+  {
+    "Strands": 5,
+    "Span": 6.0,
+    "Capacity": 10.8,
+    "Thickness": "200 mm",
+    "Mu (KN-m)": 109.4
+  },
+  {
+    "Strands": 5,
+    "Span": 6.5,
+    "Capacity": 8.8,
+    "Thickness": "200 mm",
+    "Mu (KN-m)": 109.4
+  },
+  {
+    "Strands": 5,
+    "Span": 7.0,
+    "Capacity": 7.3,
+    "Thickness": "200 mm",
+    "Mu (KN-m)": 109.4
+  },
+  {
+    "Strands": 5,
+    "Span": 7.25,
+    "Capacity": 6.6,
+    "Thickness": "200 mm",
+    "Mu (KN-m)": 109.4
+  },
+  {
+    "Strands": 5,
+    "Span": 7.5,
+    "Capacity": 6.0,
+    "Thickness": "200 mm",
+    "Mu (KN-m)": 109.4
+  },
+  {
+    "Strands": 5,
+    "Span": 7.75,
+    "Capacity": 5.5,
+    "Thickness": "200 mm",
+    "Mu (KN-m)": 109.4
+  },
+  {
+    "Strands": 5,
+    "Span": 8.0,
+    "Capacity": 5.0,
+    "Thickness": "200 mm",
+    "Mu (KN-m)": 109.4
+  },
+  {
+    "Strands": 5,
+    "Span": 8.25,
+    "Capacity": 4.6,
+    "Thickness": "200 mm",
+    "Mu (KN-m)": 109.4
+  },
+  {
+    "Strands": 5,
+    "Span": 8.5,
+    "Capacity": 4.1,
+    "Thickness": "200 mm",
+    "Mu (KN-m)": 109.4
+  },
+  {
+    "Strands": 5,
+    "Span": 8.75,
+    "Capacity": 3.8,
+    "Thickness": "200 mm",
+    "Mu (KN-m)": 109.4
+  },
+  {
+    "Strands": 5,
+    "Span": 9.0,
+    "Capacity": 3.4,
+    "Thickness": "200 mm",
+    "Mu (KN-m)": 109.4
+  },
+  {
+    "Strands": 5,
+    "Span": 9.25,
+    "Capacity": 3.1,
+    "Thickness": "200 mm",
+    "Mu (KN-m)": 109.4
+  },
+  {
+    "Strands": 5,
+    "Span": 9.5,
+    "Capacity": 2.8,
+    "Thickness": "200 mm",
+    "Mu (KN-m)": 109.4
+  },
+  {
+    "Strands": 6,
+    "Span": 4.0,
+    "Capacity": 33.1,
+    "Thickness": "200 mm",
+    "Mu (KN-m)": 130.2
+  },
+  {
+    "Strands": 6,
+    "Span": 4.5,
+    "Capacity": 25.6,
+    "Thickness": "200 mm",
+    "Mu (KN-m)": 130.2
+  },
+  {
+    "Strands": 6,
+    "Span": 5.0,
+    "Capacity": 20.3,
+    "Thickness": "200 mm",
+    "Mu (KN-m)": 130.2
+  },
+  {
+    "Strands": 6,
+    "Span": 5.5,
+    "Capacity": 16.3,
+    "Thickness": "200 mm",
+    "Mu (KN-m)": 130.2
+  },
+  {
+    "Strands": 6,
+    "Span": 6.0,
+    "Capacity": 13.3,
+    "Thickness": "200 mm",
+    "Mu (KN-m)": 130.2
+  },
+  {
+    "Strands": 6,
+    "Span": 6.5,
+    "Capacity": 11.0,
+    "Thickness": "200 mm",
+    "Mu (KN-m)": 130.2
+  },
+  {
+    "Strands": 6,
+    "Span": 7.0,
+    "Capacity": 9.1,
+    "Thickness": "200 mm",
+    "Mu (KN-m)": 130.2
+  },
+  {
+    "Strands": 6,
+    "Span": 7.25,
+    "Capacity": 8.4,
+    "Thickness": "200 mm",
+    "Mu (KN-m)": 130.2
+  },
+  {
+    "Strands": 6,
+    "Span": 7.5,
+    "Capacity": 7.6,
+    "Thickness": "200 mm",
+    "Mu (KN-m)": 130.2
+  },
+  {
+    "Strands": 6,
+    "Span": 7.75,
+    "Capacity": 7.0,
+    "Thickness": "200 mm",
+    "Mu (KN-m)": 130.2
+  },
+  {
+    "Strands": 6,
+    "Span": 8.0,
+    "Capacity": 6.4,
+    "Thickness": "200 mm",
+    "Mu (KN-m)": 130.2
+  },
+  {
+    "Strands": 6,
+    "Span": 8.25,
+    "Capacity": 5.9,
+    "Thickness": "200 mm",
+    "Mu (KN-m)": 130.2
+  },
+  {
+    "Strands": 6,
+    "Span": 8.5,
+    "Capacity": 5.4,
+    "Thickness": "200 mm",
+    "Mu (KN-m)": 130.2
+  },
+  {
+    "Strands": 6,
+    "Span": 8.75,
+    "Capacity": 5.0,
+    "Thickness": "200 mm",
+    "Mu (KN-m)": 130.2
+  },
+  {
+    "Strands": 6,
+    "Span": 9.0,
+    "Capacity": 4.6,
+    "Thickness": "200 mm",
+    "Mu (KN-m)": 130.2
+  },
+  {
+    "Strands": 6,
+    "Span": 9.25,
+    "Capacity": 4.2,
+    "Thickness": "200 mm",
+    "Mu (KN-m)": 130.2
+  },
+  {
+    "Strands": 6,
+    "Span": 9.5,
+    "Capacity": 3.8,
+    "Thickness": "200 mm",
+    "Mu (KN-m)": 130.2
+  },
+  {
+    "Strands": 6,
+    "Span": 9.75,
+    "Capacity": 3.5,
+    "Thickness": "200 mm",
+    "Mu (KN-m)": 130.2
+  },
+  {
+    "Strands": 6,
+    "Span": 10.0,
+    "Capacity": 3.2,
+    "Thickness": "200 mm",
+    "Mu (KN-m)": 130.2
+  },
+  {
+    "Strands": 7,
+    "Span": 4.0,
+    "Capacity": 37.0,
+    "Thickness": "200 mm",
+    "Mu (KN-m)": 144.5
+  },
+  {
+    "Strands": 7,
+    "Span": 4.5,
+    "Capacity": 28.7,
+    "Thickness": "200 mm",
+    "Mu (KN-m)": 144.5
+  },
+  {
+    "Strands": 7,
+    "Span": 5.0,
+    "Capacity": 22.8,
+    "Thickness": "200 mm",
+    "Mu (KN-m)": 144.5
+  },
+  {
+    "Strands": 7,
+    "Span": 5.5,
+    "Capacity": 18.4,
+    "Thickness": "200 mm",
+    "Mu (KN-m)": 144.5
+  },
+  {
+    "Strands": 7,
+    "Span": 6.0,
+    "Capacity": 15.1,
+    "Thickness": "200 mm",
+    "Mu (KN-m)": 144.5
+  },
+  {
+    "Strands": 7,
+    "Span": 6.5,
+    "Capacity": 12.5,
+    "Thickness": "200 mm",
+    "Mu (KN-m)": 144.5
+  },
+  {
+    "Strands": 7,
+    "Span": 7.0,
+    "Capacity": 10.4,
+    "Thickness": "200 mm",
+    "Mu (KN-m)": 144.5
+  },
+  {
+    "Strands": 7,
+    "Span": 7.25,
+    "Capacity": 9.5,
+    "Thickness": "200 mm",
+    "Mu (KN-m)": 144.5
+  },
+  {
+    "Strands": 7,
+    "Span": 7.5,
+    "Capacity": 8.8,
+    "Thickness": "200 mm",
+    "Mu (KN-m)": 144.5
+  },
+  {
+    "Strands": 7,
+    "Span": 7.75,
+    "Capacity": 8.0,
+    "Thickness": "200 mm",
+    "Mu (KN-m)": 144.5
+  },
+  {
+    "Strands": 7,
+    "Span": 8.0,
+    "Capacity": 7.4,
+    "Thickness": "200 mm",
+    "Mu (KN-m)": 144.5
+  },
+  {
+    "Strands": 7,
+    "Span": 8.25,
+    "Capacity": 6.8,
+    "Thickness": "200 mm",
+    "Mu (KN-m)": 144.5
+  },
+  {
+    "Strands": 7,
+    "Span": 8.5,
+    "Capacity": 6.3,
+    "Thickness": "200 mm",
+    "Mu (KN-m)": 144.5
+  },
+  {
+    "Strands": 7,
+    "Span": 8.75,
+    "Capacity": 5.8,
+    "Thickness": "200 mm",
+    "Mu (KN-m)": 144.5
+  },
+  {
+    "Strands": 7,
+    "Span": 9.0,
+    "Capacity": 5.3,
+    "Thickness": "200 mm",
+    "Mu (KN-m)": 144.5
+  },
+  {
+    "Strands": 7,
+    "Span": 9.25,
+    "Capacity": 4.9,
+    "Thickness": "200 mm",
+    "Mu (KN-m)": 144.5
+  },
+  {
+    "Strands": 7,
+    "Span": 9.5,
+    "Capacity": 4.5,
+    "Thickness": "200 mm",
+    "Mu (KN-m)": 144.5
+  },
+  {
+    "Strands": 7,
+    "Span": 9.75,
+    "Capacity": 4.2,
+    "Thickness": "200 mm",
+    "Mu (KN-m)": 144.5
+  },
+  {
+    "Strands": 7,
+    "Span": 10.0,
+    "Capacity": 3.8,
+    "Thickness": "200 mm",
+    "Mu (KN-m)": 144.5
+  },
+  {
+    "Strands": 7,
+    "Span": 10.5,
+    "Capacity": 3.3,
+    "Thickness": "200 mm",
+    "Mu (KN-m)": 144.5
+  },
+  {
+    "Strands": 4,
+    "Span": 7.0,
+    "Capacity": 7.6,
+    "Thickness": "250 mm",
+    "Mu (KN-m)": 118.55
+  },
+  {
+    "Strands": 4,
+    "Span": 7.5,
+    "Capacity": 6.3,
+    "Thickness": "250 mm",
+    "Mu (KN-m)": 118.55
+  },
+  {
+    "Strands": 4,
+    "Span": 8.0,
+    "Capacity": 5.1,
+    "Thickness": "250 mm",
+    "Mu (KN-m)": 118.55
+  },
+  {
+    "Strands": 4,
+    "Span": 8.5,
+    "Capacity": 4.2,
+    "Thickness": "250 mm",
+    "Mu (KN-m)": 118.55
+  },
+  {
+    "Strands": 4,
+    "Span": 9.0,
+    "Capacity": 3.4,
+    "Thickness": "250 mm",
+    "Mu (KN-m)": 118.55
+  },
+  {
+    "Strands": 4,
+    "Span": 9.5,
+    "Capacity": 2.8,
+    "Thickness": "250 mm",
+    "Mu (KN-m)": 118.55
+  },
+  {
+    "Strands": 5,
+    "Span": 7.0,
+    "Capacity": 10.1,
+    "Thickness": "250 mm",
+    "Mu (KN-m)": 145.92
+  },
+  {
+    "Strands": 5,
+    "Span": 7.5,
+    "Capacity": 8.4,
+    "Thickness": "250 mm",
+    "Mu (KN-m)": 145.92
+  },
+  {
+    "Strands": 5,
+    "Span": 8.0,
+    "Capacity": 7.0,
+    "Thickness": "250 mm",
+    "Mu (KN-m)": 145.92
+  },
+  {
+    "Strands": 5,
+    "Span": 8.5,
+    "Capacity": 5.9,
+    "Thickness": "250 mm",
+    "Mu (KN-m)": 145.92
+  },
+  {
+    "Strands": 5,
+    "Span": 9.0,
+    "Capacity": 4.9,
+    "Thickness": "250 mm",
+    "Mu (KN-m)": 145.92
+  },
+  {
+    "Strands": 5,
+    "Span": 9.5,
+    "Capacity": 4.1,
+    "Thickness": "250 mm",
+    "Mu (KN-m)": 145.92
+  },
+  {
+    "Strands": 5,
+    "Span": 10.0,
+    "Capacity": 3.4,
+    "Thickness": "250 mm",
+    "Mu (KN-m)": 145.92
+  },
+  {
+    "Strands": 5,
+    "Span": 10.25,
+    "Capacity": 3.1,
+    "Thickness": "250 mm",
+    "Mu (KN-m)": 145.92
+  },
+  {
+    "Strands": 5,
+    "Span": 10.5,
+    "Capacity": 2.8,
+    "Thickness": "250 mm",
+    "Mu (KN-m)": 145.92
+  },
+  {
+    "Strands": 6,
+    "Span": 7.0,
+    "Capacity": 12.4,
+    "Thickness": "250 mm",
+    "Mu (KN-m)": 172.0
+  },
+  {
+    "Strands": 6,
+    "Span": 7.5,
+    "Capacity": 10.4,
+    "Thickness": "250 mm",
+    "Mu (KN-m)": 172.0
+  },
+  {
+    "Strands": 6,
+    "Span": 8.0,
+    "Capacity": 8.8,
+    "Thickness": "250 mm",
+    "Mu (KN-m)": 172.0
+  },
+  {
+    "Strands": 6,
+    "Span": 8.5,
+    "Capacity": 7.5,
+    "Thickness": "250 mm",
+    "Mu (KN-m)": 172.0
+  },
+  {
+    "Strands": 6,
+    "Span": 9.0,
+    "Capacity": 6.3,
+    "Thickness": "250 mm",
+    "Mu (KN-m)": 172.0
+  },
+  {
+    "Strands": 6,
+    "Span": 9.5,
+    "Capacity": 5.4,
+    "Thickness": "250 mm",
+    "Mu (KN-m)": 172.0
+  },
+  {
+    "Strands": 6,
+    "Span": 10.0,
+    "Capacity": 4.6,
+    "Thickness": "250 mm",
+    "Mu (KN-m)": 172.0
+  },
+  {
+    "Strands": 6,
+    "Span": 10.25,
+    "Capacity": 4.2,
+    "Thickness": "250 mm",
+    "Mu (KN-m)": 172.0
+  },
+  {
+    "Strands": 6,
+    "Span": 10.5,
+    "Capacity": 3.9,
+    "Thickness": "250 mm",
+    "Mu (KN-m)": 172.0
+  },
+  {
+    "Strands": 6,
+    "Span": 10.75,
+    "Capacity": 3.6,
+    "Thickness": "250 mm",
+    "Mu (KN-m)": 172.0
+  },
+  {
+    "Strands": 6,
+    "Span": 11.0,
+    "Capacity": 3.3,
+    "Thickness": "250 mm",
+    "Mu (KN-m)": 172.0
+  },
+  {
+    "Strands": 6,
+    "Span": 11.25,
+    "Capacity": 3.0,
+    "Thickness": "250 mm",
+    "Mu (KN-m)": 172.0
+  },
+  {
+    "Strands": 6,
+    "Span": 11.5,
+    "Capacity": 2.7,
+    "Thickness": "250 mm",
+    "Mu (KN-m)": 172.0
+  },
+  {
+    "Strands": 6,
+    "Span": 11.75,
+    "Capacity": 2.5,
+    "Thickness": "250 mm",
+    "Mu (KN-m)": 172.0
+  },
+  {
+    "Strands": 7,
+    "Span": 7.0,
+    "Capacity": 14.5,
+    "Thickness": "250 mm",
+    "Mu (KN-m)": 195.68
+  },
+  {
+    "Strands": 7,
+    "Span": 7.5,
+    "Capacity": 12.2,
+    "Thickness": "250 mm",
+    "Mu (KN-m)": 195.68
+  },
+  {
+    "Strands": 7,
+    "Span": 8.0,
+    "Capacity": 10.4,
+    "Thickness": "250 mm",
+    "Mu (KN-m)": 195.68
+  },
+  {
+    "Strands": 7,
+    "Span": 8.5,
+    "Capacity": 8.9,
+    "Thickness": "250 mm",
+    "Mu (KN-m)": 195.68
+  },
+  {
+    "Strands": 7,
+    "Span": 9.0,
+    "Capacity": 7.6,
+    "Thickness": "250 mm",
+    "Mu (KN-m)": 195.68
+  },
+  {
+    "Strands": 7,
+    "Span": 9.5,
+    "Capacity": 6.5,
+    "Thickness": "250 mm",
+    "Mu (KN-m)": 195.68
+  },
+  {
+    "Strands": 7,
+    "Span": 10.0,
+    "Capacity": 5.6,
+    "Thickness": "250 mm",
+    "Mu (KN-m)": 195.68
+  },
+  {
+    "Strands": 7,
+    "Span": 10.25,
+    "Capacity": 5.2,
+    "Thickness": "250 mm",
+    "Mu (KN-m)": 195.68
+  },
+  {
+    "Strands": 7,
+    "Span": 10.5,
+    "Capacity": 4.8,
+    "Thickness": "250 mm",
+    "Mu (KN-m)": 195.68
+  },
+  {
+    "Strands": 7,
+    "Span": 10.75,
+    "Capacity": 4.4,
+    "Thickness": "250 mm",
+    "Mu (KN-m)": 195.68
+  },
+  {
+    "Strands": 7,
+    "Span": 11.0,
+    "Capacity": 4.1,
+    "Thickness": "250 mm",
+    "Mu (KN-m)": 195.68
+  },
+  {
+    "Strands": 7,
+    "Span": 11.25,
+    "Capacity": 3.8,
+    "Thickness": "250 mm",
+    "Mu (KN-m)": 195.68
+  },
+  {
+    "Strands": 7,
+    "Span": 11.5,
+    "Capacity": 3.5,
+    "Thickness": "250 mm",
+    "Mu (KN-m)": 195.68
+  },
+  {
+    "Strands": 7,
+    "Span": 11.75,
+    "Capacity": 3.2,
+    "Thickness": "250 mm",
+    "Mu (KN-m)": 195.68
+  },
+  {
+    "Strands": 7,
+    "Span": 12.0,
+    "Capacity": 3.0,
+    "Thickness": "250 mm",
+    "Mu (KN-m)": 195.68
+  },
+  {
+    "Strands": 7,
+    "Span": 12.25,
+    "Capacity": 2.7,
+    "Thickness": "250 mm",
+    "Mu (KN-m)": 195.68
+  },
+  {
+    "Strands": 7,
+    "Span": 12.5,
+    "Capacity": 2.5,
+    "Thickness": "250 mm",
+    "Mu (KN-m)": 195.68
+  },
+  {
+    "Strands": 7,
+    "Span": 12.75,
+    "Capacity": 2.3,
+    "Thickness": "250 mm",
+    "Mu (KN-m)": 195.68
+  },
+  {
+    "Strands": 8,
+    "Span": 7.0,
+    "Capacity": 16.3,
+    "Thickness": "250 mm",
+    "Mu (KN-m)": 216.39
+  },
+  {
+    "Strands": 8,
+    "Span": 7.5,
+    "Capacity": 13.9,
+    "Thickness": "250 mm",
+    "Mu (KN-m)": 216.39
+  },
+  {
+    "Strands": 8,
+    "Span": 8.0,
+    "Capacity": 11.8,
+    "Thickness": "250 mm",
+    "Mu (KN-m)": 216.39
+  },
+  {
+    "Strands": 8,
+    "Span": 8.5,
+    "Capacity": 10.1,
+    "Thickness": "250 mm",
+    "Mu (KN-m)": 216.39
+  },
+  {
+    "Strands": 8,
+    "Span": 9.0,
+    "Capacity": 8.7,
+    "Thickness": "250 mm",
+    "Mu (KN-m)": 216.39
+  },
+  {
+    "Strands": 8,
+    "Span": 9.5,
+    "Capacity": 7.5,
+    "Thickness": "250 mm",
+    "Mu (KN-m)": 216.39
+  },
+  {
+    "Strands": 8,
+    "Span": 10.0,
+    "Capacity": 6.5,
+    "Thickness": "250 mm",
+    "Mu (KN-m)": 216.39
+  },
+  {
+    "Strands": 8,
+    "Span": 10.25,
+    "Capacity": 6.0,
+    "Thickness": "250 mm",
+    "Mu (KN-m)": 216.39
+  },
+  {
+    "Strands": 8,
+    "Span": 10.5,
+    "Capacity": 5.6,
+    "Thickness": "250 mm",
+    "Mu (KN-m)": 216.39
+  },
+  {
+    "Strands": 8,
+    "Span": 10.75,
+    "Capacity": 5.2,
+    "Thickness": "250 mm",
+    "Mu (KN-m)": 216.39
+  },
+  {
+    "Strands": 8,
+    "Span": 11.0,
+    "Capacity": 4.9,
+    "Thickness": "250 mm",
+    "Mu (KN-m)": 216.39
+  },
+  {
+    "Strands": 8,
+    "Span": 11.25,
+    "Capacity": 4.5,
+    "Thickness": "250 mm",
+    "Mu (KN-m)": 216.39
+  },
+  {
+    "Strands": 8,
+    "Span": 11.5,
+    "Capacity": 4.2,
+    "Thickness": "250 mm",
+    "Mu (KN-m)": 216.39
+  },
+  {
+    "Strands": 8,
+    "Span": 11.75,
+    "Capacity": 3.9,
+    "Thickness": "250 mm",
+    "Mu (KN-m)": 216.39
+  },
+  {
+    "Strands": 8,
+    "Span": 12.0,
+    "Capacity": 3.6,
+    "Thickness": "250 mm",
+    "Mu (KN-m)": 216.39
+  },
+  {
+    "Strands": 8,
+    "Span": 12.25,
+    "Capacity": 3.4,
+    "Thickness": "250 mm",
+    "Mu (KN-m)": 216.39
+  },
+  {
+    "Strands": 8,
+    "Span": 12.5,
+    "Capacity": 3.1,
+    "Thickness": "250 mm",
+    "Mu (KN-m)": 216.39
+  },
+  {
+    "Strands": 8,
+    "Span": 12.75,
+    "Capacity": 2.9,
+    "Thickness": "250 mm",
+    "Mu (KN-m)": 216.39
+  },
+  {
+    "Strands": 8,
+    "Span": 13.0,
+    "Capacity": 2.6,
+    "Thickness": "250 mm",
+    "Mu (KN-m)": 216.39
+  },
+  {
+    "Strands": 9,
+    "Span": 7.0,
+    "Capacity": 17.7,
+    "Thickness": "250 mm",
+    "Mu (KN-m)": 231.8
+  },
+  {
+    "Strands": 9,
+    "Span": 7.5,
+    "Capacity": 15.1,
+    "Thickness": "250 mm",
+    "Mu (KN-m)": 231.8
+  },
+  {
+    "Strands": 9,
+    "Span": 8.0,
+    "Capacity": 12.9,
+    "Thickness": "250 mm",
+    "Mu (KN-m)": 231.8
+  },
+  {
+    "Strands": 9,
+    "Span": 8.5,
+    "Capacity": 11.1,
+    "Thickness": "250 mm",
+    "Mu (KN-m)": 231.8
+  },
+  {
+    "Strands": 9,
+    "Span": 9.0,
+    "Capacity": 9.6,
+    "Thickness": "250 mm",
+    "Mu (KN-m)": 231.8
+  },
+  {
+    "Strands": 9,
+    "Span": 9.5,
+    "Capacity": 8.3,
+    "Thickness": "250 mm",
+    "Mu (KN-m)": 231.8
+  },
+  {
+    "Strands": 9,
+    "Span": 10.0,
+    "Capacity": 7.2,
+    "Thickness": "250 mm",
+    "Mu (KN-m)": 231.8
+  },
+  {
+    "Strands": 9,
+    "Span": 10.25,
+    "Capacity": 6.7,
+    "Thickness": "250 mm",
+    "Mu (KN-m)": 231.8
+  },
+  {
+    "Strands": 9,
+    "Span": 10.5,
+    "Capacity": 6.2,
+    "Thickness": "250 mm",
+    "Mu (KN-m)": 231.8
+  },
+  {
+    "Strands": 9,
+    "Span": 10.75,
+    "Capacity": 5.8,
+    "Thickness": "250 mm",
+    "Mu (KN-m)": 231.8
+  },
+  {
+    "Strands": 9,
+    "Span": 11.0,
+    "Capacity": 5.4,
+    "Thickness": "250 mm",
+    "Mu (KN-m)": 231.8
+  },
+  {
+    "Strands": 9,
+    "Span": 11.25,
+    "Capacity": 5.1,
+    "Thickness": "250 mm",
+    "Mu (KN-m)": 231.8
+  },
+  {
+    "Strands": 9,
+    "Span": 11.5,
+    "Capacity": 4.7,
+    "Thickness": "250 mm",
+    "Mu (KN-m)": 231.8
+  },
+  {
+    "Strands": 9,
+    "Span": 11.75,
+    "Capacity": 4.4,
+    "Thickness": "250 mm",
+    "Mu (KN-m)": 231.8
+  },
+  {
+    "Strands": 9,
+    "Span": 12.0,
+    "Capacity": 4.1,
+    "Thickness": "250 mm",
+    "Mu (KN-m)": 231.8
+  },
+  {
+    "Strands": 9,
+    "Span": 12.25,
+    "Capacity": 3.8,
+    "Thickness": "250 mm",
+    "Mu (KN-m)": 231.8
+  },
+  {
+    "Strands": 9,
+    "Span": 12.5,
+    "Capacity": 3.5,
+    "Thickness": "250 mm",
+    "Mu (KN-m)": 231.8
+  },
+  {
+    "Strands": 9,
+    "Span": 12.75,
+    "Capacity": 3.3,
+    "Thickness": "250 mm",
+    "Mu (KN-m)": 231.8
+  },
+  {
+    "Strands": 9,
+    "Span": 13.0,
+    "Capacity": 3.0,
+    "Thickness": "250 mm",
+    "Mu (KN-m)": 231.8
+  },
+  {
+    "Strands": 9,
+    "Span": 13.5,
+    "Capacity": 2.6,
+    "Thickness": "250 mm",
+    "Mu (KN-m)": 231.8
+  },
+  {
+    "Strands": 10,
+    "Span": 7.0,
+    "Capacity": 18.1,
+    "Thickness": "250 mm",
+    "Mu (KN-m)": 245.3
+  },
+  {
+    "Strands": 10,
+    "Span": 7.5,
+    "Capacity": 16.2,
+    "Thickness": "250 mm",
+    "Mu (KN-m)": 245.3
+  },
+  {
+    "Strands": 10,
+    "Span": 8.0,
+    "Capacity": 14.3,
+    "Thickness": "250 mm",
+    "Mu (KN-m)": 245.3
+  },
+  {
+    "Strands": 10,
+    "Span": 8.5,
+    "Capacity": 12.4,
+    "Thickness": "250 mm",
+    "Mu (KN-m)": 245.3
+  },
+  {
+    "Strands": 10,
+    "Span": 9.0,
+    "Capacity": 10.5,
+    "Thickness": "250 mm",
+    "Mu (KN-m)": 245.3
+  },
+  {
+    "Strands": 10,
+    "Span": 9.5,
+    "Capacity": 9.2,
+    "Thickness": "250 mm",
+    "Mu (KN-m)": 245.3
+  },
+  {
+    "Strands": 10,
+    "Span": 10.0,
+    "Capacity": 8.4,
+    "Thickness": "250 mm",
+    "Mu (KN-m)": 245.3
+  },
+  {
+    "Strands": 10,
+    "Span": 10.25,
+    "Capacity": 7.5,
+    "Thickness": "250 mm",
+    "Mu (KN-m)": 245.3
+  },
+  {
+    "Strands": 10,
+    "Span": 10.5,
+    "Capacity": 7.0,
+    "Thickness": "250 mm",
+    "Mu (KN-m)": 245.3
+  },
+  {
+    "Strands": 10,
+    "Span": 10.75,
+    "Capacity": 6.4,
+    "Thickness": "250 mm",
+    "Mu (KN-m)": 245.3
+  },
+  {
+    "Strands": 10,
+    "Span": 11.0,
+    "Capacity": 5.9,
+    "Thickness": "250 mm",
+    "Mu (KN-m)": 245.3
+  },
+  {
+    "Strands": 10,
+    "Span": 11.25,
+    "Capacity": 5.6,
+    "Thickness": "250 mm",
+    "Mu (KN-m)": 245.3
+  },
+  {
+    "Strands": 10,
+    "Span": 11.5,
+    "Capacity": 5.1,
+    "Thickness": "250 mm",
+    "Mu (KN-m)": 245.3
+  },
+  {
+    "Strands": 10,
+    "Span": 11.75,
+    "Capacity": 4.9,
+    "Thickness": "250 mm",
+    "Mu (KN-m)": 245.3
+  },
+  {
+    "Strands": 10,
+    "Span": 12.0,
+    "Capacity": 4.6,
+    "Thickness": "250 mm",
+    "Mu (KN-m)": 245.3
+  },
+  {
+    "Strands": 10,
+    "Span": 12.25,
+    "Capacity": 4.2,
+    "Thickness": "250 mm",
+    "Mu (KN-m)": 245.3
+  },
+  {
+    "Strands": 10,
+    "Span": 12.5,
+    "Capacity": 4.0,
+    "Thickness": "250 mm",
+    "Mu (KN-m)": 245.3
+  },
+  {
+    "Strands": 10,
+    "Span": 12.75,
+    "Capacity": 3.7,
+    "Thickness": "250 mm",
+    "Mu (KN-m)": 245.3
+  },
+  {
+    "Strands": 10,
+    "Span": 13.0,
+    "Capacity": 3.4,
+    "Thickness": "250 mm",
+    "Mu (KN-m)": 245.3
+  },
+  {
+    "Strands": 10,
+    "Span": 13.5,
+    "Capacity": 2.9,
+    "Thickness": "250 mm",
+    "Mu (KN-m)": 245.3
+  },  
+  {
+    "Strands": 5,
+    "Span": 9.5,
+    "Capacity": 5.9,
+    "Thickness": "300 mm",
+    "Mu (KN-m)": 192.5
+  },
+  {
+    "Strands": 5,
+    "Span": 10.0,
+    "Capacity": 5.0,
+    "Thickness": "300 mm",
+    "Mu (KN-m)": 192.5
+  },
+  {
+    "Strands": 5,
+    "Span": 10.5,
+    "Capacity": 4.2,
+    "Thickness": "300 mm",
+    "Mu (KN-m)": 192.5
+  },
+  {
+    "Strands": 5,
+    "Span": 11.0,
+    "Capacity": 3.5,
+    "Thickness": "300 mm",
+    "Mu (KN-m)": 192.5
+  },
+  {
+    "Strands": 5,
+    "Span": 11.5,
+    "Capacity": 2.9,
+    "Thickness": "300 mm",
+    "Mu (KN-m)": 192.5
+  },
+  {
+    "Strands": 5,
+    "Span": 12.0,
+    "Capacity": 2.4,
+    "Thickness": "300 mm",
+    "Mu (KN-m)": 192.5
+  },
+  {
+    "Strands": 6,
+    "Span": 9.5,
+    "Capacity": 7.5,
+    "Thickness": "300 mm",
+    "Mu (KN-m)": 226.0
+  },
+  {
+    "Strands": 6,
+    "Span": 10.0,
+    "Capacity": 6.4,
+    "Thickness": "300 mm",
+    "Mu (KN-m)": 226.0
+  },
+  {
+    "Strands": 6,
+    "Span": 10.5,
+    "Capacity": 5.5,
+    "Thickness": "300 mm",
+    "Mu (KN-m)": 226.0
+  },
+  {
+    "Strands": 6,
+    "Span": 11.0,
+    "Capacity": 4.7,
+    "Thickness": "300 mm",
+    "Mu (KN-m)": 226.0
+  },
+  {
+    "Strands": 6,
+    "Span": 11.5,
+    "Capacity": 4.0,
+    "Thickness": "300 mm",
+    "Mu (KN-m)": 226.0
+  },
+  {
+    "Strands": 6,
+    "Span": 12.0,
+    "Capacity": 3.4,
+    "Thickness": "300 mm",
+    "Mu (KN-m)": 226.0
+  },
+  {
+    "Strands": 6,
+    "Span": 12.25,
+    "Capacity": 3.1,
+    "Thickness": "300 mm",
+    "Mu (KN-m)": 226.0
+  },
+  {
+    "Strands": 6,
+    "Span": 12.5,
+    "Capacity": 2.9,
+    "Thickness": "300 mm",
+    "Mu (KN-m)": 226.0
+  },
+  {
+    "Strands": 6,
+    "Span": 12.75,
+    "Capacity": 2.6,
+    "Thickness": "300 mm",
+    "Mu (KN-m)": 226.0
+  },
+  {
+    "Strands": 7,
+    "Span": 9.5,
+    "Capacity": 8.9,
+    "Thickness": "300 mm",
+    "Mu (KN-m)": 255.3
+  },
+  {
+    "Strands": 7,
+    "Span": 10.0,
+    "Capacity": 7.7,
+    "Thickness": "300 mm",
+    "Mu (KN-m)": 255.3
+  },
+  {
+    "Strands": 7,
+    "Span": 10.5,
+    "Capacity": 6.7,
+    "Thickness": "300 mm",
+    "Mu (KN-m)": 255.3
+  },
+  {
+    "Strands": 7,
+    "Span": 11.0,
+    "Capacity": 5.8,
+    "Thickness": "300 mm",
+    "Mu (KN-m)": 255.3
+  },
+  {
+    "Strands": 7,
+    "Span": 11.5,
+    "Capacity": 5.0,
+    "Thickness": "300 mm",
+    "Mu (KN-m)": 255.3
+  },
+  {
+    "Strands": 7,
+    "Span": 12.0,
+    "Capacity": 4.3,
+    "Thickness": "300 mm",
+    "Mu (KN-m)": 255.3
+  },
+  {
+    "Strands": 7,
+    "Span": 12.25,
+    "Capacity": 4.0,
+    "Thickness": "300 mm",
+    "Mu (KN-m)": 255.3
+  },
+  {
+    "Strands": 7,
+    "Span": 12.5,
+    "Capacity": 3.7,
+    "Thickness": "300 mm",
+    "Mu (KN-m)": 255.3
+  },
+  {
+    "Strands": 7,
+    "Span": 12.75,
+    "Capacity": 3.4,
+    "Thickness": "300 mm",
+    "Mu (KN-m)": 255.3
+  },
+  {
+    "Strands": 7,
+    "Span": 13.0,
+    "Capacity": 3.2,
+    "Thickness": "300 mm",
+    "Mu (KN-m)": 255.3
+  },
+  {
+    "Strands": 7,
+    "Span": 13.25,
+    "Capacity": 2.9,
+    "Thickness": "300 mm",
+    "Mu (KN-m)": 255.3
+  },
+  {
+    "Strands": 7,
+    "Span": 13.5,
+    "Capacity": 2.7,
+    "Thickness": "300 mm",
+    "Mu (KN-m)": 255.3
+  },
+  {
+    "Strands": 7,
+    "Span": 13.75,
+    "Capacity": 2.5,
+    "Thickness": "300 mm",
+    "Mu (KN-m)": 255.3
+  },
+  {
+    "Strands": 7,
+    "Span": 14.0,
+    "Capacity": 2.3,
+    "Thickness": "300 mm",
+    "Mu (KN-m)": 255.3
+  },
+  {
+    "Strands": 8,
+    "Span": 9.5,
+    "Capacity": 10.2,
+    "Thickness": "300 mm",
+    "Mu (KN-m)": 281.5
+  },
+  {
+    "Strands": 8,
+    "Span": 10.0,
+    "Capacity": 8.9,
+    "Thickness": "300 mm",
+    "Mu (KN-m)": 281.5
+  },
+  {
+    "Strands": 8,
+    "Span": 10.5,
+    "Capacity": 7.7,
+    "Thickness": "300 mm",
+    "Mu (KN-m)": 281.5
+  },
+  {
+    "Strands": 8,
+    "Span": 11.0,
+    "Capacity": 6.7,
+    "Thickness": "300 mm",
+    "Mu (KN-m)": 281.5
+  },
+  {
+    "Strands": 8,
+    "Span": 11.5,
+    "Capacity": 5.9,
+    "Thickness": "300 mm",
+    "Mu (KN-m)": 281.5
+  },
+  {
+    "Strands": 8,
+    "Span": 12.0,
+    "Capacity": 5.1,
+    "Thickness": "300 mm",
+    "Mu (KN-m)": 281.5
+  },
+  {
+    "Strands": 8,
+    "Span": 12.25,
+    "Capacity": 4.8,
+    "Thickness": "300 mm",
+    "Mu (KN-m)": 281.5
+  },
+  {
+    "Strands": 8,
+    "Span": 12.5,
+    "Capacity": 4.4,
+    "Thickness": "300 mm",
+    "Mu (KN-m)": 281.5
+  },
+  {
+    "Strands": 8,
+    "Span": 12.75,
+    "Capacity": 4.1,
+    "Thickness": "300 mm",
+    "Mu (KN-m)": 281.5
+  },
+  {
+    "Strands": 8,
+    "Span": 13.0,
+    "Capacity": 3.8,
+    "Thickness": "300 mm",
+    "Mu (KN-m)": 281.5
+  },
+  {
+    "Strands": 8,
+    "Span": 13.25,
+    "Capacity": 3.6,
+    "Thickness": "300 mm",
+    "Mu (KN-m)": 281.5
+  },
+  {
+    "Strands": 8,
+    "Span": 13.5,
+    "Capacity": 3.3,
+    "Thickness": "300 mm",
+    "Mu (KN-m)": 281.5
+  },
+  {
+    "Strands": 8,
+    "Span": 13.75,
+    "Capacity": 3.1,
+    "Thickness": "300 mm",
+    "Mu (KN-m)": 281.5
+  },
+  {
+    "Strands": 8,
+    "Span": 14.0,
+    "Capacity": 2.8,
+    "Thickness": "300 mm",
+    "Mu (KN-m)": 281.5
+  },
+  {
+    "Strands": 8,
+    "Span": 14.25,
+    "Capacity": 2.6,
+    "Thickness": "300 mm",
+    "Mu (KN-m)": 281.5
+  },
+  {
+    "Strands": 8,
+    "Span": 14.5,
+    "Capacity": 2.4,
+    "Thickness": "300 mm",
+    "Mu (KN-m)": 281.5
+  },
+  {
+    "Strands": 8,
+    "Span": 14.75,
+    "Capacity": 2.2,
+    "Thickness": "300 mm",
+    "Mu (KN-m)": 281.5
+  },
+  {
+    "Strands": 8,
+    "Span": 15.0,
+    "Capacity": 2.0,
+    "Thickness": "300 mm",
+    "Mu (KN-m)": 281.5
+  },
+  {
+    "Strands": 9,
+    "Span": 9.5,
+    "Capacity": 12.6,
+    "Thickness": "300 mm",
+    "Mu (KN-m)": 330.9
+  },
+  {
+    "Strands": 9,
+    "Span": 10.0,
+    "Capacity": 11.0,
+    "Thickness": "300 mm",
+    "Mu (KN-m)": 330.9
+  },
+  {
+    "Strands": 9,
+    "Span": 10.5,
+    "Capacity": 9.7,
+    "Thickness": "300 mm",
+    "Mu (KN-m)": 330.9
+  },
+  {
+    "Strands": 9,
+    "Span": 11.0,
+    "Capacity": 8.5,
+    "Thickness": "300 mm",
+    "Mu (KN-m)": 330.9
+  },
+  {
+    "Strands": 9,
+    "Span": 11.5,
+    "Capacity": 7.5,
+    "Thickness": "300 mm",
+    "Mu (KN-m)": 330.9
+  },
+  {
+    "Strands": 9,
+    "Span": 12.0,
+    "Capacity": 6.6,
+    "Thickness": "300 mm",
+    "Mu (KN-m)": 330.9
+  },
+  {
+    "Strands": 9,
+    "Span": 12.25,
+    "Capacity": 6.2,
+    "Thickness": "300 mm",
+    "Mu (KN-m)": 330.9
+  },
+  {
+    "Strands": 9,
+    "Span": 12.5,
+    "Capacity": 5.8,
+    "Thickness": "300 mm",
+    "Mu (KN-m)": 330.9
+  },
+  {
+    "Strands": 9,
+    "Span": 12.75,
+    "Capacity": 5.5,
+    "Thickness": "300 mm",
+    "Mu (KN-m)": 330.9
+  },
+  {
+    "Strands": 9,
+    "Span": 13.0,
+    "Capacity": 5.1,
+    "Thickness": "300 mm",
+    "Mu (KN-m)": 330.9
+  },
+  {
+    "Strands": 9,
+    "Span": 13.25,
+    "Capacity": 4.8,
+    "Thickness": "300 mm",
+    "Mu (KN-m)": 330.9
+  },
+  {
+    "Strands": 9,
+    "Span": 13.5,
+    "Capacity": 4.5,
+    "Thickness": "300 mm",
+    "Mu (KN-m)": 330.9
+  },
+  {
+    "Strands": 9,
+    "Span": 13.75,
+    "Capacity": 4.2,
+    "Thickness": "300 mm",
+    "Mu (KN-m)": 330.9
+  },
+  {
+    "Strands": 9,
+    "Span": 14.0,
+    "Capacity": 3.9,
+    "Thickness": "300 mm",
+    "Mu (KN-m)": 330.9
+  },
+  {
+    "Strands": 9,
+    "Span": 14.25,
+    "Capacity": 3.7,
+    "Thickness": "300 mm",
+    "Mu (KN-m)": 330.9
+  },
+  {
+    "Strands": 9,
+    "Span": 14.5,
+    "Capacity": 3.4,
+    "Thickness": "300 mm",
+    "Mu (KN-m)": 330.9
+  },
+  {
+    "Strands": 9,
+    "Span": 14.75,
+    "Capacity": 3.2,
+    "Thickness": "300 mm",
+    "Mu (KN-m)": 330.9
+  },
+  {
+    "Strands": 9,
+    "Span": 15.0,
+    "Capacity": 3.0,
+    "Thickness": "300 mm",
+    "Mu (KN-m)": 330.9
+  },
+  {
+    "Strands": 9,
+    "Span": 15.25,
+    "Capacity": 2.7,
+    "Thickness": "300 mm",
+    "Mu (KN-m)": 330.9
+  },
+  {
+    "Strands": 10,
+    "Span": 9.5,
+    "Capacity": 12.7,
+    "Thickness": "300 mm",
+    "Mu (KN-m)": 334.3
+  },
+  {
+    "Strands": 10,
+    "Span": 10.0,
+    "Capacity": 11.2,
+    "Thickness": "300 mm",
+    "Mu (KN-m)": 334.3
+  },
+  {
+    "Strands": 10,
+    "Span": 10.5,
+    "Capacity": 9.8,
+    "Thickness": "300 mm",
+    "Mu (KN-m)": 334.3
+  },
+  {
+    "Strands": 10,
+    "Span": 11.0,
+    "Capacity": 8.6,
+    "Thickness": "300 mm",
+    "Mu (KN-m)": 334.3
+  },
+  {
+    "Strands": 10,
+    "Span": 11.5,
+    "Capacity": 7.6,
+    "Thickness": "300 mm",
+    "Mu (KN-m)": 334.3
+  },
+  {
+    "Strands": 10,
+    "Span": 12.0,
+    "Capacity": 6.7,
+    "Thickness": "300 mm",
+    "Mu (KN-m)": 334.3
+  },
+  {
+    "Strands": 10,
+    "Span": 12.25,
+    "Capacity": 6.3,
+    "Thickness": "300 mm",
+    "Mu (KN-m)": 334.3
+  },
+  {
+    "Strands": 10,
+    "Span": 12.5,
+    "Capacity": 5.9,
+    "Thickness": "300 mm",
+    "Mu (KN-m)": 334.3
+  },
+  {
+    "Strands": 10,
+    "Span": 12.75,
+    "Capacity": 5.6,
+    "Thickness": "300 mm",
+    "Mu (KN-m)": 334.3
+  },
+  {
+    "Strands": 10,
+    "Span": 13.0,
+    "Capacity": 5.2,
+    "Thickness": "300 mm",
+    "Mu (KN-m)": 334.3
+  },
+  {
+    "Strands": 10,
+    "Span": 13.25,
+    "Capacity": 4.9,
+    "Thickness": "300 mm",
+    "Mu (KN-m)": 334.3
+  },
+  {
+    "Strands": 10,
+    "Span": 13.5,
+    "Capacity": 4.6,
+    "Thickness": "300 mm",
+    "Mu (KN-m)": 334.3
+  },
+  {
+    "Strands": 10,
+    "Span": 13.75,
+    "Capacity": 4.3,
+    "Thickness": "300 mm",
+    "Mu (KN-m)": 334.3
+  },
+  {
+    "Strands": 10,
+    "Span": 14.0,
+    "Capacity": 4.0,
+    "Thickness": "300 mm",
+    "Mu (KN-m)": 334.3
+  },
+  {
+    "Strands": 10,
+    "Span": 14.25,
+    "Capacity": 3.8,
+    "Thickness": "300 mm",
+    "Mu (KN-m)": 334.3
+  },
+  {
+    "Strands": 10,
+    "Span": 14.5,
+    "Capacity": 3.5,
+    "Thickness": "300 mm",
+    "Mu (KN-m)": 334.3
+  },
+  {
+    "Strands": 10,
+    "Span": 14.75,
+    "Capacity": 3.3,
+    "Thickness": "300 mm",
+    "Mu (KN-m)": 334.3
+  },
+  {
+    "Strands": 10,
+    "Span": 15.0,
+    "Capacity": 3.1,
+    "Thickness": "300 mm",
+    "Mu (KN-m)": 334.3
+  },
+  {
+    "Strands": 10,
+    "Span": 15.25,
+    "Capacity": 2.8,
+    "Thickness": "300 mm",
+    "Mu (KN-m)": 334.3
+  },
+  {
+    "Strands": 10,
+    "Span": 15.5,
+    "Capacity": 2.6,
+    "Thickness": "300 mm",
+    "Mu (KN-m)": 334.3
+  },
+  {
+    "Strands": 11,
+    "Span": 9.5,
+    "Capacity": 13.7,
+    "Thickness": "300 mm",
+    "Mu (KN-m)": 353.3
+  },
+  {
+    "Strands": 11,
+    "Span": 10.0,
+    "Capacity": 12.0,
+    "Thickness": "300 mm",
+    "Mu (KN-m)": 353.3
+  },
+  {
+    "Strands": 11,
+    "Span": 10.5,
+    "Capacity": 10.6,
+    "Thickness": "300 mm",
+    "Mu (KN-m)": 353.3
+  },
+  {
+    "Strands": 11,
+    "Span": 11.0,
+    "Capacity": 9.3,
+    "Thickness": "300 mm",
+    "Mu (KN-m)": 353.3
+  },
+  {
+    "Strands": 11,
+    "Span": 11.5,
+    "Capacity": 8.2,
+    "Thickness": "300 mm",
+    "Mu (KN-m)": 353.3
+  },
+  {
+    "Strands": 11,
+    "Span": 12.0,
+    "Capacity": 7.3,
+    "Thickness": "300 mm",
+    "Mu (KN-m)": 353.3
+  },
+  {
+    "Strands": 11,
+    "Span": 12.25,
+    "Capacity": 6.9,
+    "Thickness": "300 mm",
+    "Mu (KN-m)": 353.3
+  },
+  {
+    "Strands": 11,
+    "Span": 12.5,
+    "Capacity": 6.4,
+    "Thickness": "300 mm",
+    "Mu (KN-m)": 353.3
+  },
+  {
+    "Strands": 11,
+    "Span": 12.75,
+    "Capacity": 6.1,
+    "Thickness": "300 mm",
+    "Mu (KN-m)": 353.3
+  },
+  {
+    "Strands": 11,
+    "Span": 13.0,
+    "Capacity": 5.7,
+    "Thickness": "300 mm",
+    "Mu (KN-m)": 353.3
+  },
+  {
+    "Strands": 11,
+    "Span": 13.25,
+    "Capacity": 5.4,
+    "Thickness": "300 mm",
+    "Mu (KN-m)": 353.3
+  },
+  {
+    "Strands": 11,
+    "Span": 13.5,
+    "Capacity": 5.0,
+    "Thickness": "300 mm",
+    "Mu (KN-m)": 353.3
+  },
+  {
+    "Strands": 11,
+    "Span": 13.75,
+    "Capacity": 4.7,
+    "Thickness": "300 mm",
+    "Mu (KN-m)": 353.3
+  },
+  {
+    "Strands": 11,
+    "Span": 14.0,
+    "Capacity": 4.4,
+    "Thickness": "300 mm",
+    "Mu (KN-m)": 353.3
+  },
+  {
+    "Strands": 11,
+    "Span": 14.25,
+    "Capacity": 4.2,
+    "Thickness": "300 mm",
+    "Mu (KN-m)": 353.3
+  },
+  {
+    "Strands": 11,
+    "Span": 14.5,
+    "Capacity": 3.9,
+    "Thickness": "300 mm",
+    "Mu (KN-m)": 353.3
+  },
+  {
+    "Strands": 11,
+    "Span": 14.75,
+    "Capacity": 3.7,
+    "Thickness": "300 mm",
+    "Mu (KN-m)": 353.3
+  },
+  {
+    "Strands": 11,
+    "Span": 15.0,
+    "Capacity": 3.4,
+    "Thickness": "300 mm",
+    "Mu (KN-m)": 353.3
+  },
+  {
+    "Strands": 11,
+    "Span": 15.25,
+    "Capacity": 3.2,
+    "Thickness": "300 mm",
+    "Mu (KN-m)": 353.3
+  },
+  {
+    "Strands": 11,
+    "Span": 15.5,
+    "Capacity": 3.0,
+    "Thickness": "300 mm",
+    "Mu (KN-m)": 353.3
+  },
+  {
+    "Strands": 5,
+    "Span": 9.5,
+    "Capacity": 6.9,
+    "Thickness": "350 mm",
+    "Mu (KN-m)": 221.0
+  },
+  {
+    "Strands": 5,
+    "Span": 10.0,
+    "Capacity": 5.9,
+    "Thickness": "350 mm",
+    "Mu (KN-m)": 221.0
+  },
+  {
+    "Strands": 5,
+    "Span": 10.5,
+    "Capacity": 5.0,
+    "Thickness": "350 mm",
+    "Mu (KN-m)": 221.0
+  },
+  {
+    "Strands": 5,
+    "Span": 11.0,
+    "Capacity": 4.2,
+    "Thickness": "350 mm",
+    "Mu (KN-m)": 221.0
+  },
+  {
+    "Strands": 5,
+    "Span": 11.5,
+    "Capacity": 3.5,
+    "Thickness": "350 mm",
+    "Mu (KN-m)": 221.0
+  },
+  {
+    "Strands": 5,
+    "Span": 12.0,
+    "Capacity": 2.9,
+    "Thickness": "350 mm",
+    "Mu (KN-m)": 221.0
+  },
+  {
+    "Strands": 6,
+    "Span": 9.5,
+    "Capacity": 8.9,
+    "Thickness": "350 mm",
+    "Mu (KN-m)": 262.0
+  },
+  {
+    "Strands": 6,
+    "Span": 10.0,
+    "Capacity": 7.7,
+    "Thickness": "350 mm",
+    "Mu (KN-m)": 262.0
+  },
+  {
+    "Strands": 6,
+    "Span": 10.5,
+    "Capacity": 6.6,
+    "Thickness": "350 mm",
+    "Mu (KN-m)": 262.0
+  },
+  {
+    "Strands": 6,
+    "Span": 11.0,
+    "Capacity": 5.7,
+    "Thickness": "350 mm",
+    "Mu (KN-m)": 262.0
+  },
+  {
+    "Strands": 6,
+    "Span": 11.5,
+    "Capacity": 4.9,
+    "Thickness": "350 mm",
+    "Mu (KN-m)": 262.0
+  },
+  {
+    "Strands": 6,
+    "Span": 12.0,
+    "Capacity": 4.2,
+    "Thickness": "350 mm",
+    "Mu (KN-m)": 262.0
+  },
+  {
+    "Strands": 6,
+    "Span": 12.25,
+    "Capacity": 3.9,
+    "Thickness": "350 mm",
+    "Mu (KN-m)": 262.0
+  },
+  {
+    "Strands": 6,
+    "Span": 12.5,
+    "Capacity": 3.6,
+    "Thickness": "350 mm",
+    "Mu (KN-m)": 262.0
+  },
+  {
+    "Strands": 6,
+    "Span": 12.75,
+    "Capacity": 3.3,
+    "Thickness": "350 mm",
+    "Mu (KN-m)": 262.0
+  },
+  {
+    "Strands": 7,
+    "Span": 9.5,
+    "Capacity": 10.9,
+    "Thickness": "350 mm",
+    "Mu (KN-m)": 303.0
+  },
+  {
+    "Strands": 7,
+    "Span": 10.0,
+    "Capacity": 9.5,
+    "Thickness": "350 mm",
+    "Mu (KN-m)": 303.0
+  },
+  {
+    "Strands": 7,
+    "Span": 10.5,
+    "Capacity": 8.2,
+    "Thickness": "350 mm",
+    "Mu (KN-m)": 303.0
+  },
+  {
+    "Strands": 7,
+    "Span": 11.0,
+    "Capacity": 7.2,
+    "Thickness": "350 mm",
+    "Mu (KN-m)": 303.0
+  },
+  {
+    "Strands": 7,
+    "Span": 11.5,
+    "Capacity": 6.2,
+    "Thickness": "350 mm",
+    "Mu (KN-m)": 303.0
+  },
+  {
+    "Strands": 7,
+    "Span": 12.0,
+    "Capacity": 5.4,
+    "Thickness": "350 mm",
+    "Mu (KN-m)": 303.0
+  },
+  {
+    "Strands": 7,
+    "Span": 12.25,
+    "Capacity": 5.1,
+    "Thickness": "350 mm",
+    "Mu (KN-m)": 303.0
+  },
+  {
+    "Strands": 7,
+    "Span": 12.5,
+    "Capacity": 4.7,
+    "Thickness": "350 mm",
+    "Mu (KN-m)": 303.0
+  },
+  {
+    "Strands": 7,
+    "Span": 12.75,
+    "Capacity": 4.4,
+    "Thickness": "350 mm",
+    "Mu (KN-m)": 303.0
+  },
+  {
+    "Strands": 7,
+    "Span": 13.0,
+    "Capacity": 4.1,
+    "Thickness": "350 mm",
+    "Mu (KN-m)": 303.0
+  },
+  {
+    "Strands": 7,
+    "Span": 13.25,
+    "Capacity": 3.8,
+    "Thickness": "350 mm",
+    "Mu (KN-m)": 303.0
+  },
+  {
+    "Strands": 7,
+    "Span": 13.5,
+    "Capacity": 3.5,
+    "Thickness": "350 mm",
+    "Mu (KN-m)": 303.0
+  },
+  {
+    "Strands": 7,
+    "Span": 13.75,
+    "Capacity": 3.2,
+    "Thickness": "350 mm",
+    "Mu (KN-m)": 303.0
+  },
+  {
+    "Strands": 7,
+    "Span": 14.0,
+    "Capacity": 3.0,
+    "Thickness": "350 mm",
+    "Mu (KN-m)": 303.0
+  },
+  {
+    "Strands": 8,
+    "Span": 9.5,
+    "Capacity": 12.8,
+    "Thickness": "350 mm",
+    "Mu (KN-m)": 343.0
+  },
+  {
+    "Strands": 8,
+    "Span": 10.0,
+    "Capacity": 11.2,
+    "Thickness": "350 mm",
+    "Mu (KN-m)": 343.0
+  },
+  {
+    "Strands": 8,
+    "Span": 10.5,
+    "Capacity": 9.8,
+    "Thickness": "350 mm",
+    "Mu (KN-m)": 343.0
+  },
+  {
+    "Strands": 8,
+    "Span": 11.0,
+    "Capacity": 8.6,
+    "Thickness": "350 mm",
+    "Mu (KN-m)": 343.0
+  },
+  {
+    "Strands": 8,
+    "Span": 11.5,
+    "Capacity": 7.6,
+    "Thickness": "350 mm",
+    "Mu (KN-m)": 343.0
+  },
+  {
+    "Strands": 8,
+    "Span": 12.0,
+    "Capacity": 6.6,
+    "Thickness": "350 mm",
+    "Mu (KN-m)": 343.0
+  },
+  {
+    "Strands": 8,
+    "Span": 12.25,
+    "Capacity": 6.2,
+    "Thickness": "350 mm",
+    "Mu (KN-m)": 343.0
+  },
+  {
+    "Strands": 8,
+    "Span": 12.5,
+    "Capacity": 5.8,
+    "Thickness": "350 mm",
+    "Mu (KN-m)": 343.0
+  },
+  {
+    "Strands": 8,
+    "Span": 12.75,
+    "Capacity": 5.5,
+    "Thickness": "350 mm",
+    "Mu (KN-m)": 343.0
+  },
+  {
+    "Strands": 8,
+    "Span": 13.0,
+    "Capacity": 5.1,
+    "Thickness": "350 mm",
+    "Mu (KN-m)": 343.0
+  },
+  {
+    "Strands": 8,
+    "Span": 13.25,
+    "Capacity": 4.8,
+    "Thickness": "350 mm",
+    "Mu (KN-m)": 343.0
+  },
+  {
+    "Strands": 8,
+    "Span": 13.5,
+    "Capacity": 4.5,
+    "Thickness": "350 mm",
+    "Mu (KN-m)": 343.0
+  },
+  {
+    "Strands": 8,
+    "Span": 13.75,
+    "Capacity": 4.2,
+    "Thickness": "350 mm",
+    "Mu (KN-m)": 343.0
+  },
+  {
+    "Strands": 8,
+    "Span": 14.0,
+    "Capacity": 3.9,
+    "Thickness": "350 mm",
+    "Mu (KN-m)": 343.0
+  },
+  {
+    "Strands": 8,
+    "Span": 14.25,
+    "Capacity": 3.6,
+    "Thickness": "350 mm",
+    "Mu (KN-m)": 343.0
+  },
+  {
+    "Strands": 8,
+    "Span": 14.5,
+    "Capacity": 3.4,
+    "Thickness": "350 mm",
+    "Mu (KN-m)": 343.0
+  },
+  {
+    "Strands": 8,
+    "Span": 14.75,
+    "Capacity": 3.1,
+    "Thickness": "350 mm",
+    "Mu (KN-m)": 343.0
+  },
+  {
+    "Strands": 8,
+    "Span": 15.0,
+    "Capacity": 2.9,
+    "Thickness": "350 mm",
+    "Mu (KN-m)": 343.0
+  },
+  {
+    "Strands": 9,
+    "Span": 9.5,
+    "Capacity": 14.7,
+    "Thickness": "350 mm",
+    "Mu (KN-m)": 382.0
+  },
+  {
+    "Strands": 9,
+    "Span": 10.0,
+    "Capacity": 12.9,
+    "Thickness": "350 mm",
+    "Mu (KN-m)": 382.0
+  },
+  {
+    "Strands": 9,
+    "Span": 10.5,
+    "Capacity": 11.4,
+    "Thickness": "350 mm",
+    "Mu (KN-m)": 382.0
+  },
+  {
+    "Strands": 9,
+    "Span": 11.0,
+    "Capacity": 10.0,
+    "Thickness": "350 mm",
+    "Mu (KN-m)": 382.0
+  },
+  {
+    "Strands": 9,
+    "Span": 11.5,
+    "Capacity": 8.9,
+    "Thickness": "350 mm",
+    "Mu (KN-m)": 382.0
+  },
+  {
+    "Strands": 9,
+    "Span": 12.0,
+    "Capacity": 7.8,
+    "Thickness": "350 mm",
+    "Mu (KN-m)": 382.0
+  },
+  {
+    "Strands": 9,
+    "Span": 12.25,
+    "Capacity": 7.4,
+    "Thickness": "350 mm",
+    "Mu (KN-m)": 382.0
+  },
+  {
+    "Strands": 9,
+    "Span": 12.5,
+    "Capacity": 6.9,
+    "Thickness": "350 mm",
+    "Mu (KN-m)": 382.0
+  },
+  {
+    "Strands": 9,
+    "Span": 12.75,
+    "Capacity": 6.5,
+    "Thickness": "350 mm",
+    "Mu (KN-m)": 382.0
+  },
+  {
+    "Strands": 9,
+    "Span": 13.0,
+    "Capacity": 6.1,
+    "Thickness": "350 mm",
+    "Mu (KN-m)": 382.0
+  },
+  {
+    "Strands": 9,
+    "Span": 13.25,
+    "Capacity": 5.7,
+    "Thickness": "350 mm",
+    "Mu (KN-m)": 382.0
+  },
+  {
+    "Strands": 9,
+    "Span": 13.5,
+    "Capacity": 5.4,
+    "Thickness": "350 mm",
+    "Mu (KN-m)": 382.0
+  },
+  {
+    "Strands": 9,
+    "Span": 13.75,
+    "Capacity": 5.1,
+    "Thickness": "350 mm",
+    "Mu (KN-m)": 382.0
+  },
+  {
+    "Strands": 9,
+    "Span": 14.0,
+    "Capacity": 4.7,
+    "Thickness": "350 mm",
+    "Mu (KN-m)": 382.0
+  },
+  {
+    "Strands": 9,
+    "Span": 14.25,
+    "Capacity": 4.5,
+    "Thickness": "350 mm",
+    "Mu (KN-m)": 382.0
+  },
+  {
+    "Strands": 9,
+    "Span": 14.5,
+    "Capacity": 4.2,
+    "Thickness": "350 mm",
+    "Mu (KN-m)": 382.0
+  },
+  {
+    "Strands": 9,
+    "Span": 14.75,
+    "Capacity": 3.9,
+    "Thickness": "350 mm",
+    "Mu (KN-m)": 382.0
+  },
+  {
+    "Strands": 9,
+    "Span": 15.0,
+    "Capacity": 3.7,
+    "Thickness": "350 mm",
+    "Mu (KN-m)": 382.0
+  },
+  {
+    "Strands": 9,
+    "Span": 15.25,
+    "Capacity": 3.4,
+    "Thickness": "350 mm",
+    "Mu (KN-m)": 382.0
+  },
+  {
+    "Strands": 10,
+    "Span": 9.5,
+    "Capacity": 16.6,
+    "Thickness": "350 mm",
+    "Mu (KN-m)": 420.0
+  },
+  {
+    "Strands": 10,
+    "Span": 10.0,
+    "Capacity": 14.6,
+    "Thickness": "350 mm",
+    "Mu (KN-m)": 420.0
+  },
+  {
+    "Strands": 10,
+    "Span": 10.5,
+    "Capacity": 12.9,
+    "Thickness": "350 mm",
+    "Mu (KN-m)": 420.0
+  },
+  {
+    "Strands": 10,
+    "Span": 11.0,
+    "Capacity": 11.4,
+    "Thickness": "350 mm",
+    "Mu (KN-m)": 420.0
+  },
+  {
+    "Strands": 10,
+    "Span": 11.5,
+    "Capacity": 10.1,
+    "Thickness": "350 mm",
+    "Mu (KN-m)": 420.0
+  },
+  {
+    "Strands": 10,
+    "Span": 12.0,
+    "Capacity": 9.0,
+    "Thickness": "350 mm",
+    "Mu (KN-m)": 420.0
+  },
+  {
+    "Strands": 10,
+    "Span": 12.25,
+    "Capacity": 8.5,
+    "Thickness": "350 mm",
+    "Mu (KN-m)": 420.0
+  },
+  {
+    "Strands": 10,
+    "Span": 12.5,
+    "Capacity": 8.0,
+    "Thickness": "350 mm",
+    "Mu (KN-m)": 420.0
+  },
+  {
+    "Strands": 10,
+    "Span": 12.75,
+    "Capacity": 7.5,
+    "Thickness": "350 mm",
+    "Mu (KN-m)": 420.0
+  },
+  {
+    "Strands": 10,
+    "Span": 13.0,
+    "Capacity": 7.1,
+    "Thickness": "350 mm",
+    "Mu (KN-m)": 420.0
+  },
+  {
+    "Strands": 10,
+    "Span": 13.25,
+    "Capacity": 6.7,
+    "Thickness": "350 mm",
+    "Mu (KN-m)": 420.0
+  },
+  {
+    "Strands": 10,
+    "Span": 13.5,
+    "Capacity": 6.3,
+    "Thickness": "350 mm",
+    "Mu (KN-m)": 420.0
+  },
+  {
+    "Strands": 10,
+    "Span": 13.75,
+    "Capacity": 5.9,
+    "Thickness": "350 mm",
+    "Mu (KN-m)": 420.0
+  },
+  {
+    "Strands": 10,
+    "Span": 14.0,
+    "Capacity": 5.6,
+    "Thickness": "350 mm",
+    "Mu (KN-m)": 420.0
+  },
+  {
+    "Strands": 10,
+    "Span": 14.25,
+    "Capacity": 5.3,
+    "Thickness": "350 mm",
+    "Mu (KN-m)": 420.0
+  },
+  {
+    "Strands": 10,
+    "Span": 14.5,
+    "Capacity": 5.0,
+    "Thickness": "350 mm",
+    "Mu (KN-m)": 420.0
+  },
+  {
+    "Strands": 10,
+    "Span": 14.75,
+    "Capacity": 4.7,
+    "Thickness": "350 mm",
+    "Mu (KN-m)": 420.0
+  },
+  {
+    "Strands": 10,
+    "Span": 15.0,
+    "Capacity": 4.4,
+    "Thickness": "350 mm",
+    "Mu (KN-m)": 420.0
+  },
+  {
+    "Strands": 10,
+    "Span": 15.25,
+    "Capacity": 4.1,
+    "Thickness": "350 mm",
+    "Mu (KN-m)": 420.0
+  },
+  {
+    "Strands": 10,
+    "Span": 15.5,
+    "Capacity": 3.9,
+    "Thickness": "350 mm",
+    "Mu (KN-m)": 420.0
+  },
+  {
+    "Strands": 11,
+    "Span": 9.5,
+    "Capacity": 18.4,
+    "Thickness": "350 mm",
+    "Mu (KN-m)": 457.0
+  },
+  {
+    "Strands": 11,
+    "Span": 10.0,
+    "Capacity": 16.2,
+    "Thickness": "350 mm",
+    "Mu (KN-m)": 457.0
+  },
+  {
+    "Strands": 11,
+    "Span": 10.5,
+    "Capacity": 14.3,
+    "Thickness": "350 mm",
+    "Mu (KN-m)": 457.0
+  },
+  {
+    "Strands": 11,
+    "Span": 11.0,
+    "Capacity": 12.7,
+    "Thickness": "350 mm",
+    "Mu (KN-m)": 457.0
+  },
+  {
+    "Strands": 11,
+    "Span": 11.5,
+    "Capacity": 11.3,
+    "Thickness": "350 mm",
+    "Mu (KN-m)": 457.0
+  },
+  {
+    "Strands": 11,
+    "Span": 12.0,
+    "Capacity": 10.1,
+    "Thickness": "350 mm",
+    "Mu (KN-m)": 457.0
+  },
+  {
+    "Strands": 11,
+    "Span": 12.25,
+    "Capacity": 9.5,
+    "Thickness": "350 mm",
+    "Mu (KN-m)": 457.0
+  },
+  {
+    "Strands": 11,
+    "Span": 12.5,
+    "Capacity": 9.0,
+    "Thickness": "350 mm",
+    "Mu (KN-m)": 457.0
+  },
+  {
+    "Strands": 11,
+    "Span": 12.75,
+    "Capacity": 8.5,
+    "Thickness": "350 mm",
+    "Mu (KN-m)": 457.0
+  },
+  {
+    "Strands": 11,
+    "Span": 13.0,
+    "Capacity": 8.0,
+    "Thickness": "350 mm",
+    "Mu (KN-m)": 457.0
+  },
+  {
+    "Strands": 11,
+    "Span": 13.25,
+    "Capacity": 7.6,
+    "Thickness": "350 mm",
+    "Mu (KN-m)": 457.0
+  },
+  {
+    "Strands": 11,
+    "Span": 13.5,
+    "Capacity": 7.2,
+    "Thickness": "350 mm",
+    "Mu (KN-m)": 457.0
+  },
+  {
+    "Strands": 11,
+    "Span": 13.75,
+    "Capacity": 6.8,
+    "Thickness": "350 mm",
+    "Mu (KN-m)": 457.0
+  },
+  {
+    "Strands": 11,
+    "Span": 14.0,
+    "Capacity": 6.4,
+    "Thickness": "350 mm",
+    "Mu (KN-m)": 457.0
+  },
+  {
+    "Strands": 11,
+    "Span": 14.25,
+    "Capacity": 6.1,
+    "Thickness": "350 mm",
+    "Mu (KN-m)": 457.0
+  },
+  {
+    "Strands": 11,
+    "Span": 14.5,
+    "Capacity": 5.7,
+    "Thickness": "350 mm",
+    "Mu (KN-m)": 457.0
+  },
+  {
+    "Strands": 11,
+    "Span": 14.75,
+    "Capacity": 5.4,
+    "Thickness": "350 mm",
+    "Mu (KN-m)": 457.0
+  },
+  {
+    "Strands": 11,
+    "Span": 15.0,
+    "Capacity": 5.1,
+    "Thickness": "350 mm",
+    "Mu (KN-m)": 457.0
+  },
+  {
+    "Strands": 11,
+    "Span": 15.25,
+    "Capacity": 4.8,
+    "Thickness": "350 mm",
+    "Mu (KN-m)": 457.0
+  },
+  {
+    "Strands": 11,
+    "Span": 15.5,
+    "Capacity": 4.5,
+    "Thickness": "350 mm",
+    "Mu (KN-m)": 457.0
+  },
+  {
+    "Strands": 12,
+    "Span": 9.5,
+    "Capacity": 20.1,
+    "Thickness": "350 mm",
+    "Mu (KN-m)": 494.0
+  },
+  {
+    "Strands": 12,
+    "Span": 10.0,
+    "Capacity": 17.8,
+    "Thickness": "350 mm",
+    "Mu (KN-m)": 494.0
+  },
+  {
+    "Strands": 12,
+    "Span": 10.5,
+    "Capacity": 15.8,
+    "Thickness": "350 mm",
+    "Mu (KN-m)": 494.0
+  },
+  {
+    "Strands": 12,
+    "Span": 11.0,
+    "Capacity": 14.1,
+    "Thickness": "350 mm",
+    "Mu (KN-m)": 494.0
+  },
+  {
+    "Strands": 12,
+    "Span": 11.5,
+    "Capacity": 12.6,
+    "Thickness": "350 mm",
+    "Mu (KN-m)": 494.0
+  },
+  {
+    "Strands": 12,
+    "Span": 12.0,
+    "Capacity": 11.2,
+    "Thickness": "350 mm",
+    "Mu (KN-m)": 494.0
+  },
+  {
+    "Strands": 12,
+    "Span": 12.25,
+    "Capacity": 10.6,
+    "Thickness": "350 mm",
+    "Mu (KN-m)": 494.0
+  },
+  {
+    "Strands": 12,
+    "Span": 12.5,
+    "Capacity": 10.0,
+    "Thickness": "350 mm",
+    "Mu (KN-m)": 494.0
+  },
+  {
+    "Strands": 12,
+    "Span": 12.75,
+    "Capacity": 9.5,
+    "Thickness": "350 mm",
+    "Mu (KN-m)": 494.0
+  },
+  {
+    "Strands": 12,
+    "Span": 13.0,
+    "Capacity": 9.0,
+    "Thickness": "350 mm",
+    "Mu (KN-m)": 494.0
+  },
+  {
+    "Strands": 12,
+    "Span": 13.25,
+    "Capacity": 8.5,
+    "Thickness": "350 mm",
+    "Mu (KN-m)": 494.0
+  },
+  {
+    "Strands": 12,
+    "Span": 13.5,
+    "Capacity": 8.1,
+    "Thickness": "350 mm",
+    "Mu (KN-m)": 494.0
+  },
+  {
+    "Strands": 12,
+    "Span": 13.75,
+    "Capacity": 7.6,
+    "Thickness": "350 mm",
+    "Mu (KN-m)": 494.0
+  },
+  {
+    "Strands": 12,
+    "Span": 14.0,
+    "Capacity": 7.2,
+    "Thickness": "350 mm",
+    "Mu (KN-m)": 494.0
+  },
+  {
+    "Strands": 12,
+    "Span": 14.25,
+    "Capacity": 6.9,
+    "Thickness": "350 mm",
+    "Mu (KN-m)": 494.0
+  },
+  {
+    "Strands": 12,
+    "Span": 14.5,
+    "Capacity": 6.5,
+    "Thickness": "350 mm",
+    "Mu (KN-m)": 494.0
+  },
+  {
+    "Strands": 12,
+    "Span": 14.75,
+    "Capacity": 6.2,
+    "Thickness": "350 mm",
+    "Mu (KN-m)": 494.0
+  },
+  {
+    "Strands": 12,
+    "Span": 15.0,
+    "Capacity": 5.8,
+    "Thickness": "350 mm",
+    "Mu (KN-m)": 494.0
+  },
+  {
+    "Strands": 12,
+    "Span": 15.25,
+    "Capacity": 5.5,
+    "Thickness": "350 mm",
+    "Mu (KN-m)": 494.0
+  },
+  {
+    "Strands": 12,
+    "Span": 15.5,
+    "Capacity": 5.2,
+    "Thickness": "350 mm",
+    "Mu (KN-m)": 494.0
+  },
+  {
+    "Strands": 13,
+    "Span": 9.5,
+    "Capacity": 21.8,
+    "Thickness": "350 mm",
+    "Mu (KN-m)": 529.0
+  },
+  {
+    "Strands": 13,
+    "Span": 10.0,
+    "Capacity": 19.3,
+    "Thickness": "350 mm",
+    "Mu (KN-m)": 529.0
+  },
+  {
+    "Strands": 13,
+    "Span": 10.5,
+    "Capacity": 17.2,
+    "Thickness": "350 mm",
+    "Mu (KN-m)": 529.0
+  },
+  {
+    "Strands": 13,
+    "Span": 11.0,
+    "Capacity": 15.3,
+    "Thickness": "350 mm",
+    "Mu (KN-m)": 529.0
+  },
+  {
+    "Strands": 13,
+    "Span": 11.5,
+    "Capacity": 13.7,
+    "Thickness": "350 mm",
+    "Mu (KN-m)": 529.0
+  },
+  {
+    "Strands": 13,
+    "Span": 12.0,
+    "Capacity": 12.3,
+    "Thickness": "350 mm",
+    "Mu (KN-m)": 529.0
+  },
+  {
+    "Strands": 13,
+    "Span": 12.25,
+    "Capacity": 11.6,
+    "Thickness": "350 mm",
+    "Mu (KN-m)": 529.0
+  },
+  {
+    "Strands": 13,
+    "Span": 12.5,
+    "Capacity": 11.0,
+    "Thickness": "350 mm",
+    "Mu (KN-m)": 529.0
+  },
+  {
+    "Strands": 13,
+    "Span": 12.75,
+    "Capacity": 10.5,
+    "Thickness": "350 mm",
+    "Mu (KN-m)": 529.0
+  },
+  {
+    "Strands": 13,
+    "Span": 13.0,
+    "Capacity": 9.9,
+    "Thickness": "350 mm",
+    "Mu (KN-m)": 529.0
+  },
+  {
+    "Strands": 13,
+    "Span": 13.25,
+    "Capacity": 9.4,
+    "Thickness": "350 mm",
+    "Mu (KN-m)": 529.0
+  },
+  {
+    "Strands": 13,
+    "Span": 13.5,
+    "Capacity": 8.9,
+    "Thickness": "350 mm",
+    "Mu (KN-m)": 529.0
+  },
+  {
+    "Strands": 13,
+    "Span": 13.75,
+    "Capacity": 8.5,
+    "Thickness": "350 mm",
+    "Mu (KN-m)": 529.0
+  },
+  {
+    "Strands": 13,
+    "Span": 14.0,
+    "Capacity": 8.0,
+    "Thickness": "350 mm",
+    "Mu (KN-m)": 529.0
+  },
+  {
+    "Strands": 13,
+    "Span": 14.25,
+    "Capacity": 7.6,
+    "Thickness": "350 mm",
+    "Mu (KN-m)": 529.0
+  },
+  {
+    "Strands": 13,
+    "Span": 14.5,
+    "Capacity": 7.2,
+    "Thickness": "350 mm",
+    "Mu (KN-m)": 529.0
+  },
+  {
+    "Strands": 13,
+    "Span": 14.75,
+    "Capacity": 6.9,
+    "Thickness": "350 mm",
+    "Mu (KN-m)": 529.0
+  },
+  {
+    "Strands": 13,
+    "Span": 15.0,
+    "Capacity": 6.5,
+    "Thickness": "350 mm",
+    "Mu (KN-m)": 529.0
+  },
+  {
+    "Strands": 13,
+    "Span": 15.25,
+    "Capacity": 6.2,
+    "Thickness": "350 mm",
+    "Mu (KN-m)": 529.0
+  },
+  {
+    "Strands": 13,
+    "Span": 15.5,
+    "Capacity": 5.9,
+    "Thickness": "350 mm",
+    "Mu (KN-m)": 529.0
+  }
+]
