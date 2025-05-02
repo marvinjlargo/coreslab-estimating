@@ -1,0 +1,21 @@
+# Node / Build tools
+node_modules/
+dist/
+build/
+.parcel-cache/
+.next/
+.vercel/
+
+# Logs / System
+*.log
+*.DS_Store
+.env
+.env.local
+
+# VSCode / Editor folders
+.vscode/
+.idea/
+
+# OS-level folders
+Thumbs.db
+.Trash-*
