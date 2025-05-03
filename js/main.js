@@ -7,11 +7,11 @@
  * @author Marvin J. Largo
  */
 
-import { evaluateExpression } from './evaluateExpression.js';
-import { calculateSlab } from './calculateSlab.js';
-import { drawChart } from './drawChart.js';
-import { normalize, formatResult } from './utils.js';
-import { loadData } from './dataLoader.js';
+import { evaluateExpression } from './core/evaluateExpression.js';
+import { calculateSlab } from './core/calculateSlab.js';
+import { drawChart } from './core/drawChart.js';
+import { normalize, formatResult } from './core/utils.js';
+import { loadData } from './core/dataLoader.js';
 
 /**
  * Initializes the application when the DOM is loaded.
