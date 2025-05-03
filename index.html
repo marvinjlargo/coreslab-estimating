@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="color-scheme" content="dark" />
+  <meta name="color-scheme" content="dark light" />
   <title>Hollow‑Core Slab Calculator</title>
   <link rel="stylesheet" href="css/styles.css" />
 </head>
@@ -13,26 +13,54 @@
     <div id="tab-bar" class="tab-bar"></div>
     
     <!-- Project Header -->
-    <div id="project-header" class="project-header"></div>
+    <div id="project-header" class="project-header">
+      <div class="header-left">
+        <span id="project-name" class="project-name"></span>
+        <button id="search-toggle" class="icon-button" title="Search messages">🔍</button>
+      </div>
+      <div class="header-right">
+        <button id="theme-toggle" class="icon-button" title="Toggle theme">🌙</button>
+      </div>
+      <div id="search-container" class="search-container hidden">
+        <input id="search-input" type="text" placeholder="Search messages..." />
+      </div>
+    </div>
     
     <!-- Middle: Chat Window -->
-    <div id="chat-window" class="chat-window"></div>
+    <div id="chat-window" class="chat-window" role="log" aria-live="polite"></div>
     
     <!-- Bottom: Input Bar -->
     <div class="input-bar">
-      <input 
-        id="chat-input" 
-        type="text" 
-        placeholder="Type a note or click a tool..."
-        autocomplete="off"
-        spellcheck="true"
-      />
-      <div class="tool-buttons">
-        <button id="slab-tool" title="Slab Calculator">📐</button>
-        <button id="export-html" title="Export as HTML">📄</button>
-        <button id="export-pdf" title="Export as PDF">📑</button>
-        <button id="export-txt" title="Export as Text">📝</button>
+      <div class="input-group">
+        <input 
+          id="chat-input" 
+          type="text" 
+          placeholder="Type a note or click a tool..."
+          autocomplete="off"
+          spellcheck="true"
+        />
+        <button id="attach-image" class="icon-button" title="Attach image">📎</button>
+        <input type="file" id="image-upload" accept="image/*" class="hidden" />
       </div>
+      <div class="tool-buttons">
+        <button id="slab-tool" class="tool-button" title="Slab Calculator">📐</button>
+        <button id="export-html" class="tool-button" title="Export as HTML">📄</button>
+        <button id="export-pdf" class="tool-button" title="Export as PDF">📑</button>
+        <button id="export-txt" class="tool-button" title="Export as Text">📝</button>
+        <button id="backup-json" class="tool-button" title="Backup JSON">📦</button>
+        <button id="restore-json" class="tool-button" title="Restore JSON">🔄</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Toast Container -->
+  <div id="toast-container" class="toast-container"></div>
+
+  <!-- Image Modal -->
+  <div id="image-modal" class="modal-overlay hidden">
+    <div class="modal-content">
+      <button id="close-modal" class="close-btn" title="Close">×</button>
+      <img id="modal-image" class="modal-image" />
     </div>
   </div>
 
