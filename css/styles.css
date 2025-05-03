@@ -410,8 +410,7 @@ body {
   
   .bubble.tool {
     background-color: var(--bubble-tool);
-    color: white;
-    align-self: flex-end;
+    align-self: flex-start;
   }
   
   .bubble.system {
