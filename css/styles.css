@@ -8,6 +8,7 @@
     --bubble-system: #666;
     --input-bg: #1e1e1e;
     --border-color: #333;
+    --spellcheck-color: #ff5252;
 }
 
 * {
@@ -62,6 +63,18 @@ body {
     border: 1px dashed var(--border-color);
 }
 
+/* Project Header */
+.project-header {
+    padding: 0.75rem 1rem;
+    background-color: var(--input-bg);
+    border-bottom: 1px solid var(--border-color);
+    font-size: 1.25rem;
+    font-weight: 500;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
 /* Chat Window */
 .chat-window {
     flex: 1;
@@ -97,10 +110,20 @@ body {
     border-radius: 0.5rem;
 }
 
+.message-content {
+    word-break: break-word;
+}
+
 .message-time {
     font-size: 0.75rem;
     opacity: 0.7;
     margin-top: 0.25rem;
+}
+
+.message-edit {
+    font-size: 0.75rem;
+    opacity: 0.5;
+    font-style: italic;
 }
 
 /* Input Bar */
@@ -120,6 +143,10 @@ body {
     border-radius: 1.5rem;
     color: var(--text-color);
     font-size: 1rem;
+}
+
+#chat-input[spellcheck="true"] {
+    text-decoration: underline wavy var(--spellcheck-color);
 }
 
 .tool-buttons {

@@ -3,8 +3,8 @@
  * Handles project tabs and tab switching
  */
 
-import { getAllProjects, setActiveProject, addProject } from '../storage.js';
-import { renderChat } from './chatUI.js';
+import { getAllProjects, setActiveProject, addProject, getActiveProject } from '../storage.js';
+import { renderChat, renderProjectHeader } from './chatUI.js';
 import { getProjectLog } from '../storage.js';
 
 /**
@@ -13,9 +13,10 @@ import { getProjectLog } from '../storage.js';
 export function renderTabs() {
   const tabBar = document.getElementById('tab-bar');
   const projects = getAllProjects();
+  const activeProject = getActiveProject();
   
   tabBar.innerHTML = projects.map(name => `
-    <div class="tab ${name === getActiveProject() ? 'active' : ''}" data-project="${name}">
+    <div class="tab ${name === activeProject ? 'active' : ''}" data-project="${name}">
       ${name}
     </div>
   `).join('') + '<div class="tab new-tab">+</div>';
@@ -41,5 +42,6 @@ export function renderTabs() {
 export function switchTab(name) {
   setActiveProject(name);
   renderTabs();
+  renderProjectHeader(name);
   renderChat(getProjectLog(name));
 } 
