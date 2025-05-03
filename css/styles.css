@@ -145,8 +145,18 @@ body {
     font-size: 1rem;
 }
 
-#chat-input[spellcheck="true"] {
-    text-decoration: underline wavy var(--spellcheck-color);
+/* Firefox */
+::-moz-misspelling {
+    text-decoration-line: underline;
+    text-decoration-style: wavy;
+    text-decoration-color: var(--spellcheck-color);
+}
+
+/* WebKit */
+::-webkit-spelling-error {
+    text-decoration-line: underline;
+    text-decoration-style: wavy;
+    text-decoration-color: var(--spellcheck-color);
 }
 
 .tool-buttons {
