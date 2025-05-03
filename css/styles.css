@@ -402,3 +402,28 @@ body {
         font-size: 1rem;
     }
 }
+.bubble.note {
+    background-color: var(--bubble-user);
+    color: white;
+    align-self: flex-end;
+  }
+  
+  .bubble.tool {
+    background-color: var(--bubble-tool);
+    color: white;
+    align-self: flex-end;
+  }
+  
+  .bubble.system {
+    background-color: var(--bubble-system);
+    color: #eee;
+    font-style: italic;
+    text-align: center;
+    align-self: center;
+  }
+  
+  .bubble.image {
+    background-color: transparent;
+    align-self: flex-start;
+  }
+  
