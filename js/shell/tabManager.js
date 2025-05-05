@@ -8,6 +8,19 @@ import { renderChat, renderProjectHeader } from './chatUI.js';
 import { getProjectLog } from '../storage.js';
 
 /**
+ * Initialize tab manager
+ */
+export function initTabManager() {
+  // Create initial project if none exists
+  if (getAllProjects().length === 0) {
+    addProject('New Project');
+  }
+  
+  // Set up tab bar
+  renderTabs();
+}
+
+/**
  * Render all project tabs
  */
 export function renderTabs() {

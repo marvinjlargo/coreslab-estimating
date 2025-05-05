@@ -3,7 +3,7 @@
  * Handles user input and tool interactions
  */
 
-import { saveMessage, saveDraft } from '../storage.js';
+import { saveMessage, saveDraft, getActiveProject } from '../storage.js';
 import { appendMessage } from './chatUI.js';
 
 let currentTool = null;
@@ -84,12 +84,4 @@ export function initInputHandling() {
       input.placeholder = 'Type a note or click a tool...';
     }
   });
-}
-
-/**
- * Get the active project name
- * @returns {string}
- */
-function getActiveProject() {
-  return document.getElementById('project-name').textContent;
 } 

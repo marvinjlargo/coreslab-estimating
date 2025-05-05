@@ -11,15 +11,8 @@ import { getActiveProject, getProjectLog, saveMessage, backupData, restoreData }
 
 // Initialize the app
 function init() {
-  // Initialize tab manager
+  // Initialize core features first
   initTabManager();
-  
-  // Render UI
-  renderTabs();
-  renderProjectHeader(getActiveProject());
-  renderChat(getProjectLog(getActiveProject()));
-  
-  // Initialize features
   initChatScroll();
   initSearch();
   initTheme();
@@ -27,10 +20,15 @@ function init() {
   initImageHandling();
   initInputHandling();
   
+  // Render initial UI state
+  renderTabs();
+  renderProjectHeader(getActiveProject());
+  renderChat(getProjectLog(getActiveProject()));
+  
   // Set up event listeners
   const input = document.getElementById('chat-input');
   input.addEventListener('keydown', e => {
-    if (e.key === 'Enter' && !e.ctrlKey) {
+    if (e.key === 'Enter' && !e.shiftKey) {
       e.preventDefault();
       handleEnter(input.value);
     }
