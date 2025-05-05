@@ -8,6 +8,21 @@ import { calculateSlab } from '../core/calculateSlab.js';
 import { drawChart } from '../core/drawChart.js';
 import { loadData } from '../core/dataLoader.js';
 
+// Form state persistence
+const STORAGE_KEY = 'slab-calculator-state';
+
+function saveFormState(state) {
+  localStorage.setItem(STORAGE_KEY, JSON.stringify(state));
+}
+
+function loadFormState() {
+  try {
+    return JSON.parse(localStorage.getItem(STORAGE_KEY)) || {};
+  } catch {
+    return {};
+  }
+}
+
 /**
  * Open the slab calculator tool
  * @returns {Promise<string>} - Formatted result string
@@ -17,45 +32,89 @@ export async function openSlabTool() {
     // Create modal overlay
     const modal = document.createElement('div');
     modal.className = 'modal-overlay';
+    modal.setAttribute('role', 'dialog');
+    modal.setAttribute('aria-labelledby', 'slab-calculator-title');
     modal.innerHTML = `
-      <div class="modal-content">
+      <div class="modal-content slab-calculator">
         <div class="modal-header">
-          <h2>Hollow-Core Slab Calculator</h2>
-          <button class="close-btn">×</button>
+          <h2 id="slab-calculator-title">Hollow-Core Slab Calculator</h2>
+          <button class="close-btn" aria-label="Close calculator">×</button>
         </div>
         <div class="modal-body">
-          <div class="input-group">
-            <label for="system">Unit System</label>
-            <select id="system">
-              <option value="Imperial">Imperial (ft / psf)</option>
-              <option value="Metric">Metric (m / kPa)</option>
-            </select>
+          <form id="slab-form" class="slab-form" novalidate>
+            <div class="form-group">
+              <label for="system">Unit System</label>
+              <select id="system" required aria-required="true">
+                <option value="Imperial">Imperial (ft / psf)</option>
+                <option value="Metric">Metric (m / kPa)</option>
+              </select>
+            </div>
 
-            <label for="span">Span <span id="span-unit">(ft)</span></label>
-            <input id="span" type="text" inputmode="decimal" placeholder="e.g. 24 or 24+4" />
+            <div class="form-group">
+              <label for="span">Span <span id="span-unit">(ft)</span></label>
+              <input 
+                id="span" 
+                type="text" 
+                inputmode="decimal" 
+                placeholder="e.g. 24 or 24+4"
+                required
+                aria-required="true"
+                aria-invalid="false"
+              />
+              <div class="error-message" id="span-error"></div>
+            </div>
 
-            <label for="load">Superimposed Load <span id="load-unit">(psf)</span></label>
-            <input id="load" type="text" inputmode="decimal" placeholder="e.g. 120 or 100*1.2" />
+            <div class="form-group">
+              <label for="load">Superimposed Load <span id="load-unit">(psf)</span></label>
+              <input 
+                id="load" 
+                type="text" 
+                inputmode="decimal" 
+                placeholder="e.g. 120 or 100*1.2"
+                required
+                aria-required="true"
+                aria-invalid="false"
+              />
+              <div class="error-message" id="load-error"></div>
+            </div>
 
-            <label for="thickness">Slab Thickness</label>
-            <select id="thickness"></select>
+            <div class="form-group">
+              <label for="thickness">Slab Thickness</label>
+              <select 
+                id="thickness" 
+                required
+                aria-required="true"
+              ></select>
+              <div class="error-message" id="thickness-error"></div>
+            </div>
 
-            <button id="calc-btn">Calculate</button>
-          </div>
+            <button 
+              type="submit" 
+              id="calc-btn" 
+              class="primary-button"
+              aria-label="Calculate slab configuration"
+            >
+              Calculate
+            </button>
+          </form>
 
-          <div id="result" class="result">
+          <div id="result" class="result" aria-live="polite">
             <div id="exact-result"></div>
             <div id="fallback-results" class="fallback-results">
               <h3>Alternative Configurations</h3>
-              <table id="fallback-table">
+              <table id="fallback-table" aria-label="Alternative slab configurations">
                 <thead>
-                  <tr><th>Strands</th><th>Span</th><th>Capacity</th></tr>
+                  <tr>
+                    <th scope="col">Strands</th>
+                    <th scope="col">Span</th>
+                    <th scope="col">Capacity</th>
+                  </tr>
                 </thead>
                 <tbody></tbody>
               </table>
             </div>
             <div id="chart-container" class="chart-container">
-              <canvas id="capacity-chart"></canvas>
+              <canvas id="capacity-chart" aria-label="Capacity chart"></canvas>
             </div>
           </div>
         </div>
@@ -66,6 +125,7 @@ export async function openSlabTool() {
     document.body.appendChild(modal);
 
     // Get references to elements
+    const form = modal.querySelector('#slab-form');
     const systemEl = modal.querySelector('#system');
     const spanEl = modal.querySelector('#span');
     const loadEl = modal.querySelector('#load');
@@ -76,8 +136,15 @@ export async function openSlabTool() {
     const fallbackResultsEl = modal.querySelector('#fallback-results');
     const fallbackTableBody = modal.querySelector('#fallback-table tbody');
     const chartCanvas = modal.querySelector('#capacity-chart');
-    const calcBtn = modal.querySelector('#calc-btn');
     const closeBtn = modal.querySelector('.close-btn');
+
+    // Load saved state
+    const savedState = loadFormState();
+    if (savedState.system) {
+      systemEl.value = savedState.system;
+      spanEl.value = savedState.span || '';
+      loadEl.value = savedState.load || '';
+    }
 
     // Populate thickness options
     function populateThickness(sys) {
@@ -90,8 +157,34 @@ export async function openSlabTool() {
         o.value = o.textContent = t;
         thkEl.append(o);
       });
+      if (savedState.thickness && opts.includes(savedState.thickness)) {
+        thkEl.value = savedState.thickness;
+      }
     }
     populateThickness(systemEl.value);
+
+    // Form validation
+    function validateInput(input, errorEl) {
+      const value = input.value.trim();
+      const isValid = value && !isNaN(evaluateExpression(value));
+      
+      input.setAttribute('aria-invalid', !isValid);
+      errorEl.textContent = isValid ? '' : 'Please enter a valid number or expression';
+      
+      return isValid;
+    }
+
+    function validateForm() {
+      const isSpanValid = validateInput(spanEl, modal.querySelector('#span-error'));
+      const isLoadValid = validateInput(loadEl, modal.querySelector('#load-error'));
+      const isThicknessValid = thkEl.value.trim() !== '';
+      
+      thkEl.setAttribute('aria-invalid', !isThicknessValid);
+      modal.querySelector('#thickness-error').textContent = 
+        isThicknessValid ? '' : 'Please select a thickness';
+      
+      return isSpanValid && isLoadValid && isThicknessValid;
+    }
 
     // Handle unit system changes
     systemEl.addEventListener('change', () => {
@@ -104,23 +197,39 @@ export async function openSlabTool() {
       fallbackResultsEl.style.display = 'none';
       fallbackTableBody.innerHTML = '';
       populateThickness(sys);
+      
+      // Save state
+      saveFormState({
+        system: sys,
+        span: spanEl.value,
+        load: loadEl.value,
+        thickness: thkEl.value
+      });
     });
 
-    // Handle calculation
-    calcBtn.addEventListener('click', async () => {
+    // Handle form submission
+    form.addEventListener('submit', async (e) => {
+      e.preventDefault();
+      
+      if (!validateForm()) {
+        return;
+      }
+
       const sys = systemEl.value;
       const spanVal = evaluateExpression(spanEl.value);
       const loadVal = evaluateExpression(loadEl.value);
 
-      if (isNaN(spanVal) || isNaN(loadVal) || !thkEl.value.trim()) {
-        exactResultEl.textContent = '⛔ Enter span, load and thickness.';
-        fallbackResultsEl.style.display = 'none';
-        fallbackTableBody.innerHTML = '';
-        return;
-      }
-
+      // Format values
       spanEl.value = Number.isInteger(spanVal) ? spanVal : Number(spanVal.toFixed(2));
       loadEl.value = Number.isInteger(loadVal) ? loadVal : Number(loadVal.toFixed(2));
+
+      // Save state
+      saveFormState({
+        system: sys,
+        span: spanEl.value,
+        load: loadEl.value,
+        thickness: thkEl.value
+      });
 
       let data;
       try {
@@ -168,6 +277,17 @@ export async function openSlabTool() {
       drawChart(chartCanvas, data, thkEl.value, spanVal, loadVal, sys);
     });
 
+    // Handle input validation
+    [spanEl, loadEl].forEach(input => {
+      input.addEventListener('input', () => {
+        validateInput(input, modal.querySelector(`#${input.id}-error`));
+      });
+    });
+
+    thkEl.addEventListener('change', () => {
+      validateForm();
+    });
+
     // Handle close
     closeBtn.addEventListener('click', () => {
       const result = exactResultEl.textContent;
@@ -175,12 +295,14 @@ export async function openSlabTool() {
       resolve(result);
     });
 
-    // Handle Enter key
+    // Handle Escape key
     modal.addEventListener('keydown', e => {
-      if (e.key === 'Enter') {
-        e.preventDefault();
-        calcBtn.click();
+      if (e.key === 'Escape') {
+        closeBtn.click();
       }
     });
+
+    // Focus first input
+    spanEl.focus();
   });
 } 
