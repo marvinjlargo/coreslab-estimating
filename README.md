@@ -1,77 +1,97 @@
 # Hollow-Core Slab Calculator
 
-A static, client-side calculator for determining hollow-core slab configurations based on span and load requirements. Built with vanilla JavaScript, HTML, and CSS.
+A lightweight, client-side web application for civil engineers and precast estimators. This tool combines a modern chat interface with powerful engineering calculations, all while running completely offline.
 
-## Features
+![Application Screenshot](docs/demo.png)
 
-- **Dual Unit Support**
-  - Imperial (ft / psf)
-  - Metric (m / kPa)
-  - Automatic unit conversion and display
+## ✨ Features
 
-- **Interactive Chart**
-  - High-DPI rendering for crisp visuals
-  - Dynamic zooming around target values
-  - Interactive tooltips with detailed information
-  - Smooth hover effects and transitions
+### Modern Chat Interface
+- WhatsApp/Slack-style messaging system
+- Multi-tab project management with autosave
+- Dark/light theme support
+- Smart auto-scroll with "New messages" indicator
+- In-place message editing
+- Image support with lightbox preview
+- Message search functionality
 
-- **Comprehensive Results**
-  - Exact configuration matches
-  - Alternative configurations when exact match not found
-  - Visual capacity curve representation
-  - Export functionality (copy/download)
+### Engineering Tools
+- Integrated hollow-core slab calculator
+- Support for both Imperial (ft/psf) and Metric (m/kPa) units
+- Visual capacity charts
+- Alternative configuration suggestions
 
-## Technical Details
+### Technical Highlights
+- 100% client-side - works offline via `file://`
+- No frameworks or dependencies
+- Modular JavaScript architecture
+- LocalStorage persistence
+- Export/restore functionality (HTML, PDF, TXT, JSON)
 
-- **Static & Offline**
-  - No server requirements
-  - No external dependencies
-  - Pure vanilla JavaScript
-  - Client-side data processing
+## 🚀 Quick Start
 
-- **Performance Optimized**
-  - Efficient data filtering
-  - Smooth chart rendering
-  - Responsive design
-  - Mobile-friendly interface
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/hollow-core-calculator.git
+   ```
 
-## Usage
+2. Open `index.html` in any modern web browser
 
-1. Select your preferred unit system (Imperial or Metric)
-2. Enter the required span length
-3. Enter the superimposed load
-4. Select the slab thickness
-5. Click "Calculate" to see results
+3. Start using the application:
+   - Create a new project tab
+   - Type messages or use the slab calculator (📐)
+   - Toggle theme (🌙) or search messages (🔍)
+   - Export your work using the toolbar buttons
 
-The calculator will:
-- Find the optimal configuration
-- Show alternative options if needed
-- Display a visual capacity curve
-- Allow exporting results
+## 📁 Project Structure
 
-## Data Structure
+```
+/
+├── index.html          # Main entry point
+├── css/               # Stylesheets
+├── data/              # Engineering data
+├── docs/              # Documentation
+├── js/
+│   ├── core/         # Core logic (calculations, charts)
+│   ├── shell/        # UI components
+│   ├── tools/        # Engineering utilities
+│   └── main.js       # Application entry
+├── export.js         # Export functionality
+└── storage.js        # Data persistence
+```
 
-The calculator uses JSON data files:
-- `data/imperial_data.json` - Imperial unit configurations
-- `data/metric_data.json` - Metric unit configurations
+## 🛠️ Development
 
-Each configuration includes:
-- Thickness
-- Number of strands
-- Span capacity
-- Load capacity
+### Architecture
+The application follows a modular architecture:
+- **Core**: Low-level logic (calculations, data processing)
+- **Shell**: UI layer (chat interface, tab management)
+- **Tools**: Engineering utilities (slab calculator)
 
-## Browser Support
+### Contributing
+1. Fork the repository
+2. Create a feature branch
+3. Commit your changes
+4. Push to the branch
+5. Create a Pull Request
 
-Works in all modern browsers that support:
-- Canvas API
-- ES6 JavaScript features
-- CSS Flexbox/Grid
+### Code Style
+- Follow existing code formatting
+- Use meaningful variable names
+- Add comments for complex logic
+- Keep functions focused and modular
 
-## License
+## 📝 License
 
-This project is open source and available for use under the MIT License.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## Contributing
+## 🤝 Support
 
-Contributions are welcome! Please feel free to submit a Pull Request. 
+For support, please:
+1. Check the [documentation](docs/)
+2. Open an issue
+3. Contact the maintainers
+
+---
+
+Built with ❤️ for civil engineers and precast estimators. 
