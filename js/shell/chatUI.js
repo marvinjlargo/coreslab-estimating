@@ -3,7 +3,7 @@
  * Handles rendering and interaction with the chat interface
  */
 
-import { getProjectLog, saveMessage, getDraft, saveDraft } from '../storage.js';
+import { getProjectLog, saveMessage, getDraft, saveDraft, getActiveProject } from '../storage.js';
 
 /**
  * @typedef {Object} Message

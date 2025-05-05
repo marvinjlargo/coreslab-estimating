@@ -3,14 +3,17 @@
  * Bootstraps the UI and sets up event handlers
  */
 
-import { renderTabs, switchTab } from './shell/tabManager.js';
-import { renderChat, renderProjectHeader, initChatScroll, initSearch, initTheme, initKeyboardShortcuts, initImageHandling } from './shell/chatUI.js';
+import { renderTabs, switchTab, initTabManager } from './shell/tabManager.js';
+import { renderChat, renderProjectHeader, initChatScroll, initSearch, initTheme, initKeyboardShortcuts, initImageHandling, appendMessage } from './shell/chatUI.js';
 import { handleEnter, handleTool, initInputHandling } from './shell/inputHandler.js';
-import { exportLog, backupData, restoreData } from './export.js';
-import { getActiveProject, getProjectLog } from './storage.js';
+import { exportLog } from './export.js';
+import { getActiveProject, getProjectLog, saveMessage, backupData, restoreData } from './storage.js';
 
 // Initialize the app
 function init() {
+  // Initialize tab manager
+  initTabManager();
+  
   // Render UI
   renderTabs();
   renderProjectHeader(getActiveProject());
