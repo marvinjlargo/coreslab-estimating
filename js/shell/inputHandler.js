@@ -5,8 +5,7 @@
 
 import { saveMessage, saveDraft, getActiveProject } from '../storage.js';
 import { appendMessage } from './chatUI.js';
-
-let currentTool = null;
+import { openSlabTool } from '../tools/slab.js';
 
 /**
  * Handle Enter key press
@@ -19,7 +18,7 @@ export function handleEnter(text) {
   if (trimmedText) {
     // Save message
     const message = {
-      type: currentTool || 'note',
+      type: 'note',
       text: trimmedText,
       timestamp: Date.now()
     };
@@ -30,12 +29,6 @@ export function handleEnter(text) {
     // Clear input and save empty draft
     input.value = '';
     saveDraft(getActiveProject(), '');
-    
-    // Reset tool
-    if (currentTool) {
-      currentTool = null;
-      input.placeholder = 'Type a note or click a tool...';
-    }
   }
 }
 
@@ -43,20 +36,15 @@ export function handleEnter(text) {
  * Handle tool button click
  * @param {string} tool - Tool name
  */
-export function handleTool(tool) {
-  const input = document.getElementById('chat-input');
-  
-  if (currentTool === tool) {
-    // Toggle off
-    currentTool = null;
-    input.placeholder = 'Type a note or click a tool...';
-  } else {
-    // Toggle on
-    currentTool = tool;
-    input.placeholder = `Using ${tool} tool...`;
+export async function handleTool(tool) {
+  if (tool === 'slab') {
+    const result = await openSlabTool();
+    if (result) {
+      const msg = { type: 'tool', text: result, timestamp: Date.now() };
+      saveMessage(getActiveProject(), msg);
+      appendMessage(msg);
+    }
   }
-  
-  input.focus();
 }
 
 /**
@@ -76,12 +64,6 @@ export function initInputHandling() {
     if (e.key === 'Enter' && e.ctrlKey) {
       e.preventDefault();
       handleEnter(input.value);
-    }
-    
-    // Escape to clear tool
-    if (e.key === 'Escape' && currentTool) {
-      currentTool = null;
-      input.placeholder = 'Type a note or click a tool...';
     }
   });
 } 
