@@ -1,56 +1,95 @@
 /**
  * Input Handler Module
- * Manages user input and tool interactions
+ * Handles user input and tool interactions
  */
 
-import { getActiveProject, saveMessage } from '../storage.js';
+import { saveMessage, saveDraft } from '../storage.js';
 import { appendMessage } from './chatUI.js';
-import { openSlabTool } from '../tools/slab.js';
+
+let currentTool = null;
 
 /**
- * Handle Enter key press in the input field
+ * Handle Enter key press
  * @param {string} text - Input text
  */
 export function handleEnter(text) {
-  if (!text.trim()) return;
+  const input = document.getElementById('chat-input');
+  const trimmedText = text.trim();
   
-  const message = {
-    type: 'note',
-    text: text,
-    timestamp: Date.now()
-  };
-  
-  const project = getActiveProject();
-  saveMessage(project, message);
-  appendMessage(message);
-  
-  // Clear input
-  document.getElementById('chat-input').value = '';
-}
-
-/**
- * Handle tool button clicks
- * @param {string} toolName - Name of the tool to open
- */
-export async function handleTool(toolName) {
-  let result;
-  
-  switch (toolName) {
-    case 'slab':
-      result = await openSlabTool();
-      break;
-    // Add more tools here
-  }
-  
-  if (result) {
+  if (trimmedText) {
+    // Save message
     const message = {
-      type: 'tool',
-      text: result,
+      type: currentTool || 'note',
+      text: trimmedText,
       timestamp: Date.now()
     };
     
-    const project = getActiveProject();
-    saveMessage(project, message);
+    saveMessage(getActiveProject(), message);
     appendMessage(message);
+    
+    // Clear input and save empty draft
+    input.value = '';
+    saveDraft(getActiveProject(), '');
+    
+    // Reset tool
+    if (currentTool) {
+      currentTool = null;
+      input.placeholder = 'Type a note or click a tool...';
+    }
   }
+}
+
+/**
+ * Handle tool button click
+ * @param {string} tool - Tool name
+ */
+export function handleTool(tool) {
+  const input = document.getElementById('chat-input');
+  
+  if (currentTool === tool) {
+    // Toggle off
+    currentTool = null;
+    input.placeholder = 'Type a note or click a tool...';
+  } else {
+    // Toggle on
+    currentTool = tool;
+    input.placeholder = `Using ${tool} tool...`;
+  }
+  
+  input.focus();
+}
+
+/**
+ * Initialize input handling
+ */
+export function initInputHandling() {
+  const input = document.getElementById('chat-input');
+  
+  // Save draft on input
+  input.addEventListener('input', () => {
+    saveDraft(getActiveProject(), input.value);
+  });
+  
+  // Handle keyboard shortcuts
+  input.addEventListener('keydown', e => {
+    // Ctrl+Enter to send
+    if (e.key === 'Enter' && e.ctrlKey) {
+      e.preventDefault();
+      handleEnter(input.value);
+    }
+    
+    // Escape to clear tool
+    if (e.key === 'Escape' && currentTool) {
+      currentTool = null;
+      input.placeholder = 'Type a note or click a tool...';
+    }
+  });
+}
+
+/**
+ * Get the active project name
+ * @returns {string}
+ */
+function getActiveProject() {
+  return document.getElementById('project-name').textContent;
 } 

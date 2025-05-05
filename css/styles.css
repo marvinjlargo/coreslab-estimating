@@ -12,6 +12,9 @@
     --toast-bg: rgba(0, 0, 0, 0.8);
     --modal-bg: rgba(0, 0, 0, 0.9);
     --search-highlight: #ffeb3b;
+    --project-header-height: 60px;
+    --new-messages-bg: var(--accent-color);
+    --new-messages-color: white;
 }
 
 /* Light Theme */
@@ -28,6 +31,8 @@ body.light {
     --toast-bg: rgba(255, 255, 255, 0.9);
     --modal-bg: rgba(255, 255, 255, 0.95);
     --search-highlight: #fff176;
+    --new-messages-bg: var(--accent-color);
+    --new-messages-color: white;
 }
 
 * {
@@ -93,7 +98,19 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    transition: background-color 0.3s ease;
+    transition: all 0.3s ease;
+    height: var(--project-header-height);
+}
+
+.project-header::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 2px;
+    background: linear-gradient(90deg, var(--accent-color), transparent);
+    opacity: 0.7;
 }
 
 .header-left, .header-right {
@@ -105,7 +122,8 @@ body {
 .project-name {
     font-size: 1.25rem;
     font-weight: 500;
-    transition: color 0.3s ease;
+    transition: all 0.3s ease;
+    animation: slide-in 0.15s ease;
 }
 
 .icon-button {
@@ -247,31 +265,40 @@ body {
     color: var(--text-color);
     font-size: 1rem;
     resize: none;
+    min-height: 2.5rem;
 }
 
 /* Input Bar */
 .input-bar {
-    display: flex;
     padding: 1rem;
     background-color: var(--input-bg);
     border-top: 1px solid var(--border-color);
+    display: flex;
+    flex-direction: column;
     gap: 0.5rem;
 }
 
 .input-group {
-    flex: 1;
     display: flex;
     gap: 0.5rem;
+    align-items: center;
 }
 
 #chat-input {
     flex: 1;
-    padding: 0.75rem 1rem;
+    padding: 0.75rem;
     background-color: var(--bg-color);
     border: 1px solid var(--border-color);
-    border-radius: 1.5rem;
+    border-radius: 0.5rem;
     color: var(--text-color);
     font-size: 1rem;
+    resize: none;
+    min-height: 2.5rem;
+}
+
+#chat-input:focus {
+    outline: none;
+    border-color: var(--accent-color);
 }
 
 /* Toast Container */
@@ -286,11 +313,13 @@ body {
 }
 
 .toast {
-    padding: 0.75rem 1rem;
     background-color: var(--toast-bg);
     color: var(--text-color);
+    padding: 0.75rem 1rem;
     border-radius: 0.5rem;
-    animation: slide-in 0.3s ease;
+    font-size: 0.875rem;
+    animation: slide-in 0.2s ease;
+    cursor: pointer;
 }
 
 /* Modal Overlay */
@@ -302,8 +331,8 @@ body {
     bottom: 0;
     background-color: var(--modal-bg);
     display: flex;
-    align-items: center;
     justify-content: center;
+    align-items: center;
     z-index: 1000;
 }
 
@@ -312,37 +341,36 @@ body {
 }
 
 .modal-content {
-    background-color: var(--bg-color);
-    border-radius: 1rem;
-    padding: 1rem;
-    max-width: 90%;
-    max-height: 90vh;
     position: relative;
+    max-width: 90vw;
+    max-height: 90vh;
 }
 
 .modal-image {
     max-width: 100%;
-    max-height: 80vh;
+    max-height: 90vh;
     object-fit: contain;
 }
 
 .close-btn {
     position: absolute;
-    top: 0.5rem;
-    right: 0.5rem;
+    top: -2rem;
+    right: -2rem;
     background: none;
     border: none;
     color: var(--text-color);
-    font-size: 1.5rem;
+    font-size: 2rem;
     cursor: pointer;
+    padding: 0.5rem;
+    line-height: 1;
 }
 
 /* Image Thumbnail */
 .image-thumb {
     max-width: 120px;
     max-height: 120px;
-    cursor: zoom-in;
     border-radius: 0.5rem;
+    cursor: zoom-in;
     transition: transform 0.2s ease;
 }
 
@@ -364,7 +392,7 @@ body {
 
 @keyframes slide-in {
     from {
-        transform: translateX(100%);
+        transform: translateX(-20px);
         opacity: 0;
     }
     to {
@@ -385,11 +413,11 @@ body {
 /* Responsive Design */
 @media (max-width: 768px) {
     .app-container {
-        height: 100vh;
+        max-width: 100%;
     }
     
     .bubble {
-        max-width: 90%;
+        max-width: 100%;
     }
     
     .tool-buttons {
@@ -397,32 +425,115 @@ body {
     }
     
     .tool-buttons button {
-        width: 2rem;
-        height: 2rem;
-        font-size: 1rem;
+        flex: 1 1 33.33%;
+    }
+    
+    .modal-content {
+        width: 95vw;
+    }
+    
+    .close-btn {
+        top: -3rem;
+        right: 0;
     }
 }
+
+/* Message Types */
 .bubble.note {
     background-color: var(--bubble-user);
     color: white;
     align-self: flex-end;
-  }
-  
-  .bubble.tool {
+}
+
+.bubble.tool {
     background-color: var(--bubble-tool);
+    color: white;
     align-self: flex-start;
-  }
-  
-  .bubble.system {
+}
+
+.bubble.system {
     background-color: var(--bubble-system);
-    color: #eee;
-    font-style: italic;
-    text-align: center;
+    color: white;
     align-self: center;
-  }
-  
-  .bubble.image {
+}
+
+.bubble.image {
     background-color: transparent;
+    padding: 0.5rem;
     align-self: flex-start;
-  }
+}
+
+/* Search Highlight */
+.bubble.highlight {
+    background-color: var(--search-highlight);
+    color: var(--bg-color);
+}
+
+/* Edit Mode */
+.message-edit-input {
+    width: 100%;
+    padding: 0.5rem;
+    background-color: var(--bg-color);
+    border: 1px solid var(--border-color);
+    border-radius: 0.5rem;
+    color: var(--text-color);
+    font-size: 1rem;
+    resize: none;
+    min-height: 2.5rem;
+}
+
+/* Tool Buttons */
+.tool-buttons {
+    display: flex;
+    gap: 0.5rem;
+    justify-content: center;
+}
+
+.tool-button {
+    background: none;
+    border: 1px solid var(--border-color);
+    color: var(--text-color);
+    font-size: 1.25rem;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.tool-button:hover {
+    background-color: var(--border-color);
+    transform: translateY(-1px);
+}
+
+/* Hidden Elements */
+.hidden {
+    display: none !important;
+}
+
+/* New Messages Indicator */
+.new-messages {
+    position: fixed;
+    bottom: 80px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: var(--new-messages-bg);
+    color: var(--new-messages-color);
+    padding: 0.5rem 1rem;
+    border-radius: 1rem;
+    border: none;
+    cursor: pointer;
+    font-size: 0.875rem;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+    z-index: 100;
+    transition: all 0.2s ease;
+}
+
+.new-messages:hover {
+    transform: translateX(-50%) translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+
+.new-messages.hidden {
+    display: none;
+}
   

@@ -3,7 +3,7 @@
  * Handles rendering and interaction with the chat interface
  */
 
-import { getProjectLog, saveMessage } from '../storage.js';
+import { getProjectLog, saveMessage, getDraft, saveDraft } from '../storage.js';
 
 /**
  * @typedef {Object} Message
@@ -16,6 +16,53 @@ import { getProjectLog, saveMessage } from '../storage.js';
 
 let isNearBottom = true;
 let newMessagesToast = null;
+let lastMessage = null;
+let virtualizedMessages = [];
+const MESSAGE_BUFFER = 100;
+
+/**
+ * Initialize chat scroll behavior
+ */
+export function initChatScroll() {
+  const chatWindow = document.getElementById('chat-window');
+  const newMessagesBtn = document.getElementById('new-messages');
+  
+  chatWindow.addEventListener('scroll', () => {
+    const { scrollTop, scrollHeight, clientHeight } = chatWindow;
+    isNearBottom = scrollHeight - scrollTop - clientHeight < 100;
+    
+    if (isNearBottom) {
+      newMessagesBtn.classList.add('hidden');
+    }
+    
+    // Virtualized rendering
+    if (virtualizedMessages.length > MESSAGE_BUFFER) {
+      const visibleStart = Math.floor(scrollTop / 100);
+      const visibleEnd = Math.ceil((scrollTop + clientHeight) / 100);
+      
+      if (visibleStart > 0) {
+        const olderMessages = virtualizedMessages.slice(0, visibleStart);
+        renderOlderMessages(olderMessages);
+      }
+    }
+  });
+}
+
+/**
+ * Render older messages when scrolling up
+ * @param {Message[]} messages
+ */
+function renderOlderMessages(messages) {
+  const chatWindow = document.getElementById('chat-window');
+  const fragment = document.createDocumentFragment();
+  
+  messages.forEach(message => {
+    const bubble = createMessageBubble(message);
+    fragment.insertBefore(bubble, fragment.firstChild);
+  });
+  
+  chatWindow.insertBefore(fragment, chatWindow.firstChild);
+}
 
 /**
  * Render the chat window with messages
@@ -24,6 +71,9 @@ let newMessagesToast = null;
 export function renderChat(messages) {
   const chatWindow = document.getElementById('chat-window');
   chatWindow.innerHTML = '';
+  
+  // Store messages for virtualization
+  virtualizedMessages = messages;
   
   // Group messages by date
   const groupedMessages = groupMessagesByDate(messages);
@@ -43,6 +93,15 @@ export function renderChat(messages) {
   // Scroll to bottom if near bottom
   if (isNearBottom) {
     chatWindow.scrollTop = chatWindow.scrollHeight;
+  }
+  
+  // Show getting started message if empty
+  if (messages.length === 0) {
+    appendMessage({
+      type: 'system',
+      text: 'Welcome! Type a note or use the tools above to get started.',
+      timestamp: Date.now()
+    });
   }
 }
 
@@ -91,11 +150,11 @@ function formatDate(date) {
 }
 
 /**
- * Append a message to the chat window
+ * Create a message bubble element
  * @param {Message} message
+ * @returns {HTMLElement}
  */
-export function appendMessage(message) {
-  const chatWindow = document.getElementById('chat-window');
+function createMessageBubble(message) {
   const bubble = document.createElement('div');
   bubble.className = `bubble ${message.type}`;
   
@@ -142,7 +201,19 @@ export function appendMessage(message) {
     bubble.addEventListener('dblclick', () => editMessage(bubble, message));
   }
   
+  return bubble;
+}
+
+/**
+ * Append a message to the chat window
+ * @param {Message} message
+ */
+export function appendMessage(message) {
+  const chatWindow = document.getElementById('chat-window');
+  const bubble = createMessageBubble(message);
+  
   chatWindow.appendChild(bubble);
+  lastMessage = message;
   
   // Check if we need to show new messages toast
   if (!isNearBottom) {
@@ -251,35 +322,195 @@ function showNewMessagesToast() {
 }
 
 /**
- * Initialize chat window scroll handling
+ * Render project header with animation
+ * @param {string} projectName
  */
-export function initChatScroll() {
-  const chatWindow = document.getElementById('chat-window');
+export function renderProjectHeader(projectName) {
+  const header = document.getElementById('project-name');
+  const oldName = header.textContent;
   
-  chatWindow.addEventListener('scroll', () => {
-    const { scrollTop, scrollHeight, clientHeight } = chatWindow;
-    isNearBottom = scrollHeight - scrollTop - clientHeight < 100;
+  if (oldName !== projectName) {
+    header.style.animation = 'none';
+    header.offsetHeight; // Trigger reflow
+    header.style.animation = 'slide-in 0.15s ease';
+    header.textContent = projectName;
     
-    if (isNearBottom && newMessagesToast) {
-      newMessagesToast.remove();
-      newMessagesToast = null;
+    // Set header underline color based on project name hash
+    const hash = projectName.split('').reduce((a, b) => {
+      a = ((a << 5) - a) + b.charCodeAt(0);
+      return a & a;
+    }, 0);
+    const hue = Math.abs(hash) % 360;
+    header.style.setProperty('--accent-color', `hsl(${hue}, 70%, 50%)`);
+  }
+  
+  // Restore draft
+  const input = document.getElementById('chat-input');
+  input.value = getDraft(projectName);
+}
+
+/**
+ * Initialize search functionality
+ */
+export function initSearch() {
+  const searchToggle = document.getElementById('search-toggle');
+  const searchContainer = document.getElementById('search-container');
+  const searchInput = document.getElementById('search-input');
+  
+  searchToggle.addEventListener('click', () => {
+    searchContainer.classList.toggle('hidden');
+    if (!searchContainer.classList.contains('hidden')) {
+      searchInput.focus();
+    }
+  });
+  
+  searchInput.addEventListener('input', () => {
+    const query = searchInput.value.toLowerCase();
+    const bubbles = document.querySelectorAll('.bubble');
+    
+    bubbles.forEach(bubble => {
+      const text = bubble.textContent.toLowerCase();
+      if (text.includes(query)) {
+        bubble.classList.add('highlight');
+        bubble.classList.remove('hidden');
+      } else {
+        bubble.classList.remove('highlight');
+        bubble.classList.add('hidden');
+      }
+    });
+  });
+}
+
+/**
+ * Initialize theme toggle
+ */
+export function initTheme() {
+  const themeToggle = document.getElementById('theme-toggle');
+  const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+  
+  // Set initial theme
+  if (prefersDark) {
+    document.body.classList.add('dark');
+    themeToggle.textContent = '☀️';
+  } else {
+    document.body.classList.add('light');
+    themeToggle.textContent = '🌙';
+  }
+  
+  themeToggle.addEventListener('click', () => {
+    const isDark = document.body.classList.contains('dark');
+    document.body.classList.toggle('dark');
+    document.body.classList.toggle('light');
+    themeToggle.textContent = isDark ? '🌙' : '☀️';
+  });
+}
+
+/**
+ * Initialize keyboard shortcuts
+ */
+export function initKeyboardShortcuts() {
+  const input = document.getElementById('chat-input');
+  
+  input.addEventListener('keydown', e => {
+    // Ctrl+Enter to send
+    if (e.key === 'Enter' && e.ctrlKey) {
+      e.preventDefault();
+      const event = new Event('keydown');
+      event.key = 'Enter';
+      input.dispatchEvent(event);
+    }
+    
+    // Up arrow to load last message
+    if (e.key === 'ArrowUp' && !input.value && lastMessage?.type === 'note') {
+      e.preventDefault();
+      input.value = lastMessage.text;
     }
   });
 }
 
 /**
- * Render the project header
- * @param {string} projectName
+ * Initialize image handling
  */
-export function renderProjectHeader(projectName) {
-  const header = document.getElementById('project-name');
-  header.textContent = projectName;
+export function initImageHandling() {
+  const input = document.getElementById('chat-input');
+  const attachButton = document.getElementById('attach-image');
+  const fileInput = document.getElementById('image-upload');
   
-  // Compute HSL tint from project name hash
-  const hash = projectName.split('').reduce((acc, char) => {
-    return char.charCodeAt(0) + ((acc << 5) - acc);
-  }, 0);
+  // Handle paste
+  input.addEventListener('paste', e => {
+    const items = e.clipboardData?.items;
+    if (items) {
+      for (const item of items) {
+        if (item.type.startsWith('image/')) {
+          e.preventDefault();
+          handleImageFile(item.getAsFile());
+        }
+      }
+    }
+  });
   
-  const hue = Math.abs(hash % 360);
-  header.style.borderBottom = `2px solid hsl(${hue}, 70%, 50%)`;
+  // Handle drop
+  input.addEventListener('drop', e => {
+    e.preventDefault();
+    const files = e.dataTransfer?.files;
+    if (files) {
+      for (const file of files) {
+        if (file.type.startsWith('image/')) {
+          handleImageFile(file);
+        }
+      }
+    }
+  });
+  
+  // Handle file input
+  attachButton.addEventListener('click', () => fileInput.click());
+  fileInput.addEventListener('change', () => {
+    const file = fileInput.files[0];
+    if (file) {
+      handleImageFile(file);
+    }
+  });
+}
+
+/**
+ * Handle an image file
+ * @param {File} file
+ */
+async function handleImageFile(file) {
+  if (file.size > 2 * 1024 * 1024) {
+    showToast('Image too large (max 2MB)');
+    return;
+  }
+  
+  try {
+    const reader = new FileReader();
+    reader.onload = e => {
+      const src = e.target.result;
+      appendMessage({
+        type: 'image',
+        src,
+        timestamp: Date.now()
+      });
+    };
+    reader.readAsDataURL(file);
+  } catch (error) {
+    console.error('Error handling image:', error);
+    showToast('Error processing image');
+  }
+}
+
+/**
+ * Show a toast message
+ * @param {string} message
+ */
+function showToast(message) {
+  const toast = document.createElement('div');
+  toast.className = 'toast';
+  toast.textContent = message;
+  
+  document.getElementById('toast-container').appendChild(toast);
+  
+  setTimeout(() => {
+    toast.remove();
+  }, 3000);
 } 
