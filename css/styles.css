@@ -542,40 +542,53 @@ body {
     background-color: var(--bg-color);
     border-radius: 1rem;
     box-shadow: 0 4px 24px rgba(0, 0, 0, 0.2);
-    max-width: 600px;
-    width: 95%;
-    max-height: 90vh;
-    overflow-y: auto;
+    width: 80vw;
+    max-width: 1200px;
+    height: 80vh;
+    max-height: 900px;
+    display: flex;
+    flex-direction: column;
     animation: slide-in 0.2s ease;
 }
 
 .slab-calculator .modal-header {
-    padding: 1rem;
+    padding: 1.5rem;
     border-bottom: 1px solid var(--border-color);
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-shrink: 0;
+}
+
+.slab-calculator .modal-header h2 {
+    font-size: 1.5rem;
+    margin: 0;
 }
 
 .slab-calculator .modal-body {
-    padding: 1rem;
+    padding: 1.5rem;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
 }
 
 .slab-form {
-    display: flex;
-    flex-direction: column;
-    gap: 1rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1.5rem;
     margin-bottom: 1.5rem;
 }
 
 .form-group {
     display: flex;
     flex-direction: column;
-    gap: 0.5rem;
+    gap: 0.75rem;
 }
 
 .form-group label {
     font-weight: 500;
+    font-size: 1.1rem;
     display: flex;
     align-items: center;
     gap: 0.5rem;
@@ -583,12 +596,12 @@ body {
 
 .form-group input,
 .form-group select {
-    padding: 0.75rem;
+    padding: 1rem;
     background-color: var(--input-bg);
     border: 1px solid var(--border-color);
     border-radius: 0.5rem;
     color: var(--text-color);
-    font-size: 1rem;
+    font-size: 1.1rem;
     transition: all 0.2s ease;
 }
 
@@ -614,13 +627,16 @@ body {
     background-color: var(--accent-color);
     color: white;
     border: none;
-    padding: 0.75rem 1.5rem;
+    padding: 1rem 2rem;
     border-radius: 0.5rem;
-    font-size: 1rem;
+    font-size: 1.1rem;
     font-weight: 500;
     cursor: pointer;
     transition: all 0.2s ease;
-    margin-top: 0.5rem;
+    margin-top: 1rem;
+    grid-column: 1 / -1;
+    justify-self: center;
+    min-width: 200px;
 }
 
 .primary-button:hover {
@@ -647,18 +663,18 @@ body {
 }
 
 #exact-result {
-    font-size: 1.125rem;
+    font-size: 1.25rem;
     line-height: 1.6;
-    margin-bottom: 1rem;
+    margin-bottom: 1.5rem;
 }
 
 .fallback-results {
-    margin: 1rem 0;
+    margin: 1.5rem 0;
 }
 
 .fallback-results h3 {
-    font-size: 1rem;
-    margin-bottom: 0.5rem;
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
     color: var(--text-color);
     opacity: 0.8;
 }
@@ -666,12 +682,13 @@ body {
 #fallback-table {
     width: 100%;
     border-collapse: collapse;
-    margin-bottom: 1rem;
+    margin-bottom: 1.5rem;
+    font-size: 1.1rem;
 }
 
 #fallback-table th,
 #fallback-table td {
-    padding: 0.5rem;
+    padding: 0.75rem;
     text-align: left;
     border-bottom: 1px solid var(--border-color);
 }
@@ -684,8 +701,16 @@ body {
 
 .chart-container {
     margin-top: 1.5rem;
-    padding: 1rem;
+    padding: 1.5rem;
     background-color: var(--input-bg);
     border-radius: 0.5rem;
+    width: 100%;
+    aspect-ratio: 16/9;
+    min-height: 300px;
+}
+
+#capacity-chart {
+    width: 100% !important;
+    height: 100% !important;
 }
   
